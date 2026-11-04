@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> 
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="28" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+  <!--  <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />    -->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:largeHeap="false"
+        android:resizeableActivity="true"
+        android:name=".Applications">
+        
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT">
+            </category>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".CrashHandler$CrashActiviy"/>
+        
+        <activity
+            android:name=".AppEditor" />
+        <activity
+            android:name=".SplashEditor" />
+        <activity
+            android:name=".PageCreator" />
+        <activity
+            android:name=".PageEditor" />
+        <activity
+            android:name=".AdsEditor" />
+
+        <activity
+            android:name=".SplashContentEditor" />
+
+        <activity
+            android:name=".ListContentEditor" />
+
+        <activity
+            android:name=".PageContentEditor" />
+
+        <activity
+            android:name=".ListCreator" />
+        <activity
+            android:name=".ListEditor" />
+        <activity
+            android:name=".FilesImages" />
+        <activity
+            android:name=".FilesIcons" />
+        <activity
+            android:name=".FilesAudios" />
+        <activity
+            android:name=".FilesVideos" />
+        <activity
+            android:name=".FilesFonts" />
+        <activity
+            android:name=".PreferencesActivity" />
+
+        <activity
+            android:name="af.appsaz.myapplication.SplashActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="af.appsaz.myapplication.PageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="af.appsaz.myapplication.ListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="af.appsaz.myapplication.PictureActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="af.appsaz.myapplication.VideoActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name="af.appsaz.myapplication.AudioActivity"
+            android:screenOrientation="portrait" />
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+    </application>
+
+</manifest>

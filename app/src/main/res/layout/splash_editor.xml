@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:orientation="vertical">
+
+    <include
+         layout="@layout/toolbar" />
+
+    <RelativeLayout
+         xmlns:android="http://schemas.android.com/apk/res/android"
+         android:layout_height="match_parent"
+         android:layout_width="match_parent">
+
+        <ScrollView
+             android:layout_height="match_parent"
+             android:layout_width="match_parent">
+
+            <RelativeLayout
+                 android:layout_height="match_parent"
+                 android:layout_width="match_parent"
+                 android:padding="30dp">
+
+                <LinearLayout
+                     android:layout_height="match_parent"
+                     android:layout_width="match_parent"
+                     android:orientation="vertical">
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="match_parent"
+                         android:layout_margin="10dp"
+                         android:text="@string/splash_settings"
+                         android:textStyle="bold" />
+
+                    <View
+                         android:layout_height="2dp"
+                         android:layout_width="match_parent"
+                         android:background="?android:attr/dividerVertical" />
+
+                    <LinearLayout
+                         android:layout_height="wrap_content"
+                         android:layout_width="match_parent"
+                         android:orientation="vertical"
+                         android:id="@+id/splasheditorSplashSettings">
+
+                        <TextView
+                             android:layout_height="wrap_content"
+                             android:layout_width="match_parent"
+                             android:layout_margin="10dp"
+                             android:text="@string/splash_time" />
+
+                        <TextView
+                             android:layout_height="60dp"
+                             android:layout_width="match_parent"
+                             android:background="@drawable/row_bg"
+                             android:gravity="fill"
+                             android:paddingRight="20dp"
+                             android:textAppearance="?android:attr/textAppearanceMedium"
+                             android:textSize="16sp"
+                             android:paddingLeft="20dp"
+                             android:id="@+id/splasheditorTimeText" />
+
+                        <TextView
+                             android:layout_height="wrap_content"
+                             android:layout_width="match_parent"
+                             android:layout_margin="10dp"
+                             android:text="@string/splash_after_splash" />
+
+                        <TextView
+                             android:layout_height="60dp"
+                             android:layout_width="match_parent"
+                             android:background="@drawable/row_bg"
+                             android:gravity="fill"
+                             android:paddingRight="20dp"
+                             android:textAppearance="?android:attr/textAppearanceMedium"
+                             android:textSize="16sp"
+                             android:paddingLeft="20dp"
+                             android:id="@+id/splasheditorNextText" />
+
+                        <TextView
+                             android:layout_height="wrap_content"
+                             android:layout_width="match_parent"
+                             android:layout_margin="10dp"
+                             android:text="@string/splash_background" />
+
+                        <RelativeLayout
+                             android:layout_height="60dp"
+                             android:layout_width="match_parent"
+                             android:background="@drawable/row_bg"
+                             android:id="@+id/splasheditorPageBg">
+
+                            <com.tistory.zladnrms.roundablelayout.RoundableLayout
+                                 android:layout_height="wrap_content"
+                                 android:layout_width="wrap_content"
+                                 app:cornerRightBottom="10dp"
+                                 app:cornerLeftSide="10dp"
+                                 android:layout_margin="5dp"
+                                 app:cornerLeftTop="10dp"
+                                 app:backgroundColor="#00ffffff"
+                                 app:cornerRightSide="10dp"
+                                 app:cornerLeftBottom="10dp"
+                                 app:cornerRightTop="10dp">
+
+                                <ImageView
+                                     android:layout_height="50dp"
+                                     android:layout_width="50dp"
+                                     android:layout_margin="10dp"
+                                     android:id="@+id/splasheditorPageBgImage"
+                                     android:scaleType="centerCrop" />
+
+                            </com.tistory.zladnrms.roundablelayout.RoundableLayout>
+
+                            <TextView
+                                 android:layout_height="wrap_content"
+                                 android:layout_width="match_parent"
+                                 android:layout_centerInParent="true"
+                                 android:textSize="16sp"
+                                 android:layout_marginRight="20dp"
+                                 android:layout_marginLeft="70dp"
+                                 android:layout_alignParentRight="true"
+                                 android:id="@+id/splasheditorPageBgText"
+                                 android:text="@string/a_color" />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="match_parent"
+                         android:layout_margin="10dp"
+                         android:layout_marginTop="15dp"
+                         android:text="@string/splash_screen"
+                         android:textStyle="bold" />
+
+                    <View
+                         android:layout_height="2dp"
+                         android:layout_width="match_parent"
+                         android:background="?android:attr/dividerVertical" />
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="match_parent"
+                         android:layout_margin="10dp"
+                         android:text="@string/splash_items" />
+
+                    <TextView
+                         android:layout_height="60dp"
+                         android:layout_width="match_parent"
+                         android:background="@drawable/row_bg"
+                         android:gravity="fill"
+                         android:paddingRight="20dp"
+                         android:textAppearance="?android:attr/textAppearanceMedium"
+                         android:textSize="16sp"
+                         android:paddingLeft="20dp"
+                         android:id="@+id/splasheditorSplashPage"
+                         android:text="@string/splash_edit_page" />
+
+                    <LinearLayout
+                         android:layout_height="wrap_content"
+                         android:layout_width="match_parent"
+                         android:layout_margin="10dp"
+                         android:orientation="vertical">
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</LinearLayout>

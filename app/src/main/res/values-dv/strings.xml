@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- سوال‌ها -->
+    <string-array name="faq_questions">
+        <item>اپساز چیست؟</item>
+        <item>آیا برای استفاده از اپساز نیاز به دانش برنامه‌نویسی دارم؟</item>
+        <item>چه نوع اپلیکیشن‌هایی را می‌توانم با اپساز بسازم؟</item>
+        <item>آیا می‌توانم اپلیکیشن‌هایی که می‌سازم را بفروشم؟</item>
+        <item>آیا می‌توانم با استفاده از اپساز درآمد کسب کنم؟</item>
+        <item>آیا اپساز رایگان است؟</item>
+        <item>آیا می‌توانم اپلیکیشن‌های با طراحی سفارشی ایجاد کنم؟</item>
+        <item>چگونه می‌توانم با تیم پشتیبانی تماس بگیرم؟</item>
+    </string-array>
+
+    <!-- پاسخ‌ها -->
+    <string-array name="faq_answers">
+        <item>اپساز یک ابزار نوآورانه برای ایجاد اپلیکیشن‌های اندروید است که نیاز به برنامه‌نویسی ندارد. این ابزار ویژگی‌های گسترده‌ای برای طراحی و توسعه اپلیکیشن‌های کاربردی ارائه می‌دهد.</item>
+        <item>خیر، اپساز برای همه طراحی شده تا به‌راحتی بتوانند بدون دانش قبلی برنامه‌نویسی، اپلیکیشن خود را ایجاد کنند.</item>
+        <item>شما می‌توانید انواع مختلف اپلیکیشن‌ها مانند شخصی، داستانی، آموزشی، گالری، موسیقی، ویدیو و موارد دیگر را ایجاد کنید.</item>
+        <item>بله، شما می‌توانید اپلیکیشن‌هایی که می‌سازید را بفروشید. اپساز به شما امکان می‌دهد تا اپلیکیشن‌های خود را در پلتفرم‌های مختلف منتشر کنید.</item>
+        <item>بله، اپساز از AdMob پشتیبانی می‌کند که به شما امکان می‌دهد از طریق تبلیغات درآمد کسب کنید. علاوه بر این، می‌توانید اپلیکیشن‌های آموزشی خود را نیز بفروشید.</item>
+        <item>نسخه ابتدایی اپساز رایگان است. اما برای دسترسی به امکانات پیشرفته می‌توانید به نسخه حرفه‌ای ارتقاء دهید.</item>
+        <item>بله، اپساز به شما امکان می‌دهد تا طراحی و عملکرد اپلیکیشن‌های خود را به‌طور کامل سفارشی کنید.</item>
+        <item>شما می‌توانید از طریق بخش «درباره» در اپلیکیشن یا از طریق ایمیل پشتیبانی ارائه شده، با تیم پشتیبانی تماس بگیرید.</item>
+    </string-array>
+
+    <string name="ads_title">تبلیغات</string>
+    <string name="ads_admob_application_id">شناسه برنامه</string>
+    <string name="ads_admob">AdMob</string>
+    <string name="ads_banner_ad_id">شناسه تبلیغات بنر</string>
+    <string name="ads_banner_ad">تبلیغات بنر</string>
+    <string name="ads_interstitial_ad_id">شناسه تبلیغات میان‌پرده</string>
+    <string name="ads_interstitial_ad">تبلیغات میان‌پرده</string>
+    <string name="ads_video_ad_id">شناسه تبلیغات ویدئویی</string>
+    <string name="ads_video_ad">تبلیغات ویدئویی</string>
+    <string name="app_name">اپساز</string>
+    <string name="hello_world">سلام، دنیا!</string>
+    <string name="app_saz">
+اپساز\n
+v3.5.0-trial\n
+© 2025 Appsaz by Alireza Bigzadah. کلیه حقوق محفوظ است.\n
+اپساز ابزاری نوآورانه است که به شما امکان می‌دهد برنامه‌های حرفه‌ای و کارآمد اندروید را بدون نیاز به دانش برنامه‌نویسی یا کدنویسی پیچیده ایجاد کنید. این برنامه برای توسعه‌دهندگان مبتدی، کارآفرینان، دانشجویان و هر کسی که به دنبال ایجاد برنامه‌های سفارشی سریع و آسان است طراحی شده است.\n\n
+
+ویژگی‌های کلیدی:\n
+• رابط کاربری ساده: طراحی مدرن و شهودی که به کاربران مبتدی و حرفه‌ای امکان کار آسان را می‌دهد.\n
+• بدون نیاز به کدنویسی: تمامی فرآیندها از طریق ابزارهای بصری انجام می‌شود، که نیازی به تخصص در برنامه‌نویسی ندارد.\n
+• ایجاد صفحات متعدد: طراحی برنامه‌هایی با صفحات و طرح‌بندی‌های متنوع.\n
+• لیست‌های قابل جستجو: ایجاد لیست‌هایی در برنامه‌ها که به کاربران امکان جستجوی آسان اطلاعات را می‌دهند.\n
+• پشتیبانی از فایل‌های چندرسانه‌ای: ادغام تصاویر، ویدئوها و صداها به‌طور یکپارچه در برنامه‌ها.\n
+• افزودن فونت‌ها: سفارشی‌سازی برنامه‌ها با افزودن فونت‌های منحصر به فرد برای زیبایی بیشتر.\n
+• افزودن انیمیشن‌ها: ادغام انیمیشن‌های جذاب برای بهبود تعامل و جذابیت بصری.\n
+• پس‌زمینه‌های سفارشی: اعمال پس‌زمینه‌های شخصی‌شده به هر صفحه در برنامه.\n
+• منوی ناوبری: طراحی منوهای حرفه‌ای برای دسترسی آسان به بخش‌های مختلف.\n
+• انعطاف‌پذیری بالا: سفارشی‌سازی کامل طراحی‌ها و عملکردها.\n
+• مدیریت پروژه: ذخیره و باز کردن پروژه‌ها در هر زمان.\n
+• ذخیره‌سازی و اشتراک‌گذاری آسان: صادرات برنامه و اشتراک‌گذاری آن به‌طور آسان.\n
+• پویایی: دریافت به‌روزرسانی‌ها، ارتقاء‌ها و ویژگی‌های جدید بر اساس بازخورد و درخواست‌های کاربران.\n\n
+
+چرا از اپساز استفاده کنیم؟\n
+• صرفه‌جویی در زمان و هزینه: جلوگیری از هزینه‌های بالا برای استخدام برنامه‌نویس. طراحی برنامه‌ها با اپساز سریع‌تر از روش‌های سنتی است.\n
+• مناسب برای همه: اپساز ایجاد برنامه‌ها را برای هر کسی، حتی بدون تجربه برنامه‌نویسی، آسان می‌کند.\n
+• ابزارهای پیشرفته: دسترسی به ویژگی‌هایی مانند سفارشی‌سازی پس‌زمینه، انیمیشن‌ها و تنظیمات حرفه‌ای در یک برنامه.\n
+• نوآوری و خلاقیت: نمایش خلاقیت خود و طراحی برنامه‌های منحصر به فرد با اپساز.\n\n
+
+تماس با ما:\n
+برای درخواست‌ها یا پیشنهادات، با ما تماس بگیرید:\n
+- ایمیل: appsaz.help@gmail.com\n
+- کانال رسمی تلگرام: https://t.me/appsazaf\n
+- بحث‌ها در تلگرام: https://t.me/appsazdiscussions
+</string>
+    <string name="navigation_drawer_close">بستن منوی ناوبری</string>
+    <string name="navigation_drawer_open">باز کردن منوی ناوبری</string>
+    <string name="a_end_free_trial_title">آزمایش رایگان</string>
+    <string name="a_end_free_trial">
+آزمایش رایگان اپساز به حداکثر محدودیت برای افزودن فایل‌ها رسید. نسخه فعلی اپساز یک نسخه آزمایشی رایگان است که محدودیت‌های خاصی دارد. در این نسخه، کاربران می‌توانند تا ۲۰ صفحه، ۱۰ لیست و ۱۰ فونت به پروژه‌های خود اضافه کنند. با این حال، هیچ محدودیتی برای افزودن فایل‌های چندرسانه‌ای مانند تصاویر، ویدئوها و صداها وجود ندارد. علاوه بر این، تنها تبلیغات بنر Google AdMob در این نسخه پشتیبانی می‌شود و واترمارک اپساز به‌طور خودکار در برنامه‌های خروجی اضافه می‌شود. برای دسترسی به تمام ویژگی‌ها و حذف محدودیت‌ها، کاربران می‌توانند به یک کاربر پریمیوم ارتقا یابند. این نسخه در حال توسعه است و برای اطلاعات بیشتر یا ارتقا، لطفاً با تیم پشتیبانی ما از طریق بخش "درباره ما" تماس بگیرید.
+از اینکه از اپساز استفاده می‌کنید، متشکریم!
+</string>
+    <string name="a_first_title">به اپساز خوش آمدید!</string>
+    <string name="a_first_text">
+شما در حال حاضر از نسخه آزمایشی رایگان اپساز استفاده می‌کنید که با محدودیت‌های خاصی همراه است. در این نسخه، کاربران می‌توانند تا ۲۰ صفحه، ۱۰ لیست و ۱۰ فونت به پروژه‌های خود اضافه کنند. با این حال، هیچ محدودیتی برای افزودن فایل‌های چندرسانه‌ای مانند تصاویر، ویدئوها و صداها وجود ندارد. علاوه بر این، تنها تبلیغات بنر Google AdMob در این نسخه پشتیبانی می‌شود و واترمارک اپساز به‌طور خودکار در برنامه‌های خروجی اضافه می‌شود. برای دسترسی به تمام ویژگی‌ها و حذف محدودیت‌ها، کاربران می‌توانند به یک کاربر پریمیوم ارتقا یابند. این نسخه در حال توسعه است و برای اطلاعات بیشتر یا ارتقا، لطفاً با تیم پشتیبانی ما از طریق بخش "درباره ما" تماس بگیرید.
+از اینکه از اپساز استفاده می‌کنید، متشکریم!
+</string>
+    <string name="a_version">v3.5.0-trial</string>
+    <string name="a_ok">باشه</string>
+    <string name="a_save">ذخیره</string>
+    <string name="a_cancel">لغو</string>
+    <string name="a_delete">حذف</string>
+    <string name="a_close">بستن</string>
+    <string name="a_color">رنگ</string>
+    <string name="a_default">پیش‌فرض</string>
+    <string name="a_picture">تصویر</string>
+    <string name="a_text">متن</string>
+    <string name="a_none">هیچ‌کدام</string>
+    <string name="a_create">ایجاد</string>
+    <string name="a_color_picker">انتخاب رنگ</string>
+    <string name="a_exit">خروج</string>
+    <string name="a_open_page">باز کردن صفحه</string>
+    <string name="a_open_list">باز کردن لیست</string>
+    <string name="a_wait">لطفاً صبر کنید...</string>
+    <string name="a_path">مسیر</string>
+    <string name="a_app">برنامه</string>
+    <string name="a_share">اشتراک‌گذاری</string>
+    <string name="a_install">نصب</string>
+    <string name="a_error">خطا</string>
+    <string name="a_back_notice">برای بازگشت دوباره ضربه بزنید</string>
+    <string name="a_an_error">یک خطا رخ داده است!</string>
+    <string name="a_add_new_item">افزودن آیتم جدید</string>
+    <string name="a_dont_show_again">دیگر نشان نده</string>
+    <string name="a_on">روشن</string>
+    <string name="a_off">خاموش</string>
+    <string name="a_auto">خودکار</string>
+    <string name="a_size">اندازه</string>
+    <string name="a_title">عنوان</string>
+    <string name="a_item">آیتم</string>
+    <string name="a_loading">در حال بارگذاری...</string>
+    <string name="a_added">اضافه شد</string>
+    <string name="a_error_name">فیلد را پر کنید</string>
+    <string name="a_reset">بازنشانی</string>
+    <string name="a_done">تمام شد</string>
+    <string name="a_faq">سؤالات متداول</string>
+    <string name="a_yes">بله</string>
+    <string name="a_no">خیر</string>
+    <string name="a_permission_title">درخواست مجوز</string>
+    <string name="a_permission_text">این برنامه نیاز به دسترسی به فایل‌ها در حافظه دستگاه شما دارد.</string>
+    <string name="a_permission_grant">اعطای مجوز</string>
+    <string name="a_open_project">باز کردن پروژه</string>
+    <string name="a_select_language">انتخاب زبان</string>
+    <string name="a_language_default">پیش‌فرض سیستم</string>
+
+    <string name="main_open_another_project">باز کردن پروژه دیگر</string>
+    <string name="main_project_info">اطلاعات پروژه</string>
+    <string name="main_open_project_error">پروژه شناسایی نشد.</string>
+    <string name="main_edit_app">ویرایش اپلیکیشن</string>
+    <string name="main_preview_app">پیش‌نمایش اپلیکیشن</string>
+    <string name="main_build_app">ساخت اپلیکیشن</string>
+    <string name="main_close_project">بستن پروژه</string>
+    <string name="main_close_project_alert">آیا مطمئنید که می‌خواهید پروژه را ببندید؟ اگر پروژه را ببندید، تمام داده‌های پروژه حذف خواهند شد. توصیه می‌شود قبل از بستن پروژه آن را ذخیره کنید.</string>
+    <string name="main_save_project">ذخیره پروژه</string>
+    <string name="main_save_project_alert">آیا می‌خواهید پروژه را ذخیره کنید؟ پروژه به عنوان یک فایل .as ذخیره خواهد شد.</string>
+    <string name="main_create_app">ایجاد پروژه جدید</string>
+    <string name="main_open_project">باز کردن پروژه قدیمی</string>
+    <string name="main_app_name">نام اپلیکیشن</string>
+    <string name="main_package_name">نام بسته</string>
+    <string name="main_new_app_name">اپلیکیشن من</string>
+    <string name="main_new_package">af.appsaz.myapplication</string>
+    <string name="main_app_built">ساخت موفقیت‌آمیز</string>
+    <string name="main_collecting_data">در حال جمع‌آوری داده‌ها...</string>
+    <string name="main_encoding">در حال رمزگذاری داده‌ها...</string>
+    <string name="main_compressing_data">در حال فشرده‌سازی داده‌ها...</string>
+    <string name="main_signing">در حال امضای APK...</string>
+    <string name="main_finishing">در حال اتمام...</string>
+    <string name="main_saving_project">در حال ذخیره پروژه...</string>
+    <string name="main_save_successful">ذخیره موفقیت‌آمیز</string>
+    <string name="main_app_project">پروژه اپلیکیشن</string>
+    <string name="main_error_app_name">نام اپلیکیشن را وارد کنید.</string>
+    <string name="main_error_package_name">نام بسته را وارد کنید.</string>
+    <string name="main_error_incorrect_package_name">نام بسته معتبر وارد کنید.</string>
+    <string name="main_error_reserved_package_name">این نام بسته محفوظ است. لطفاً نام دیگری انتخاب کنید.</string>
+    <string name="nave_desc">اپلیکیشن‌های شگفت‌انگیز از طریق اپساز بسازید.</string>
+    <string name="nave_home">خانه</string>
+    <string name="nave_settings">تنظیمات</string>
+    <string name="nave_rate_us">امتیاز بدهید</string>
+    <string name="nave_about_us">درباره ما</string>
+    <string name="nave_faq">پرسش‌های متداول</string>
+    <string name="settings">تنظیمات</string>
+    <string name="settings_general">عمومی</string>
+    <string name="settings_signing">امضا</string>
+    <string name="settings_theme">حالت تاریک</string>
+    <string name="settings_theme_desc">یک تم تاریک یا روشن برای رابط کاربری انتخاب کنید.</string>
+    <string name="settings_language">زبان</string>
+    <string name="settings_language_desc">یک زبان برای اپساز انتخاب کنید.</string>
+    <string name="settings_custom_key">کلید شخصی</string>
+    <string name="settings_custom_key_desc">برای امضای اپلیکیشن‌های خود از فایل کلید شخصی استفاده کنید.</string>
+    <string name="settings_key_file">فایل کلید</string>
+    <string name="settings_key_file_desc">مسیر فایل کلید خود را وارد کنید.</string>
+    <string name="settings_about">درباره اپساز</string>
+    <string name="settings_about_desc">اطلاعات بیشتر درباره اپساز.</string>
+    <string name="settings_faq">پرسش‌های متداول اپساز</string>
+    <string name="settings_faq_desc">پرسش‌های متداول درباره اپساز.</string>
+    <string name="settings_pp">سیاست حفظ حریم خصوصی اپساز</string>
+    <string name="settings_pp_desc">سیاست حفظ حریم خصوصی برای اپساز</string>
+    <string name="settings_title">تنظیمات</string>
+    <string name="key_pick">انتخاب فایل کلید (.JKS)</string>
+    <string name="key_specs">فایل کلید را انتخاب کنید و مشخصات آن را وارد کنید.</string>
+    <string name="key_type">نوع کلید</string>
+    <string name="key_path">مسیر کلید</string>
+    <string name="key_cert_path">مسیر گواهی‌نامه</string>
+    <string name="key_alias">نام مستعار</string>
+    <string name="key_store_pass">گذرواژه فایل کلید</string>
+    <string name="key_pass">گذرواژه کلید خصوصی</string>
+    <string name="key_create_and_use">ایجاد و استفاده</string>
+    <string name="key_validity">تاریخ اعتبار (سال‌ها)</string>
+    <string name="key_common_name">نام مشترک</string>
+    <string name="key_organization_unit">واحد سازمانی</string>
+    <string name="key_organization_name">نام سازمان</string>
+    <string name="key_locality_name">نام محلی</string>
+    <string name="key_state_name">نام ایالت</string>
+    <string name="key_country">کد کشور</string>
+    <string name="key_size">اندازه کلید</string>
+    <string name="key_hint">برای استفاده از فایل امضای پیش‌فرض، روی بازنشانی کلیک کنید.</string>
+    <string name="key_file">فایل کلید</string>
+    <string name="key_file_desc">یک فایل کلید شخصی (JKS) تنظیم کنید.</string>
+    <string name="key_gen">ایجاد فایل کلید</string>
+    <string name="key_gen_desc">یک فایل کلید (JKS) ایجاد کنید.</string>
+    <string name="key_not_found">فایل کلید یافت نشد.</string>
+
+    <string name="app_editor_app_manifest">مانیفست اپلیکیشن</string>
+    <string name="app_editor_app_icon">آیکون اپلیکیشن</string>
+    <string name="app_editor_app_name">نام اپلیکیشن</string>
+    <string name="app_editor_package_name">نام بسته</string>
+    <string name="app_editor_version_code">کد نسخه</string>
+    <string name="app_editor_version_name">نام نسخه</string>
+    <string name="app_editor_app_layouts">طرح‌های اپلیکیشن</string>
+    <string name="app_editor_splash_page">صفحه شروع</string>
+    <string name="app_editor_pages">صفحات</string>
+    <string name="app_editor_lists">لیست‌ها</string>
+    <string name="app_editor_app_files">فایل‌های اپلیکیشن</string>
+    <string name="app_editor_pictures">تصاویر</string>
+    <string name="app_editor_icons">آیکون‌ها</string>
+    <string name="app_editor_videos">ویدیوها</string>
+    <string name="app_editor_audios">صداها</string>
+    <string name="app_editor_fonts">فونت‌ها</string>
+    <string name="app_editor_advanced">پیشرفته</string>
+    <string name="app_editor_ads">تبلیغات</string>
+    <string name="icon_editor">ایجاد آیکون اپلیکیشن</string>
+    <string name="icon_editor_info_title">اطلاعات</string>
+    <string name="icon_editor_info">آیکون‌های تطبیقی و معمولی تفاوت‌های زیادی دارند. آیکون‌های معمولی معمولاً به صورت تصویر ثابت با فرمت PNG طراحی می‌شوند و نیاز به چندین فایل با ابعاد مختلف دارند تا در اندازه‌های مختلف به درستی نمایش داده شوند که انعطاف‌پذیری کمتری دارند. در عوض، آیکون‌های تطبیقی از دو لایه (پس‌زمینه و پیش‌زمینه) در فرمت‌های PNG و XML استفاده می‌کنند، که اجازه می‌دهد آیکون به طور خودکار به اندازه‌ها و اشکال مختلف تنظیم شود، بهینه‌سازی بهتری برای دستگاه‌ها و لانچرها فراهم می‌آورد. آیکون‌های تطبیقی از نسخه اندروید 8.0 (API سطح 26) به عنوان استاندارد معرفی شده‌اند و عملکرد بهتری ارائه می‌دهند.</string>
+    <string name="icon_editor_regular">آیکون معمولی</string>
+    <string name="icon_editor_adaptive">آیکون تطبیقی</string>
+    <string name="icon_editor_pick_bg_color">انتخاب رنگ پس‌زمینه</string>
+    <string name="app_editor_error_app_name">نام اپلیکیشن را وارد کنید.</string>
+    <string name="app_editor_error_package_name">نام بسته را وارد کنید.</string>
+    <string name="app_editor_error_version_code">کد نسخه را وارد کنید.</string>
+    <string name="app_editor_error_version_name">نام نسخه را وارد کنید.</string>
+    <string name="app_editor_error_incorrect_package_name">نام بسته معتبر وارد کنید.</string>
+    <string name="app_editor_title">ویرایش اپلیکیشن</string>
+    <string name="splash_settings">تنظیمات صفحه شروع</string>
+    <string name="splash_time">زمان صفحه شروع</string>
+    <string name="splash_after_splash">بعد از صفحه شروع</string>
+    <string name="splash_background">پس‌زمینه صفحه شروع</string>
+    <string name="splash_items">موارد صفحه شروع</string>
+    <string name="splash_screen">صفحه شروع</string>
+    <string name="splash_edit_page">ویرایش صفحه شروع</string>
+    <string name="splash_title">صفحه شروع</string>
+    <string name="page_page">صفحه</string>
+    <string name="page_background">پس‌زمینه صفحه</string>
+    <string name="page_items">موارد صفحه</string>
+    <string name="page_edit">ویرایش صفحه</string>
+    <string name="page_toolbar">ابزارک</string>
+    <string name="page_title_toolbar">عنوان صفحه در ابزارک</string>
+    <string name="page_toolbar_color">رنگ ابزارک</string>
+    <string name="page_menu">منو</string>
+    <string name="page_menu_background">پس‌زمینه منو</string>
+    <string name="page_title">صفحات</string>
+    <string name="list_list">لیست</string>
+    <string name="list_background">پس‌زمینه لیست</string>
+    <string name="list_items">موارد لیست</string>
+    <string name="list_edit">ویرایش لیست</string>
+    <string name="list_toolbar">ابزارک</string>
+    <string name="list_title_toolbar">عنوان لیست در ابزارک</string>
+    <string name="list_toolbar_color">رنگ ابزارک</string>
+    <string name="list_menu">منو</string>
+    <string name="list_menu_background">پس‌زمینه منو</string>
+    <string name="list_title">لیست‌ها</string>
+    <string name="files_empty_pages">صفحه‌ای در اینجا وجود ندارد، برای افزودن روی + کلیک کنید.</string>
+    <string name="files_empty_lists">لیستی در اینجا وجود ندارد، برای افزودن روی + کلیک کنید.</string>
+    <string name="files_empty_icons">آیکونی در اینجا وجود ندارد، برای افزودن روی + کلیک کنید.</string>
+    <string name="files_empty_pics">تصویری در اینجا وجود ندارد، برای افزودن روی + کلیک کنید.</string>
+    <string name="files_empty_videos">ویدیویی در اینجا وجود ندارد، برای افزودن روی + کلیک کنید.</string>
+    <string name="files_empty_audios">صدایی در اینجا وجود ندارد، برای افزودن روی + کلیک کنید.</string>
+    <string name="files_empty_fonts">فونتی در اینجا وجود ندارد، برای افزودن روی + کلیک کنید.</string>
+    <string name="files_empty_pages1">صفحه‌ای در اینجا وجود ندارد.</string>
+    <string name="files_empty_lists1">لیستی در اینجا وجود ندارد.</string>
+    <string name="files_empty_icons1">آیکونی در اینجا وجود ندارد.</string>
+    <string name="files_empty_pics1">تصویری در اینجا وجود ندارد.</string>
+    <string name="files_empty_videos1">ویدیویی در اینجا وجود ندارد.</string>
+    <string name="files_empty_audios1">صدایی در اینجا وجود ندارد.</string>
+    <string name="files_empty_fonts1">فونتی در اینجا وجود ندارد.</string>
+    <string name="files_file_name">نام فایل</string>
+    <string name="files_page_name">نام صفحه</string>
+    <string name="files_list_name">نام لیست</string>
+    <string name="files_saveable">قابل ذخیره</string>
+    <string name="files_shareable">قابل اشتراک</string>
+    <string name="files_add_pic">افزودن تصویر</string>
+    <string name="files_add_icon">افزودن آیکون</string>
+    <string name="files_add_video">افزودن ویدیو</string>
+    <string name="files_add_audio">افزودن صدا</string>
+    <string name="files_add_font">افزودن فونت</string>
+    <string name="files_audio_pic">تصویر</string>
+    <string name="files_add_page">افزودن صفحه</string>
+    <string name="files_add_list">افزودن لیست</string>
+
+    <string name="editor_action">عمل</string>
+    <string name="editor_no_action">بدون عمل</string>
+    <string name="editor_action_open_list">باز کردن لیست</string>
+    <string name="editor_action_open_page">باز کردن صفحه</string>
+    <string name="editor_action_play_video">پخش ویدیو</string>
+    <string name="editor_action_play_audio">پخش صدا</string>
+    <string name="editor_action_show_pic">نمایش تصویر</string>
+    <string name="editor_action_show_alert">نمایش هشدار</string>
+    <string name="editor_action_show_toast">نمایش پیام کوتاه</string>
+    <string name="editor_action_send_mail">ارسال ایمیل</string>
+    <string name="editor_action_send_sms">ارسال پیامک</string>
+    <string name="editor_action_open_link">باز کردن لینک</string>
+    <string name="editor_action_exit">بستن صفحه</string>
+    <string name="editor_action_toast_text">متن پیام کوتاه</string>
+    <string name="editor_action_error_toast">متن پیام کوتاه را وارد کنید.</string>
+    <string name="editor_action_alert_title">عنوان هشدار</string>
+    <string name="editor_action_alert_text">متن هشدار</string>
+    <string name="editor_action_error_alert_title">عنوان هشدار را وارد کنید.</string>
+    <string name="editor_action_error_alert_text">متن هشدار را وارد کنید.</string>
+    <string name="editor_action_email_address">آدرس ایمیل</string>
+    <string name="editor_action_error_email">آدرس ایمیل را وارد کنید.</string>
+    <string name="editor_action_error_incorrect_email">آدرس ایمیل صحیح را وارد کنید.</string>
+    <string name="editor_action_phone_number">شماره تلفن</string>
+    <string name="editor_action_error_phone_number">شماره تلفن را وارد کنید.</string>
+    <string name="editor_action_link">لینک</string>
+    <string name="editor_action_error_link">لینک وب را وارد کنید.</string>
+    <string name="editor_no_icon">بدون آیکون</string>
+    <string name="editor_animation">انیمیشن</string>
+    <string name="editor_text">متن</string>
+    <string name="editor_text_size">اندازه متن</string>
+    <string name="editor_text_color">رنگ متن</string>
+    <string name="editor_text_gravity">چیدمان متن</string>
+    <string name="editor_desc">توضیحات</string>
+    <string name="editor_font">فونت</string>
+    <string name="editor_radius">شعاع</string>
+    <string name="editor_height">ارتفاع</string>
+    <string name="editor_auto_height">ارتفاع خودکار</string>
+    <string name="editor_text_is_shareable">قابل اشتراک‌گذاری باشد</string>
+    <string name="editor_text_is_selectable">قابل انتخاب باشد</string>
+    <string name="editor_other">دیگر</string>
+    <string name="editor_add_above">افزودن بالای</string>
+    <string name="editor_add_below">افزودن پایین</string>
+    <string name="editor_copy">تکثیر</string>
+    <string name="editor_delete">حذف</string>
+    <string name="editor_center">مرکز</string>
+    <string name="editor_right">راست</string>
+    <string name="editor_left">چپ</string>
+    <string name="editor_left_icon">آیکون چپ</string>
+    <string name="editor_right_icon">آیکون راست</string>
+    <string name="editor_empty_pic">تصویر خالی</string>
+    <string name="editor_background">پس‌زمینه</string>
+    <string name="editor_stable_animations">انیمیشن‌های پایدار</string>
+    <string name="editor_unstable_animations">انیمیشن‌های ناپایدار</string>
+    <string name="editor_no_animation">بدون انیمیشن</string>
+    <string name="editor_anim_right_in">ورود از راست</string>
+    <string name="editor_anim_left_in">ورود از چپ</string>
+    <string name="editor_anim_fade_in">محو شدن</string>
+    <string name="editor_anim_slide_down">لغزش به پایین</string>
+    <string name="editor_anim_bounce">پرش</string>
+    <string name="editor_anim_blinking">چشمک زدن</string>
+    <string name="editor_anim_rotation">چرخش</string>
+    <string name="editor_anim_shake">لرزش</string>
+    <string name="editor_margins">حاشیه‌ها</string>
+    <string name="editor_top_margin">حاشیه بالایی</string>
+    <string name="editor_bottom_margin">حاشیه پایینی</string>
+    <string name="editor_right_margin">حاشیه راست</string>
+    <string name="editor_left_margin">حاشیه چپ</string>
+    <string name="editor_simple_text">متن ساده</string>
+    <string name="editor_advanced_text">متن پیشرفته</string>
+    <string name="editor_pic">تصویر</string>
+    <string name="editor_button">دکمه</string>
+
+    <string name="a_sec">&#160;ثانیه</string>
+    <string name="a_split">&#160;>&#160;</string>
+    <string name="a_saved_to">ذخیره شد در:&#160;</string>
+    <string name="main_building_app">درحال ساختن برنامه&#160;</string>
+    <string name="icon_editor_corner_radius">شعاع گوشه آیکون معمولی:&#160;</string>
+    <string name="icon_editor_regular_padding">بزرگ‌نمایی آیکون معمولی:&#160;</string>
+    <string name="icon_editor_adaptive_padding">بزرگ‌نمایی آیکون تطبیقی:&#160;</string>
+
+</resources>

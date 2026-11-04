@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:orientation="vertical">
+
+    <include
+         layout="@layout/toolbar" />
+
+    <RelativeLayout
+         android:layout_height="match_parent"
+         android:layout_width="match_parent">
+
+        <ScrollView
+             android:layout_height="match_parent"
+             android:layout_width="match_parent">
+
+            <LinearLayout
+                 android:layout_height="match_parent"
+                 android:layout_width="match_parent"
+                 android:padding="30dp"
+                 android:orientation="vertical">
+
+                <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:paddingRight="10dp"
+                     android:paddingBottom="10dp"
+                     android:paddingLeft="10dp"
+                     android:text="@string/app_editor_app_manifest"
+                     android:textStyle="bold" />
+
+                <LinearLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:background="@drawable/row_bg"
+                     android:gravity="center"
+                     android:padding="15dp"
+                     android:orientation="vertical"
+                     android:id="@+id/editappInfo">
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="match_parent"
+                         android:padding="10dp"
+                         android:text="@string/app_editor_app_icon" />
+
+                    <LinearLayout
+                         android:layout_height="wrap_content"
+                         android:layout_width="wrap_content"
+                         android:gravity="right"
+                         android:orientation="vertical">
+
+                        <ImageView
+                             android:layout_height="100dp"
+                             android:layout_width="100dp"
+                             android:layout_marginBottom="10dp"
+                             android:id="@+id/editchangeIcon" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                         android:layout_height="wrap_content"
+                         android:layout_width="match_parent"
+                         android:gravity="right"
+                         android:orientation="vertical">
+
+                        <TextView
+                             android:layout_height="wrap_content"
+                             android:layout_width="match_parent"
+                             android:text="@string/app_editor_app_name" />
+
+                        <TextView
+                             android:layout_height="wrap_content"
+                             android:layout_width="match_parent"
+                             android:padding="8dp"
+                             android:textSize="16sp"
+                             android:id="@+id/editAppName" />
+
+                        <View
+                             android:layout_height="1dp"
+                             android:layout_width="match_parent"
+                             android:background="?android:attr/dividerVertical" />
+
+                        <TextView
+                             android:layout_height="wrap_content"
+                             android:layout_width="match_parent"
+                             android:text="@string/app_editor_package_name" />
+
+                        <TextView
+                             android:layout_height="wrap_content"
+                             android:layout_width="match_parent"
+                             android:padding="8dp"
+                             android:textSize="16sp"
+                             android:id="@+id/editPackageName" />
+
+                        <View
+                             android:layout_height="1dp"
+                             android:layout_width="match_parent"
+                             android:background="?android:attr/dividerVertical" />
+
+                        <TextView
+                             android:layout_height="wrap_content"
+                             android:layout_width="match_parent"
+                             android:text="@string/app_editor_version_code" />
+
+                        <TextView
+                             android:layout_height="wrap_content"
+                             android:layout_width="match_parent"
+                             android:padding="8dp"
+                             android:textSize="16sp"
+                             android:id="@+id/editVersion" />
+
+                        <View
+                             android:layout_height="1dp"
+                             android:layout_width="match_parent"
+                             android:background="?android:attr/dividerVertical" />
+
+                        <TextView
+                             android:layout_height="wrap_content"
+                             android:layout_width="match_parent"
+                             android:text="@string/app_editor_version_name" />
+
+                        <TextView
+                             android:layout_height="wrap_content"
+                             android:layout_width="match_parent"
+                             android:padding="8dp"
+                             android:textSize="16sp"
+                             android:id="@+id/editVersionName" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:padding="10dp"
+                     android:text="@string/app_editor_app_layouts"
+                     android:textStyle="bold" />
+
+                <RelativeLayout
+                     android:layout_height="55dp"
+                     android:layout_width="match_parent"
+                     android:layout_marginBottom="5dp"
+                     android:background="@drawable/row_bg"
+                     android:id="@+id/appSplash">
+
+                    <ImageView
+                         android:layout_height="45dp"
+                         android:layout_width="45dp"
+                         android:src="@drawable/ic_splash"
+                         android:layout_margin="10dp"
+                         android:tint="@color/colorTint" />
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="match_parent"
+                         android:layout_centerInParent="true"
+                         android:textAppearance="?android:attr/textAppearanceMedium"
+                         android:textSize="15sp"
+                         android:layout_marginRight="20dp"
+                         android:layout_marginLeft="70dp"
+                         android:layout_alignParentRight="true"
+                         android:text="@string/app_editor_splash_page" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                     android:layout_height="55dp"
+                     android:layout_width="match_parent"
+                     android:layout_marginBottom="5dp"
+                     android:background="@drawable/row_bg"
+                     android:id="@+id/appPages">
+
+                    <ImageView
+                         android:layout_height="45dp"
+                         android:layout_width="45dp"
+                         android:src="@drawable/ic_pages"
+                         android:layout_margin="10dp"
+                         android:tint="@color/colorTint" />
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="match_parent"
+                         android:layout_centerInParent="true"
+                         android:textAppearance="?android:attr/textAppearanceMedium"
+                         android:textSize="15sp"
+                         android:layout_marginRight="20dp"
+                         android:layout_marginLeft="70dp"
+                         android:layout_alignParentRight="true"
+                         android:text="@string/app_editor_pages" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                     android:layout_height="55dp"
+                     android:layout_width="match_parent"
+                     android:background="@drawable/row_bg"
+                     android:id="@+id/appLists">
+
+                    <ImageView
+                         android:layout_height="45dp"
+                         android:layout_width="45dp"
+                         android:src="@drawable/ic_lists"
+                         android:layout_margin="10dp"
+                         android:tint="@color/colorTint" />
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="match_parent"
+                         android:layout_centerInParent="true"
+                         android:textAppearance="?android:attr/textAppearanceMedium"
+                         android:textSize="15sp"
+                         android:layout_marginRight="20dp"
+                         android:layout_marginLeft="70dp"
+                         android:layout_alignParentRight="true"
+                         android:text="@string/app_editor_lists" />
+
+                </RelativeLayout>
+
+                <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:padding="10dp"
+                     android:text="@string/app_editor_app_files"
+                     android:textStyle="bold" />
+
+                <RelativeLayout
+                     android:layout_height="55dp"
+                     android:layout_width="match_parent"
+                     android:layout_marginBottom="5dp"
+                     android:background="@drawable/row_bg"
+                     android:id="@+id/appFilesPics">
+
+                    <ImageView
+                         android:layout_height="45dp"
+                         android:layout_width="45dp"
+                         android:src="@drawable/ic_images"
+                         android:layout_margin="10dp"
+                         android:tint="@color/colorTint" />
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="match_parent"
+                         android:layout_centerInParent="true"
+                         android:textAppearance="?android:attr/textAppearanceMedium"
+                         android:textSize="15sp"
+                         android:layout_marginRight="20dp"
+                         android:layout_marginLeft="70dp"
+                         android:layout_alignParentRight="true"
+                         android:text="@string/app_editor_pictures" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                     android:layout_height="55dp"
+                     android:layout_width="match_parent"
+                     android:layout_marginBottom="5dp"
+                     android:background="@drawable/row_bg"
+                     android:id="@+id/appFilesIcs">
+
+                    <ImageView
+                         android:layout_height="45dp"
+                         android:layout_width="45dp"
+                         android:src="@drawable/ic_icons"
+                         android:layout_margin="10dp"
+                         android:tint="@color/colorTint" />
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="match_parent"
+                         android:layout_centerInParent="true"
+                         android:textAppearance="?android:attr/textAppearanceMedium"
+                         android:textSize="15sp"
+                         android:layout_marginRight="20dp"
+                         android:layout_marginLeft="70dp"
+                         android:layout_alignParentRight="true"
+                         android:text="@string/app_editor_icons" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                     android:layout_height="55dp"
+                     android:layout_width="match_parent"
+                     android:layout_marginBottom="5dp"
+                     android:background="@drawable/row_bg"
+                     android:id="@+id/appFilesVids">
+
+                    <ImageView
+                         android:layout_height="45dp"
+                         android:layout_width="45dp"
+                         android:src="@drawable/ic_videos"
+                         android:layout_margin="10dp"
+                         android:tint="@color/colorTint" />
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="match_parent"
+                         android:layout_centerInParent="true"
+                         android:textAppearance="?android:attr/textAppearanceMedium"
+                         android:textSize="15sp"
+                         android:layout_marginRight="20dp"
+                         android:layout_marginLeft="70dp"
+                         android:layout_alignParentRight="true"
+                         android:text="@string/app_editor_videos" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                     android:layout_height="55dp"
+                     android:layout_width="match_parent"
+                     android:layout_marginBottom="5dp"
+                     android:background="@drawable/row_bg"
+                     android:id="@+id/appFilesAuds">
+
+                    <ImageView
+                         android:layout_height="45dp"
+                         android:layout_width="45dp"
+                         android:src="@drawable/ic_audios"
+                         android:layout_margin="10dp"
+                         android:tint="@color/colorTint" />
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="match_parent"
+                         android:layout_centerInParent="true"
+                         android:textAppearance="?android:attr/textAppearanceMedium"
+                         android:textSize="15sp"
+                         android:layout_marginRight="20dp"
+                         android:layout_marginLeft="70dp"
+                         android:layout_alignParentRight="true"
+                         android:text="@string/app_editor_audios" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                     android:layout_height="55dp"
+                     android:layout_width="match_parent"
+                     android:background="@drawable/row_bg"
+                     android:id="@+id/appFilesFonts">
+
+                    <ImageView
+                         android:layout_height="45dp"
+                         android:layout_width="45dp"
+                         android:src="@drawable/ic_fonts"
+                         android:layout_margin="10dp"
+                         android:tint="@color/colorTint" />
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="match_parent"
+                         android:layout_centerInParent="true"
+                         android:textAppearance="?android:attr/textAppearanceMedium"
+                         android:textSize="15sp"
+                         android:layout_marginRight="20dp"
+                         android:layout_marginLeft="70dp"
+                         android:layout_alignParentRight="true"
+                         android:text="@string/app_editor_fonts" />
+
+                </RelativeLayout>
+
+                <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:padding="10dp"
+                     android:text="@string/app_editor_advanced"
+                     android:textStyle="bold" />
+
+                <RelativeLayout
+                     android:layout_height="55dp"
+                     android:layout_width="match_parent"
+                     android:layout_marginBottom="5dp"
+                     android:background="@drawable/row_bg"
+                     android:id="@+id/appAds">
+
+                    <ImageView
+                         android:layout_height="45dp"
+                         android:layout_width="45dp"
+                         android:src="@drawable/ic_ads"
+                         android:layout_margin="10dp"
+                         android:tint="@color/colorTint" />
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="match_parent"
+                         android:layout_centerInParent="true"
+                         android:textAppearance="?android:attr/textAppearanceMedium"
+                         android:textSize="15sp"
+                         android:layout_marginRight="20dp"
+                         android:layout_marginLeft="70dp"
+                         android:layout_alignParentRight="true"
+                         android:text="@string/app_editor_ads" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</LinearLayout>

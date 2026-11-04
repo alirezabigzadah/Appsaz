@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="wrap_content"
+     android:layout_width="fill_parent"
+     android:orientation="vertical">
+
+    <ScrollView
+         android:layout_height="wrap_content"
+         android:layout_width="fill_parent"
+         android:layout_weight="1.0">
+
+        <LinearLayout
+             android:layout_height="wrap_content"
+             android:layout_width="fill_parent"
+             android:padding="20dp"
+             android:orientation="vertical">
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:visibility="gone"
+                 android:textAppearance="?android:textAppearanceSmall"
+                 android:text="@string/key_hint" />
+
+            <Spinner
+                 android:layout_height="wrap_content"
+                 android:layout_width="fill_parent"
+                 android:visibility="gone"
+                 android:entries="@array/format"
+                 android:id="@+id/format">
+
+            </Spinner>
+
+            <com.google.android.material.textfield.TextInputLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:hint="@string/key_path"
+                 android:textColorHint="@color/colorAccent"
+                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <EditText
+                     android:layout_height="wrap_content"
+                     android:layout_width="fill_parent"
+                     android:visibility="gone"
+                     android:singleLine="true"
+                     android:ems="10"
+                     android:id="@+id/path"
+                     android:text="Keystore path" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:orientation="horizontal">
+
+                <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:visibility="gone"
+                     android:textAppearance="?android:textAppearanceSmall"
+                     android:id="@+id/cert"
+                     android:text="@string/key_alias" />
+
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:hint="@string/key_alias"
+                 android:textColorHint="@color/colorAccent"
+                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <EditText
+                     android:layout_height="wrap_content"
+                     android:layout_width="fill_parent"
+                     android:singleLine="true"
+                     android:ems="10"
+                     android:id="@+id/alias" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="fill_parent"
+                 android:orientation="vertical"
+                 android:id="@+id/password">
+
+                <com.google.android.material.textfield.TextInputLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     app:endIconMode="password_toggle"
+                     android:hint="@string/key_store_pass"
+                     android:textColorHint="@color/colorAccent"
+                     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                    <EditText
+                         android:layout_height="wrap_content"
+                         android:layout_width="fill_parent"
+                         android:ems="10"
+                         android:inputType="textPassword"
+                         android:id="@+id/storePass" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     app:endIconMode="password_toggle"
+                     android:hint="@string/key_pass"
+                     android:textColorHint="@color/colorAccent"
+                     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                    <EditText
+                         android:layout_height="wrap_content"
+                         android:layout_width="fill_parent"
+                         android:ems="10"
+                         android:inputType="textPassword"
+                         android:id="@+id/keyPass" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:hint="@string/key_size"
+                 android:textColorHint="@color/colorAccent"
+                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <EditText
+                     android:layout_height="wrap_content"
+                     android:layout_width="fill_parent"
+                     android:singleLine="true"
+                     android:ems="10"
+                     android:inputType="number"
+                     android:id="@+id/keySize"
+                     android:text="2048" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:hint="@string/key_validity"
+                 android:textColorHint="@color/colorAccent"
+                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <EditText
+                     android:layout_height="wrap_content"
+                     android:layout_width="fill_parent"
+                     android:singleLine="true"
+                     android:ems="10"
+                     android:inputType="number"
+                     android:id="@+id/date" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:hint="@string/key_common_name"
+                 android:textColorHint="@color/colorAccent"
+                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <EditText
+                     android:layout_height="wrap_content"
+                     android:layout_width="fill_parent"
+                     android:singleLine="true"
+                     android:ems="10"
+                     android:id="@+id/name" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:hint="@string/key_organization_unit"
+                 android:textColorHint="@color/colorAccent"
+                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <EditText
+                     android:layout_height="wrap_content"
+                     android:layout_width="fill_parent"
+                     android:singleLine="true"
+                     android:ems="10"
+                     android:id="@+id/organizationUnit" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:hint="@string/key_organization_name"
+                 android:textColorHint="@color/colorAccent"
+                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <EditText
+                     android:layout_height="wrap_content"
+                     android:layout_width="fill_parent"
+                     android:singleLine="true"
+                     android:ems="10"
+                     android:id="@+id/organizationName" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:hint="@string/key_locality_name"
+                 android:textColorHint="@color/colorAccent"
+                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <EditText
+                     android:layout_height="wrap_content"
+                     android:layout_width="fill_parent"
+                     android:singleLine="true"
+                     android:ems="10"
+                     android:id="@+id/localityName" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:hint="@string/key_state_name"
+                 android:textColorHint="@color/colorAccent"
+                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <EditText
+                     android:layout_height="wrap_content"
+                     android:layout_width="fill_parent"
+                     android:singleLine="true"
+                     android:ems="10"
+                     android:id="@+id/stateName" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:hint="@string/key_country"
+                 android:textColorHint="@color/colorAccent"
+                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <EditText
+                     android:layout_height="wrap_content"
+                     android:layout_width="fill_parent"
+                     android:singleLine="true"
+                     android:ems="10"
+                     android:id="@+id/country" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:card-view="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:foreground="?android:attr/selectableItemBackground"
+	card-view:cardCornerRadius="12dp"
+	card-view:cardElevation="1dp"
+	android:id="@+id/bigBtnBg"
+	android:layout_margin="2dp">
+	
+	<RelativeLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:gravity="center">
+
+		<ImageView
+			android:layout_height="56dp"
+			android:layout_width="56dp"
+			android:layout_alignParentEnd="true"
+			android:id="@+id/bigBtnRightIcon"
+			android:layout_centerInParent="true"
+			android:layout_marginEnd="10dp"
+			android:visibility="gone"/>
+
+		<ImageView
+			android:layout_height="56dp"
+			android:layout_width="56dp"
+			android:layout_alignParentLeft="true"
+			android:id="@+id/bigBtnLeftIcon"
+			android:layout_centerInParent="true"
+			android:layout_marginStart="10dp"
+			android:visibility="gone"/>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:layout_centerInParent="true"
+			android:id="@+id/bigBtnText"
+			android:gravity="center"
+			android:layout_marginRight="65dp"
+			android:layout_marginLeft="65dp"
+			android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+	</RelativeLayout>
+
+</androidx.cardview.widget.CardView>
+

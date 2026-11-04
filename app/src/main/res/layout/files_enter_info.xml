@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:card-view="http://schemas.android.com/apk/res-auto"
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content"
+     android:layout_margin="10dp"
+     card-view:cardElevation="5dp"
+     card-view:cardBackgroundColor="@color/colorCard"
+     card-view:cardCornerRadius="30dp"
+     android:minWidth="320dp">
+
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:orientation="vertical">
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:ellipsize="end"
+             android:padding="20dp"
+             android:textSize="16sp"
+             android:textColor="@color/colorAccent"
+             android:singleLine="true"
+             android:textStyle="bold"
+             android:id="@+id/dialogTitle" />
+
+        <ScrollView
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:id="@+id/filesenterinfoScrollView1">
+
+            <RelativeLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content">
+
+                <LinearLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:orientation="vertical">
+
+                    <LinearLayout
+                         android:layout_height="wrap_content"
+                         android:layout_width="fill_parent"
+                         android:gravity="center"
+                         android:orientation="vertical">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                             android:layout_height="wrap_content"
+                             android:layout_width="match_parent"
+                             android:hint="@string/files_file_name"
+                             android:textColorHint="@color/colorAccent"
+                             android:layout_marginRight="30dp"
+                             android:layout_marginLeft="30dp"
+                             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                             android:id="@+id/input_layout">
+
+                            <EditText
+                                 android:layout_height="wrap_content"
+                                 android:layout_width="match_parent"
+                                 android:singleLine="true"
+                                 android:id="@+id/fileName" />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <LinearLayout
+                             android:layout_height="wrap_content"
+                             android:layout_width="match_parent"
+                             android:visibility="gone"
+                             android:gravity="center"
+                             android:orientation="vertical"
+                             android:id="@+id/moreOptions">
+
+                            <com.google.android.material.materialswitch.MaterialSwitch
+                                 android:layout_height="60dp"
+                                 android:layout_width="200dp"
+                                 android:background="@drawable/row_bg"
+                                 android:padding="20dp"
+                                 android:textSize="15sp"
+                                 android:layout_marginTop="10dp"
+                                 android:text="@string/files_saveable"
+                                 android:id="@+id/fileSaveable" />
+
+                            <com.google.android.material.materialswitch.MaterialSwitch
+                                 android:layout_height="60dp"
+                                 android:layout_width="200dp"
+                                 android:background="@drawable/row_bg"
+                                 android:padding="20dp"
+                                 android:textSize="15sp"
+                                 android:layout_marginTop="10dp"
+                                 android:text="@string/files_shareable"
+                                 android:id="@+id/fileShareable" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                             android:layout_height="wrap_content"
+                             android:layout_width="match_parent"
+                             android:visibility="gone"
+                             android:gravity="center"
+                             android:orientation="vertical"
+                             android:layout_marginRight="20dp"
+                             android:layout_marginLeft="20dp"
+                             android:id="@+id/layoutAudioImg">
+
+                            <TextView
+                                 android:layout_height="wrap_content"
+                                 android:layout_width="match_parent"
+                                 android:layout_margin="10dp"
+                                 android:text="@string/files_audio_pic" />
+
+                            <LinearLayout
+                                 android:layout_height="wrap_content"
+                                 android:layout_width="match_parent"
+                                 android:background="@drawable/row_bg"
+                                 android:layout_margin="10dp"
+                                 android:padding="2dp"
+                                 android:orientation="horizontal">
+
+                                <com.tistory.zladnrms.roundablelayout.RoundableLayout
+                                     android:layout_height="wrap_content"
+                                     android:layout_width="wrap_content"
+                                     card-view:cornerRightBottom="10dp"
+                                     card-view:cornerLeftSide="10dp"
+                                     android:layout_margin="5dp"
+                                     card-view:cornerLeftTop="10dp"
+                                     card-view:backgroundColor="#00ffffff"
+                                     card-view:cornerRightSide="10dp"
+                                     card-view:cornerLeftBottom="10dp"
+                                     card-view:cornerRightTop="10dp">
+
+                                    <RelativeLayout
+                                         android:layout_height="wrap_content"
+                                         android:layout_width="wrap_content">
+
+                                        <ImageView
+                                             android:layout_height="45dp"
+                                             android:layout_width="45dp"
+                                             android:scaleType="centerCrop"
+                                             android:src="@drawable/default_audio_img"
+                                             android:id="@+id/audioImage" />
+
+                                    </RelativeLayout>
+
+                                </com.tistory.zladnrms.roundablelayout.RoundableLayout>
+
+                                <TextView
+                                     android:layout_height="match_parent"
+                                     android:layout_width="match_parent"
+                                     android:gravity="fill"
+                                     android:paddingRight="10dp"
+                                     android:textSize="16sp"
+                                     android:textColor="@color/colorAccent"
+                                     android:paddingLeft="10dp"
+                                     android:id="@+id/audioImg"
+                                     android:text="@string/a_default" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                         android:layout_height="wrap_content"
+                         android:layout_width="match_parent"
+                         android:layout_below="@id/filesenterinfoScrollView1"
+                         android:gravity="right"
+                         android:padding="10dp"
+                         android:orientation="horizontal">
+
+                        <Button
+                             android:layout_height="wrap_content"
+                             android:layout_width="wrap_content"
+                             android:gravity="center"
+                             android:padding="10dp"
+                             android:textSize="13sp"
+                             android:textColor="@color/colorAccent"
+                             style="?android:attr/buttonBarButtonStyle"
+                             android:minWidth="70dp"
+                             android:text="@string/a_cancel"
+                             android:id="@+id/cancel" />
+
+                        <Button
+                             android:layout_height="wrap_content"
+                             android:layout_width="wrap_content"
+                             android:visibility="gone"
+                             android:gravity="center"
+                             android:padding="10dp"
+                             android:textSize="13sp"
+                             android:textColor="@color/colorAccent"
+                             style="?android:attr/buttonBarButtonStyle"
+                             android:minWidth="70dp"
+                             android:text="@string/a_delete"
+                             android:id="@+id/delete" />
+
+                        <Button
+                             android:layout_height="wrap_content"
+                             android:layout_width="wrap_content"
+                             android:gravity="center"
+                             android:padding="10dp"
+                             android:textSize="13sp"
+                             android:textColor="@color/colorAccent"
+                             style="?android:attr/buttonBarButtonStyle"
+                             android:minWidth="70dp"
+                             android:text="@string/a_save"
+                             android:id="@+id/save" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

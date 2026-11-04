@@ -1,0 +1,104 @@
+<resources>
+
+    <color name="colorPrimary">#008577</color> 
+    <color name="colorPrimaryDark">#00574B</color> 
+    <color name="colorAccent">#006E6E</color>
+
+    <color name="colorWindowBackground">#f87476</color>
+    <color name="ic_launcher_background">#FF008777</color>
+    <color name="colorNotpressed">@color/md_theme_light_background</color>
+    <color name="not_pressed_color">@color/colorNotpressed</color>
+    <color name="pressed_color">@color/colorAccent</color>
+    <color name="colorTint">@color/md_theme_dark_background</color>
+    <color name="color">@color/md_theme_light_background</color>
+    <color name="colorCard">#E4F2F0</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000</color>
+
+    <color name="md_theme_light_primary">#008777</color> <!-- رنگ اصلی ثابت -->
+    <color name="md_theme_light_onPrimary">#FFFFFF</color> <!-- متن سفید برای خوانایی روی رنگ اصلی -->
+    <color name="md_theme_light_primaryContainer">#A6F5E6</color> <!-- نسخه روشن‌تر از رنگ اصلی -->
+    <color name="md_theme_light_onPrimaryContainer">#004C44</color> <!-- متن تیره روی ظرف رنگ اصلی -->
+    <color name="md_theme_light_secondary">#4A7264</color> <!-- مکمل برای رنگ اصلی -->
+    <color name="md_theme_light_onSecondary">#FFFFFF</color>
+    <color name="md_theme_light_secondaryContainer">#C8EAD8</color> <!-- نسخه روشن‌تر مکمل -->
+    <color name="md_theme_light_onSecondaryContainer">#223728</color>
+    <color name="md_theme_light_tertiary">#4E6371</color> <!-- رنگ سوم هماهنگ -->
+    <color name="md_theme_light_onTertiary">#FFFFFF</color>
+    <color name="md_theme_light_tertiaryContainer">#D0E4EB</color>
+    <color name="md_theme_light_onTertiaryContainer">#1B2A34</color>
+    <color name="md_theme_light_error">#B3261E</color> <!-- رنگ استاندارد خطا -->
+    <color name="md_theme_light_onError">#FFFFFF</color>
+    <color name="md_theme_light_errorContainer">#F9DEDC</color>
+    <color name="md_theme_light_onErrorContainer">#410E0B</color>
+    <color name="md_theme_light_outline">#6B857E</color> <!-- تناژ سبز-خاکستری -->
+    <color name="md_theme_light_background">#FDFDFD</color> <!-- سفید-روشن‌تر -->
+    <color name="md_theme_light_onBackground">#1C1B1F</color>
+    <color name="md_theme_light_surface">#FFFFFF</color>
+    <color name="md_theme_light_onSurface">#1C1B1F</color>
+    <color name="md_theme_light_surfaceVariant">#E6F1EF</color> <!-- روشن‌تر برای حالت ملایم -->
+    <color name="md_theme_light_onSurfaceVariant">#3C4F49</color>
+    <color name="md_theme_light_inverseSurface">#2C3130</color>
+    <color name="md_theme_light_inverseOnSurface">#E8EAE9</color>
+    <color name="md_theme_light_inversePrimary">#46A6A1</color> <!-- تناژ تیره‌تر سبز -->
+    <color name="md_theme_light_shadow">#000000</color>
+    <color name="md_theme_light_surfaceTint">#008777</color>
+    <color name="md_theme_light_outlineVariant">#CBDAD6</color>
+    <color name="md_theme_light_scrim">#000000</color>
+
+
+    <color name="md_theme_dark_primary">#008777</color>
+    <color name="md_theme_dark_onPrimary">#FFFFFF</color>
+    <color name="md_theme_dark_primaryContainer">#00d6c0</color>
+    <color name="md_theme_dark_onPrimaryContainer">#c7fff7</color>
+    <color name="md_theme_dark_secondary">#95dcc2</color>
+    <color name="md_theme_dark_onSecondary">#332D41</color>
+    <color name="md_theme_dark_secondaryContainer">#5A4E68</color>
+    <color name="md_theme_dark_onSecondaryContainer">#c9ffeb</color>
+    <color name="md_theme_dark_tertiary">#EFB8C8</color>
+    <color name="md_theme_dark_onTertiary">#492532</color>
+    <color name="md_theme_dark_tertiaryContainer">#7A5060</color>
+    <color name="md_theme_dark_onTertiaryContainer">#FFD8E4</color>
+    <color name="md_theme_dark_error">#F2B8B5</color>
+    <color name="md_theme_dark_onError">#601410</color>
+    <color name="md_theme_dark_errorContainer">#8C1D18</color>
+    <color name="md_theme_dark_onErrorContainer">#F9DEDC</color>
+    <color name="md_theme_dark_outline">#7fa49c</color>
+    <color name="md_theme_dark_background">#1C1B1F</color>
+    <color name="md_theme_dark_onBackground">#E6E1E5</color>
+    <color name="md_theme_dark_surface">#1C1B1F</color>
+    <color name="md_theme_dark_onSurface">#E6E1E5</color>
+    <color name="md_theme_dark_surfaceVariant">#49454F</color>
+    <color name="md_theme_dark_onSurfaceVariant">#CAC4D0</color>
+    <color name="md_theme_dark_inverseSurface">#E6E1E5</color>
+    <color name="md_theme_dark_inverseOnSurface">#313033</color>
+    <color name="md_theme_dark_inversePrimary">#00bfb0</color>
+    <color name="md_theme_dark_shadow">#000000</color>
+    <color name="md_theme_dark_surfaceTint">#00a795</color>
+    <color name="md_theme_dark_outlineVariant">#49454F</color>
+    <color name="md_theme_dark_scrim">#000000</color>
+
+    <color name="uvv_gray">#969696</color>
+    <color name="uvv_black">#ff000000</color>
+    <color name="uvv_light_gray">#ffF0F0F0</color>
+    <color name="uvv_titlebar_bg">#7f000000</color>
+
+
+    <color name="primary">#008777</color> <!-- رنگ اصلی -->
+    <color name="primary_variant">#005F57</color> <!-- نسخه تیره‌تر رنگ اصلی برای تضاد -->
+    <color name="on_primary">#FFFFFF</color> <!-- متن روی رنگ اصلی -->
+
+    <color name="secondary">#56C2AA</color> <!-- رنگ مکمل برای هماهنگی با رنگ اصلی -->
+    <color name="secondary_variant">#004C3F</color> <!-- نسخه تیره‌تر رنگ مکمل -->
+    <color name="on_secondary">#FFFFFF</color> <!-- متن روی رنگ مکمل -->
+
+    <color name="background">#FAFAFA</color> <!-- پس‌زمینه روشن -->
+    <color name="on_background">#1A1A1A</color> <!-- متن روی پس‌زمینه -->
+
+    <color name="surface">#FFFFFF</color> <!-- رنگ سطح (معمولاً سفید) -->
+    <color name="on_surface">#1A1A1A</color> <!-- متن روی سطح -->
+
+    <color name="error">#B3261E</color> <!-- رنگ برای خطا -->
+    <color name="on_error">#FFFFFF</color> <!-- متن روی رنگ خطا -->
+
+</resources>

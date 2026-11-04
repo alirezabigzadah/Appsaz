@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="faq_questions">
+        <item>什么是Appsaz？</item>
+        <item>使用Appsaz需要编程知识吗？</item>
+        <item>我可以用Appsaz创建什么类型的应用程序？</item>
+        <item>我创建的应用程序可以出售吗？</item>
+        <item>我可以通过使用Appsaz赚取收入吗？</item>
+        <item>Appsaz是免费的么？</item>
+        <item>我可以创建自定义设计的应用程序吗？</item>
+        <item>如何联系支持团队？</item>
+    </string-array>
+
+    <string-array name="faq_answers">
+        <item>Appsaz是一个创新的工具，允许您无需编程知识即可创建Android应用程序。它提供了广泛的功能用于设计和开发功能性应用程序。</item>
+        <item>不需要，Appsaz设计得让任何人都能轻松创建自己的应用程序，而不需要编程经验。</item>
+        <item>您可以创建各种类型的应用程序，例如个人、故事、教育、画廊、音乐、视频等。</item>
+        <item>是的，您可以出售您创建的应用程序。Appsaz允许您将应用程序发布到多个平台。</item>
+        <item>是的，Appsaz支持AdMob，您可以通过广告赚取收入。此外，您还可以出售通过Appsaz创建的教育应用程序。</item>
+        <item>Appsaz的基础版本是免费的。不过，您可以升级到专业版以获取更多高级功能。</item>
+        <item>是的，Appsaz允许您根据需要完全自定义应用程序的设计和功能。</item>
+        <item>您可以通过应用程序中的“关于”部分或通过提供的支持电子邮件联系支持团队。</item>
+    </string-array>
+
+    <string name="ads_title">广告</string>
+    <string name="ads_admob_application_id">应用程序 ID</string>
+    <string name="ads_admob">AdMob</string>
+    <string name="ads_banner_ad_id">横幅广告 ID</string>
+    <string name="ads_banner_ad">横幅广告</string>
+    <string name="ads_interstitial_ad_id">插页广告 ID</string>
+    <string name="ads_interstitial_ad">插页广告</string>
+    <string name="ads_video_ad_id">视频广告 ID</string>
+    <string name="ads_video_ad">视频广告</string>
+    <string name="app_name">Appsaz</string>
+    <string name="hello_world">你好，世界！</string>
+    <string name="app_saz">
+Appsaz\n
+v3.5.0-trial\n
+© 2025 Appsaz by Alireza Bigzadah. All rights reserved.\n
+Appsaz 是一个创新工具，允许您无需编程知识或复杂的编码即可创建专业且高效的 Android 应用程序。该应用程序为初学者开发人员、企业家、学生以及任何希望快速轻松创建自定义应用程序的人设计。\n\n
+
+主要特点：\n
+• 用户友好的界面：现代且直观的设计，使新手和经验丰富的用户都能轻松使用。\n
+• 无需编程：所有过程通过可视化工具处理，免去编程知识的需求。\n
+• 创建多个页面：设计具有多种页面和布局的应用程序。\n
+• 可搜索的列表：在应用程序中构建可以轻松搜索信息的列表。\n
+• 支持多媒体文件：无缝地将图片、视频和音频集成到您的应用程序中。\n
+• 添加字体：通过添加独特的字体来定制您的应用程序，提升美学效果。\n
+• 添加动画：添加吸引人的动画来提高互动性和视觉吸引力。\n
+• 自定义背景：为应用程序中的任何页面应用个性化背景。\n
+• 导航菜单：设计专业的导航菜单，轻松访问各个部分。\n
+• 高度灵活性：完全定制设计和功能。\n
+• 项目管理：随时保存和打开项目。\n
+• 简单的保存和分享：轻松导出并分享您的应用程序。\n
+• 动态更新：根据用户反馈和请求提供更新、升级和新功能。\n\n
+
+为什么使用 Appsaz？\n
+• 节省时间和成本：避免高昂的程序员费用。使用 Appsaz 设计应用程序比传统方法更快。\n
+• 适合所有人：即使没有编程经验的人也能轻松创建应用程序。\n
+• 高级工具：一款应用程序中就能访问到背景定制、动画和专业设置等功能。\n
+• 创新与创意：通过 Appsaz 展示您的创意，设计独特的应用程序。\n\n
+
+联系我们：\n
+如有任何咨询或建议，请通过以下方式与我们联系：\n
+- 电子邮件：appsaz.help@gmail.com\n
+- 官方 Telegram 频道：https://t.me/appsazaf\n
+- Telegram 讨论组：https://t.me/appsazdiscussions
+</string>
+    <string name="navigation_drawer_close">关闭导航抽屉</string>
+    <string name="navigation_drawer_open">打开导航抽屉</string>
+    <string name="a_end_free_trial_title">免费试用</string>
+    <string name="a_end_free_trial">
+Appsaz 的免费试用版已达到添加文件的最大限制。当前版本的 Appsaz 是一个带有限制的免费试用版本。在此版本中，用户可以将最多 20 个页面、10 个列表和 10 个字体添加到他们的项目中。然而，添加多媒体文件（如图片、视频和音频）没有任何限制。此外，此版本仅支持 Google AdMob 横幅广告，且输出应用程序会自动包含 Appsaz 水印。要解锁所有功能并移除限制，用户可以升级为付费用户。此版本仍在开发中，欲了解更多信息或进行升级，请通过“关于我们”部分联系我们的支持团队。
+感谢您使用 Appsaz！
+</string>
+    <string name="a_first_title">欢迎使用 Appsaz！</string>
+    <string name="a_first_text">
+您正在使用 Appsaz 的免费试用版，该版本具有一定的限制。在此版本中，用户可以将最多 20 个页面、10 个列表和 10 个字体添加到他们的项目中。然而，添加多媒体文件（如图片、视频和音频）没有任何限制。此外，此版本仅支持 Google AdMob 横幅广告，且输出应用程序会自动包含 Appsaz 水印。要解锁所有功能并移除限制，用户可以升级为付费用户。此版本仍在开发中，欲了解更多信息或进行升级，请通过“关于我们”部分联系我们的支持团队。
+感谢您使用 Appsaz！
+</string>
+    <string name="a_version">v3.5.0-trial</string>
+    <string name="a_ok">确定</string>
+    <string name="a_save">保存</string>
+    <string name="a_cancel">取消</string>
+    <string name="a_delete">删除</string>
+    <string name="a_close">关闭</string>
+    <string name="a_color">颜色</string>
+    <string name="a_default">默认</string>
+    <string name="a_picture">图片</string>
+    <string name="a_text">文本</string>
+    <string name="a_none">无</string>
+    <string name="a_create">创建</string>
+    <string name="a_color_picker">选择颜色</string>
+    <string name="a_exit">退出</string>
+    <string name="a_open_page">打开页面</string>
+    <string name="a_open_list">打开列表</string>
+    <string name="a_wait">请稍候...</string>
+    <string name="a_path">路径</string>
+    <string name="a_app">应用</string>
+    <string name="a_share">分享</string>
+    <string name="a_install">安装</string>
+    <string name="a_error">错误</string>
+    <string name="a_back_notice">再次按返回键退出</string>
+    <string name="a_an_error">发生错误！</string>
+    <string name="a_add_new_item">添加新项目</string>
+    <string name="a_dont_show_again">不再显示</string>
+    <string name="a_on">开启</string>
+    <string name="a_off">关闭</string>
+    <string name="a_auto">自动</string>
+    <string name="a_size">大小</string>
+    <string name="a_title">标题</string>
+    <string name="a_item">项目</string>
+    <string name="a_loading">加载中...</string>
+    <string name="a_added">已添加</string>
+    <string name="a_error_name">填写字段</string>
+    <string name="a_reset">重置</string>
+    <string name="a_done">完成</string>
+    <string name="a_faq">常见问题</string>
+    <string name="a_yes">是</string>
+    <string name="a_no">否</string>
+    <string name="a_permission_title">权限请求</string>
+    <string name="a_permission_text">此应用需要访问您设备的存储文件。</string>
+    <string name="a_permission_grant">授予权限</string>
+    <string name="a_open_project">打开项目</string>
+    <string name="a_select_language">选择语言</string>
+    <string name="a_language_default">系统默认</string>
+
+    <string name="main_open_another_project">打开另一个项目</string>
+    <string name="main_project_info">项目信息</string>
+    <string name="main_open_project_error">未能识别项目。</string>
+    <string name="main_edit_app">编辑应用</string>
+    <string name="main_preview_app">预览应用</string>
+    <string name="main_build_app">构建应用</string>
+    <string name="main_close_project">关闭项目</string>
+    <string name="main_close_project_alert">您确定要关闭项目吗？如果关闭项目，所有项目数据将被删除。建议在关闭之前保存项目。</string>
+    <string name="main_save_project">保存项目</string>
+    <string name="main_save_project_alert">您要保存项目吗？项目将保存为 .as 文件。</string>
+    <string name="main_create_app">创建新项目</string>
+    <string name="main_open_project">打开旧项目</string>
+    <string name="main_app_name">应用名称</string>
+    <string name="main_package_name">包名称</string>
+    <string name="main_new_app_name">我的应用</string>
+    <string name="main_new_package">af.appsaz.myapplication</string>
+    <string name="main_app_built">构建成功</string>
+    <string name="main_collecting_data">收集数据...</string>
+    <string name="main_encoding">编码数据...</string>
+    <string name="main_compressing_data">压缩数据...</string>
+    <string name="main_signing">签署 APK...</string>
+    <string name="main_finishing">完成...</string>
+    <string name="main_saving_project">保存项目...</string>
+    <string name="main_save_successful">保存成功</string>
+    <string name="main_app_project">应用项目</string>
+    <string name="main_error_app_name">请输入应用名称。</string>
+    <string name="main_error_package_name">请输入包名称。</string>
+    <string name="main_error_incorrect_package_name">请输入有效的包名称。</string>
+    <string name="main_error_reserved_package_name">此包名称已被保留。请更换一个包名称。</string>
+    <string name="nave_desc">通过 Appsaz 创建令人惊叹的应用。</string>
+    <string name="nave_home">主页</string>
+    <string name="nave_settings">设置</string>
+    <string name="nave_rate_us">评价我们</string>
+    <string name="nave_about_us">关于我们</string>
+    <string name="nave_faq">常见问题</string>
+    <string name="settings">设置</string>
+    <string name="settings_general">常规</string>
+    <string name="settings_signing">签名</string>
+    <string name="settings_theme">暗黑模式</string>
+    <string name="settings_theme_desc">选择暗黑主题或亮色主题以设置用户界面。</string>
+    <string name="settings_language">语言</string>
+    <string name="settings_language_desc">选择 Appsaz 的语言。</string>
+    <string name="settings_custom_key">自定义 Keystore</string>
+    <string name="settings_custom_key_desc">使用自定义的 keystore 文件来签署您的应用。</string>
+    <string name="settings_key_file">Keystore 文件</string>
+    <string name="settings_key_file_desc">插入您的 keystore 文件路径。</string>
+    <string name="settings_about">关于 Appsaz</string>
+    <string name="settings_about_desc">了解更多关于 Appsaz 的信息。</string>
+    <string name="settings_faq">Appsaz 常见问题</string>
+    <string name="settings_faq_desc">关于 Appsaz 的常见问题解答。</string>
+    <string name="settings_pp">Appsaz 隐私政策</string>
+    <string name="settings_pp_desc">Appsaz 的隐私政策。</string>
+    <string name="settings_title">设置</string>
+    <string name="key_pick">选择 Keystore 文件 (.JKS)</string>
+    <string name="key_specs">选择 keystore 文件并输入其规格。</string>
+    <string name="key_type">密钥类型</string>
+    <string name="key_path">密钥路径</string>
+    <string name="key_cert_path">证书路径</string>
+    <string name="key_alias">别名</string>
+    <string name="key_store_pass">Keystore 密码</string>
+    <string name="key_pass">私钥密码</string>
+    <string name="key_create_and_use">创建并使用</string>
+    <string name="key_validity">有效期（年）</string>
+    <string name="key_common_name">通用名称</string>
+    <string name="key_organization_unit">组织单位</string>
+    <string name="key_organization_name">组织名称</string>
+    <string name="key_locality_name">所在地区名称</string>
+    <string name="key_state_name">州/省名称</string>
+    <string name="key_country">国家代码</string>
+    <string name="key_size">密钥大小</string>
+    <string name="key_hint">点击重置以使用默认签名文件。</string>
+    <string name="key_file">Keystore 文件</string>
+    <string name="key_file_desc">设置自定义 keystore 文件（JKS）。</string>
+    <string name="key_gen">生成 Keystore 文件</string>
+    <string name="key_gen_desc">生成一个 keystore 文件（JKS）。</string>
+    <string name="key_not_found">未找到 keystore 文件。</string>
+
+    <string name="app_editor_app_manifest">应用清单</string>
+    <string name="app_editor_app_icon">应用图标</string>
+    <string name="app_editor_app_name">应用名称</string>
+    <string name="app_editor_package_name">包名称</string>
+    <string name="app_editor_version_code">版本代码</string>
+    <string name="app_editor_version_name">版本名称</string>
+    <string name="app_editor_app_layouts">应用布局</string>
+    <string name="app_editor_splash_page">启动页</string>
+    <string name="app_editor_pages">页面</string>
+    <string name="app_editor_lists">列表</string>
+    <string name="app_editor_app_files">应用文件</string>
+    <string name="app_editor_pictures">图片</string>
+    <string name="app_editor_icons">图标</string>
+    <string name="app_editor_videos">视频</string>
+    <string name="app_editor_audios">音频</string>
+    <string name="app_editor_fonts">字体</string>
+    <string name="app_editor_advanced">高级</string>
+    <string name="app_editor_ads">广告</string>
+    <string name="icon_editor">生成应用图标</string>
+    <string name="icon_editor_info_title">信息</string>
+    <string name="icon_editor_info">自适应图标和常规图标有显著区别。常规图标通常设计为固定的 PNG 格式图像，并需要多个不同尺寸的文件以适应各种显示需求，灵活性较差。相比之下，自适应图标使用两层（背景和前景）PNG和XML格式，允许图标自动调整为不同的尺寸和形状，为设备和启动器提供更好的优化。自适应图标从 Android 8.0（API 级别 26）开始作为标准，提供了更好的性能。</string>
+    <string name="icon_editor_regular">常规图标</string>
+    <string name="icon_editor_adaptive">自适应图标</string>
+    <string name="icon_editor_pick_bg_color">选择背景颜色</string>
+    <string name="app_editor_error_app_name">请输入应用名称。</string>
+    <string name="app_editor_error_package_name">请输入包名称。</string>
+    <string name="app_editor_error_version_code">请输入版本代码。</string>
+    <string name="app_editor_error_version_name">请输入版本名称。</string>
+    <string name="app_editor_error_incorrect_package_name">请输入有效的包名称。</string>
+    <string name="app_editor_title">编辑应用</string>
+    <string name="splash_settings">启动页设置</string>
+    <string name="splash_time">启动页时间</string>
+    <string name="splash_after_splash">启动页后</string>
+    <string name="splash_background">启动页背景</string>
+    <string name="splash_items">启动页项目</string>
+    <string name="splash_screen">启动页屏幕</string>
+    <string name="splash_edit_page">编辑启动页</string>
+    <string name="splash_title">启动页</string>
+    <string name="page_page">页面</string>
+    <string name="page_background">页面背景</string>
+    <string name="page_items">页面项目</string>
+    <string name="page_edit">编辑页面</string>
+    <string name="page_toolbar">工具栏</string>
+    <string name="page_title_toolbar">工具栏中的页面标题</string>
+    <string name="page_toolbar_color">工具栏颜色</string>
+    <string name="page_menu">菜单</string>
+    <string name="page_menu_background">菜单背景</string>
+    <string name="page_title">页面</string>
+    <string name="list_list">列表</string>
+    <string name="list_background">列表背景</string>
+    <string name="list_items">列表项目</string>
+    <string name="list_edit">编辑列表</string>
+    <string name="list_toolbar">工具栏</string>
+    <string name="list_title_toolbar">工具栏中的列表标题</string>
+    <string name="list_toolbar_color">工具栏颜色</string>
+    <string name="list_menu">菜单</string>
+    <string name="list_menu_background">菜单背景</string>
+    <string name="list_title">列表</string>
+    <string name="files_empty_pages">这里没有页面，点击 + 添加。</string>
+    <string name="files_empty_lists">这里没有列表，点击 + 添加。</string>
+    <string name="files_empty_icons">这里没有图标，点击 + 添加。</string>
+    <string name="files_empty_pics">这里没有图片，点击 + 添加。</string>
+    <string name="files_empty_videos">这里没有视频，点击 + 添加。</string>
+    <string name="files_empty_audios">这里没有音频，点击 + 添加。</string>
+    <string name="files_empty_fonts">这里没有字体，点击 + 添加。</string>
+    <string name="files_empty_pages1">这里没有页面。</string>
+    <string name="files_empty_lists1">这里没有列表。</string>
+    <string name="files_empty_icons1">这里没有图标。</string>
+    <string name="files_empty_pics1">这里没有图片。</string>
+    <string name="files_empty_videos1">这里没有视频。</string>
+    <string name="files_empty_audios1">这里没有音频。</string>
+    <string name="files_empty_fonts1">这里没有字体。</string>
+    <string name="files_file_name">文件名</string>
+    <string name="files_page_name">页面名称</string>
+    <string name="files_list_name">列表名称</string>
+    <string name="files_saveable">可保存</string>
+    <string name="files_shareable">可分享</string>
+    <string name="files_add_pic">添加图片</string>
+    <string name="files_add_icon">添加图标</string>
+    <string name="files_add_video">添加视频</string>
+    <string name="files_add_audio">添加音频</string>
+    <string name="files_add_font">添加字体</string>
+    <string name="files_audio_pic">图片</string>
+    <string name="files_add_page">添加页面</string>
+    <string name="files_add_list">添加列表</string>
+
+    <string name="editor_action">动作</string>
+    <string name="editor_no_action">无动作</string>
+    <string name="editor_action_open_list">打开列表</string>
+    <string name="editor_action_open_page">打开页面</string>
+    <string name="editor_action_play_video">播放视频</string>
+    <string name="editor_action_play_audio">播放音频</string>
+    <string name="editor_action_show_pic">显示图片</string>
+    <string name="editor_action_show_alert">显示警告</string>
+    <string name="editor_action_show_toast">显示吐司</string>
+    <string name="editor_action_send_mail">发送邮件</string>
+    <string name="editor_action_send_sms">发送短信</string>
+    <string name="editor_action_open_link">打开链接</string>
+    <string name="editor_action_exit">关闭页面</string>
+    <string name="editor_action_toast_text">吐司文本</string>
+    <string name="editor_action_error_toast">请输入吐司文本。</string>
+    <string name="editor_action_alert_title">警告标题</string>
+    <string name="editor_action_alert_text">警告文本</string>
+    <string name="editor_action_error_alert_title">请输入警告标题。</string>
+    <string name="editor_action_error_alert_text">请输入警告文本。</string>
+    <string name="editor_action_email_address">电子邮件地址</string>
+    <string name="editor_action_error_email">请输入电子邮件地址。</string>
+    <string name="editor_action_error_incorrect_email">请输入正确的电子邮件地址。</string>
+    <string name="editor_action_phone_number">电话号码</string>
+    <string name="editor_action_error_phone_number">请输入电话号码。</string>
+    <string name="editor_action_link">链接</string>
+    <string name="editor_action_error_link">请输入网页链接。</string>
+    <string name="editor_no_icon">无图标</string>
+    <string name="editor_animation">动画</string>
+    <string name="editor_text">文本</string>
+    <string name="editor_text_size">文本大小</string>
+    <string name="editor_text_color">文本颜色</string>
+    <string name="editor_text_gravity">文本对齐</string>
+    <string name="editor_desc">描述</string>
+    <string name="editor_font">字体</string>
+    <string name="editor_radius">半径</string>
+    <string name="editor_height">高度</string>
+    <string name="editor_auto_height">自动高度</string>
+    <string name="editor_text_is_shareable">可分享</string>
+    <string name="editor_text_is_selectable">可选择</string>
+    <string name="editor_other">其他</string>
+    <string name="editor_add_above">添加在上方</string>
+    <string name="editor_add_below">添加在下方</string>
+    <string name="editor_copy">复制</string>
+    <string name="editor_delete">删除</string>
+    <string name="editor_center">居中</string>
+    <string name="editor_right">右</string>
+    <string name="editor_left">左</string>
+    <string name="editor_left_icon">左侧图标</string>
+    <string name="editor_right_icon">右侧图标</string>
+    <string name="editor_empty_pic">空图片</string>
+    <string name="editor_background">背景</string>
+    <string name="editor_stable_animations">稳定动画</string>
+    <string name="editor_unstable_animations">不稳定动画</string>
+    <string name="editor_no_animation">无动画</string>
+    <string name="editor_anim_right_in">从右进入</string>
+    <string name="editor_anim_left_in">从左进入</string>
+    <string name="editor_anim_fade_in">淡入</string>
+    <string name="editor_anim_slide_down">向下滑动</string>
+    <string name="editor_anim_bounce">弹跳</string>
+    <string name="editor_anim_blinking">闪烁</string>
+    <string name="editor_anim_rotation">旋转</string>
+    <string name="editor_anim_shake">摇动</string>
+    <string name="editor_margins">边距</string>
+    <string name="editor_top_margin">上边距</string>
+    <string name="editor_bottom_margin">下边距</string>
+    <string name="editor_right_margin">右边距</string>
+    <string name="editor_left_margin">左边距</string>
+    <string name="editor_simple_text">简单文本</string>
+    <string name="editor_advanced_text">高级文本</string>
+    <string name="editor_pic">图片</string>
+    <string name="editor_button">按钮</string>
+
+    <string name="a_sec">&#160;秒</string>
+    <string name="a_split">&#160;>&#160;</string>
+    <string name="a_saved_to">保存到：&#160;</string>
+    <string name="main_building_app">构建应用程序&#160;</string>
+    <string name="icon_editor_corner_radius">常规图标角半径：&#160;</string>
+    <string name="icon_editor_regular_padding">常规图标缩放：&#160;</string>
+    <string name="icon_editor_adaptive_padding">自适应图标缩放：&#160;</string>
+    
+</resources>

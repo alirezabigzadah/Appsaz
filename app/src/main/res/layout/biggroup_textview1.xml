@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:card-view="http://schemas.android.com/apk/res-auto"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:layout_margin="4dp"
+     android:foreground="?android:attr/selectableItemBackground"
+     android:id="@+id/bigTxtBg">
+
+    <LinearLayout
+         android:layout_height="match_parent"
+         android:layout_width="match_parent"
+         android:gravity="center"
+         android:padding="5dp"
+         android:orientation="vertical">
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:id="@+id/bigTxtText" />
+
+        <LinearLayout
+             android:layout_height="41dp"
+             android:layout_width="match_parent"
+             android:visibility="gone"
+             android:gravity="center"
+             android:orientation="vertical"
+             android:id="@+id/bigTxtShareAble">
+
+            <View
+                 android:layout_height="0.5dip"
+                 android:layout_width="match_parent"
+                 android:background="#C5C5C5" />
+
+            <ImageView
+                 android:layout_height="40dp"
+                 android:layout_width="40dp"
+                 android:src="@drawable/ic_app_share"
+                 android:id="@+id/bigTxtShareBtn" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

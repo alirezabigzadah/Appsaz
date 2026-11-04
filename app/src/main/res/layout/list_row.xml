@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent">
+
+    <androidx.cardview.widget.CardView
+         xmlns:card-view="http://schemas.android.com/apk/res-auto"
+         android:layout_height="match_parent"
+         android:layout_width="match_parent"
+         android:layout_margin="2dp"
+         android:foreground="?android:attr/selectableItemBackground"
+         android:id="@+id/row_bg">
+
+        <LinearLayout
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:gravity="center"
+             android:orientation="horizontal">
+
+            <ImageView
+                 android:layout_height="56dp"
+                 android:layout_width="56dp"
+                 android:layout_margin="5dp"
+                 android:id="@+id/row_Licon"
+                 android:layout_gravity="center_vertical" />
+
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="0dp"
+                 android:gravity="center_vertical"
+                 android:padding="5dp"
+                 android:orientation="vertical"
+                 android:layout_weight="1">
+
+                <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:layout_margin="5dp"
+                     android:textSize="18sp"
+                     android:singleLine="true"
+                     android:id="@+id/row_title"
+                     android:textStyle="bold" />
+
+                <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:ellipsize="end"
+                     android:textSize="14sp"
+                     android:singleLine="true"
+                     android:id="@+id/row_desc" />
+
+            </LinearLayout>
+
+            <ImageView
+                 android:layout_height="56dp"
+                 android:layout_width="56dp"
+                 android:layout_margin="5dp"
+                 android:id="@+id/row_Ricon"
+                 android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

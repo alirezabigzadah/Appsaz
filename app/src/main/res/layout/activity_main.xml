@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     tools:openDrawer="start"
+     android:id="@+id/drawer_layout">
+
+    <include
+         layout="@layout/app_bar_main"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:fitsSystemWindows="true" />
+
+    <LinearLayout
+         android:layout_height="match_parent"
+         android:layout_width="250dp"
+         android:background="?attr/colorSurface"
+         android:orientation="vertical"
+         android:fitsSystemWindows="true"
+         android:id="@+id/nav_view"
+         android:layout_gravity="start">
+
+        <LinearLayout
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:gravity="center"
+             android:orientation="vertical"
+             android:layout_weight="1.0">
+
+            <ImageView
+                 android:layout_height="80dp"
+                 android:layout_width="80dp"
+                 android:src="@drawable/appsaz_logo"
+                 android:tint="@color/colorTint"
+                 android:layout_margin="15dp" />
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:layout_marginBottom="5dp"
+                 android:textSize="20sp"
+                 android:textColor="?attr/colorOnSurface"
+                 android:text="@string/app_name"
+                 android:textStyle="bold" />
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:textSize="12sp"
+                 android:textColor="?attr/colorOnSurface"
+                 android:text="@string/nave_desc" />
+
+        </LinearLayout>
+
+        <LinearLayout
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:gravity="bottom|right"
+             android:orientation="vertical">
+
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="200dp"
+                 android:layout_marginBottom="10dp"
+                 android:background="@drawable/drawer_home_selected_item"
+                 android:gravity="center_vertical"
+                 android:clickable="true"
+                 android:padding="12dp"
+                 android:orientation="horizontal"
+                 android:id="@+id/nav_home">
+
+                <ImageView
+                     android:layout_height="20dp"
+                     android:layout_width="20dp"
+                     android:src="@drawable/home"
+                     android:tint="?attr/colorOnSurface" />
+
+                <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:textSize="16sp"
+                     android:layout_marginLeft="10dp"
+                     android:textColor="?attr/colorOnSurface"
+                     android:text="@string/nave_home" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="200dp"
+                 android:layout_marginBottom="10dp"
+                 android:background="@drawable/drawer_home_unselected_item"
+                 android:gravity="center_vertical"
+                 android:clickable="true"
+                 android:padding="12dp"
+                 android:orientation="horizontal"
+                 android:id="@+id/nav_settings">
+
+                <ImageView
+                     android:layout_height="20dp"
+                     android:layout_width="20dp"
+                     android:src="@drawable/settings"
+                     android:tint="?attr/colorOnSurface" />
+
+                <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:textSize="16sp"
+                     android:layout_marginLeft="10dp"
+                     android:textColor="?attr/colorOnSurface"
+                     android:text="@string/nave_settings" />
+
+            </LinearLayout>
+
+                        <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="200dp"
+                 android:layout_marginBottom="10dp"
+                 android:background="@drawable/drawer_home_unselected_item"
+                 android:gravity="center_vertical"
+                 android:clickable="true"
+                 android:padding="12dp"
+                 android:orientation="horizontal"
+                 android:id="@+id/nav_about">
+
+                <ImageView
+                     android:layout_height="20dp"
+                     android:layout_width="20dp"
+                     android:src="@drawable/info"
+                     android:tint="?attr/colorOnSurface" />
+
+                <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:textSize="16sp"
+                     android:layout_marginLeft="10dp"
+                     android:textColor="?attr/colorOnSurface"
+                     android:text="@string/nave_about_us" />
+
+            </LinearLayout>
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="200dp"
+                 android:layout_marginBottom="10dp"
+                 android:background="@drawable/drawer_home_unselected_item"
+                 android:gravity="center_vertical"
+                 android:clickable="true"
+                 android:padding="12dp"
+                 android:orientation="horizontal"
+                 android:id="@+id/nav_faq">
+
+                <ImageView
+                     android:layout_height="20dp"
+                     android:layout_width="20dp"
+                     android:src="@drawable/ic_faq"
+                     android:tint="?attr/colorOnSurface" />
+
+                <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:textSize="16sp"
+                     android:layout_marginLeft="10dp"
+                     android:textColor="?attr/colorOnSurface"
+                     android:text="@string/nave_faq" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

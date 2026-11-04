@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content">
+
+	<ViewSwitcher
+		android:id="@+id/vsw_switcher"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:inAnimation="@anim/main_in"
+		android:outAnimation="@anim/main_out">
+
+		<include
+			layout="@layout/main_opened_project"
+			android:id="@+id/mainOpenedProject"/>
+
+		<include
+			layout="@layout/main_not_opened_project"
+			android:id="@+id/mainNotOpenedProject"/>
+
+	</ViewSwitcher>
+
+</RelativeLayout>
+

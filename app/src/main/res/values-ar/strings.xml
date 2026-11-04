@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- الأسئلة -->
+    <string-array name="faq_questions">
+        <item>ما هو Appsaz؟</item>
+        <item>هل أحتاج إلى معرفة البرمجة لاستخدام Appsaz؟</item>
+        <item>ما أنواع التطبيقات التي يمكنني إنشاؤها باستخدام Appsaz؟</item>
+        <item>هل يمكن بيع التطبيقات التي أنشأها؟</item>
+        <item>هل يمكنني كسب المال باستخدام Appsaz؟</item>
+        <item>هل Appsaz مجاني؟</item>
+        <item>هل يمكنني إنشاء تطبيقات مصممة خصيصًا؟</item>
+        <item>كيف يمكنني الاتصال بفريق الدعم؟</item>
+    </string-array>
+
+    <!-- الإجابات -->
+    <string-array name="faq_answers">
+        <item>Appsaz هو أداة مبتكرة لإنشاء تطبيقات أندرويد دون الحاجة إلى البرمجة. يوفر العديد من الميزات لتصميم وتطوير التطبيقات الوظيفية.</item>
+        <item>لا، تم تصميم Appsaz لتمكين أي شخص من إنشاء تطبيقات بسهولة دون الحاجة إلى معرفة البرمجة مسبقًا.</item>
+        <item>يمكنك إنشاء أنواع مختلفة من التطبيقات مثل التطبيقات الشخصية، القصصية، التعليمية، المعرض، الموسيقى، الفيديو والمزيد.</item>
+        <item>نعم، يمكنك بيع التطبيقات التي تنشئها. يتيح لك Appsaz نشر تطبيقاتك على منصات مختلفة.</item>
+        <item>نعم، يدعم Appsaz إعلانات AdMob، مما يتيح لك كسب المال من خلال الإعلانات. بالإضافة إلى ذلك، يمكنك بيع التطبيقات التعليمية التي تم إنشاؤها باستخدام Appsaz.</item>
+        <item>الإصدار الأساسي من Appsaz مجاني. ومع ذلك، يمكنك الترقية إلى النسخة الاحترافية للحصول على ميزات متقدمة.</item>
+        <item>نعم، يتيح لك Appsaz تخصيص التصميم والوظائف لتطبيقاتك كما تشاء.</item>
+        <item>يمكنك الاتصال بفريق الدعم من خلال قسم "حول" في التطبيق أو عبر البريد الإلكتروني المقدم للدعم.</item>
+    </string-array>
+
+    <string name="ads_title">الإعلانات</string>
+    <string name="ads_admob_application_id">معرف التطبيق</string>
+    <string name="ads_admob">AdMob</string>
+    <string name="ads_banner_ad_id">معرف الإعلانات الشريطية</string>
+    <string name="ads_banner_ad">الإعلانات الشريطية</string>
+    <string name="ads_interstitial_ad_id">معرف الإعلانات البينية</string>
+    <string name="ads_interstitial_ad">الإعلانات البينية</string>
+    <string name="ads_video_ad_id">معرف الإعلانات الفيديو</string>
+    <string name="ads_video_ad">الإعلانات الفيديو</string>
+    <string name="app_name">Appsaz</string>
+    <string name="hello_world">مرحبًا، عالم!</string>
+    <string name="app_saz">
+Appsaz\n
+v3.5.0-trial\n
+© 2025 Appsaz by Alireza Bigzadah. جميع الحقوق محفوظة.\n
+Appsaz هو أداة مبتكرة تتيح لك إنشاء تطبيقات أندرويد احترافية وفعّالة بدون الحاجة إلى معرفة برمجية أو تعقيد الكود. هذا التطبيق مصمم للمطورين المبتدئين، رواد الأعمال، الطلاب، وأي شخص يرغب في إنشاء تطبيقات مخصصة بسرعة وسهولة.\n\n
+
+الميزات الرئيسية:\n
+• واجهة سهلة الاستخدام: تصميم حديث وبديهي يتيح للمستخدمين المبتدئين والمحترفين العمل بسهولة.\n
+• بدون برمجة: تتم جميع العمليات عبر أدوات مرئية، مما يلغي الحاجة إلى الخبرة البرمجية.\n
+• إنشاء صفحات متعددة: تصميم تطبيقات بصفحات وتخطيطات متنوعة.\n
+• قوائم قابلة للبحث: إنشاء قوائم داخل التطبيقات تتيح للمستخدمين البحث عن المعلومات بسهولة.\n
+• دعم الملفات المتعددة الوسائط: دمج الصور، الفيديوهات، والصوتيات في تطبيقاتك بسلاسة.\n
+• إضافة الخطوط: تخصيص تطبيقاتك بإضافة خطوط فريدة لتحسين الجماليات.\n
+• إضافة الرسوم المتحركة: دمج رسوم متحركة جذابة لتحسين التفاعل والجاذبية البصرية.\n
+• خلفيات مخصصة: تطبيق خلفيات شخصية لأي صفحة في التطبيق.\n
+• قائمة تنقل: تصميم قوائم تنقل احترافية للوصول السهل إلى الأقسام المختلفة.\n
+• مرونة عالية: تخصيص التصاميم والوظائف بالكامل.\n
+• إدارة المشاريع: حفظ وفتح المشاريع في أي وقت.\n
+• حفظ ومشاركة سهل: تصدير تطبيقاتك ومشاركتها بسهولة.\n
+• ديناميكية: الحصول على تحديثات، ترقيات، وميزات جديدة بناءً على ملاحظات المستخدمين وطلباتهم.\n\n
+
+لماذا تختار Appsaz؟\n
+• توفير الوقت والتكلفة: تجنب التكاليف العالية لتوظيف مبرمج. تصميم التطبيقات باستخدام Appsaz أسرع مقارنة بالطرق التقليدية.\n
+• مناسب للجميع: Appsaz يجعل من السهل على أي شخص، حتى بدون خبرة برمجية، إنشاء تطبيقات.\n
+• أدوات متقدمة: الوصول إلى ميزات مثل تخصيص الخلفيات، الرسوم المتحركة، والإعدادات الاحترافية في تطبيق واحد.\n
+• الابتكار والإبداع: عرض إبداعك وتصميم تطبيقات فريدة باستخدام Appsaz.\n\n
+
+تواصل معنا:\n
+للاستفسارات أو الاقتراحات، يمكنك التواصل معنا عبر:\n
+- البريد الإلكتروني: appsaz.help@gmail.com\n
+- قناة التليغرام الرسمية: https://t.me/appsazaf\n
+- المناقشات على التليغرام: https://t.me/appsazdiscussions
+</string>
+    <string name="navigation_drawer_close">إغلاق قائمة التنقل</string>
+    <string name="navigation_drawer_open">فتح قائمة التنقل</string>
+    <string name="a_end_free_trial_title">نسخة تجريبية مجانية</string>
+    <string name="a_end_free_trial">
+النسخة التجريبية من Appsaz قد وصلت إلى الحد الأقصى لإضافة الملفات. النسخة الحالية من Appsaz هي نسخة تجريبية مجانية تحتوي على بعض القيود. في هذه النسخة، يمكن للمستخدمين إضافة حتى 20 صفحة، 10 قوائم، و10 خطوط إلى مشاريعهم. ومع ذلك، لا توجد قيود على إضافة الملفات المتعددة الوسائط مثل الصور، الفيديوهات، والصوتيات. بالإضافة إلى ذلك، فقط إعلانات AdMob الشريطية مدعومة في هذه النسخة، ويتم تضمين العلامة المائية الخاصة بـ Appsaz تلقائيًا في التطبيقات الناتجة. لفتح جميع الميزات وإزالة القيود، يمكن للمستخدمين الترقية إلى النسخة المميزة. هذه النسخة قيد التطوير حاليًا، ولمزيد من المعلومات أو الترقية، يرجى التواصل مع فريق الدعم من خلال قسم "من نحن".
+شكرًا لاستخدامك Appsaz!
+</string>
+    <string name="a_first_title">مرحبًا بك في Appsaz!</string>
+    <string name="a_first_text">
+أنت حاليًا تستخدم النسخة التجريبية المجانية من Appsaz، والتي تأتي مع بعض القيود. في هذه النسخة، يمكن للمستخدمين إضافة حتى 20 صفحة، 10 قوائم، و10 خطوط إلى مشاريعهم. ومع ذلك، لا توجد قيود على إضافة الملفات المتعددة الوسائط مثل الصور، الفيديوهات، والصوتيات. بالإضافة إلى ذلك، فقط إعلانات AdMob الشريطية مدعومة في هذه النسخة، ويتم تضمين العلامة المائية الخاصة بـ Appsaz تلقائيًا في التطبيقات الناتجة. لفتح جميع الميزات وإزالة القيود، يمكن للمستخدمين الترقية إلى النسخة المميزة. هذه النسخة قيد التطوير حاليًا، ولمزيد من المعلومات أو الترقية، يرجى التواصل مع فريق الدعم من خلال قسم "من نحن".
+شكرًا لاستخدامك Appsaz!
+</string>
+    <string name="a_version">v3.5.0-trial</string>
+    <string name="a_ok">حسنًا</string>
+    <string name="a_save">حفظ</string>
+    <string name="a_cancel">إلغاء</string>
+    <string name="a_delete">حذف</string>
+    <string name="a_close">إغلاق</string>
+    <string name="a_color">لون</string>
+    <string name="a_default">افتراضي</string>
+    <string name="a_picture">صورة</string>
+    <string name="a_text">نص</string>
+    <string name="a_none">لا شيء</string>
+    <string name="a_create">إنشاء</string>
+    <string name="a_color_picker">اختر لونًا</string>
+    <string name="a_exit">خروج</string>
+    <string name="a_open_page">فتح صفحة</string>
+    <string name="a_open_list">فتح قائمة</string>
+    <string name="a_wait">يرجى الانتظار...</string>
+    <string name="a_path">مسار</string>
+    <string name="a_app">تطبيق</string>
+    <string name="a_share">مشاركة</string>
+    <string name="a_install">تثبيت</string>
+    <string name="a_error">خطأ</string>
+    <string name="a_back_notice">اضغط رجوع مرة أخرى</string>
+    <string name="a_an_error">حدث خطأ!</string>
+    <string name="a_add_new_item">إضافة عنصر جديد</string>
+    <string name="a_dont_show_again">لا تظهر مرة أخرى</string>
+    <string name="a_on">تشغيل</string>
+    <string name="a_off">إيقاف</string>
+    <string name="a_auto">تلقائي</string>
+    <string name="a_size">حجم</string>
+    <string name="a_title">عنوان</string>
+    <string name="a_item">عنصر</string>
+    <string name="a_loading">جار التحميل...</string>
+    <string name="a_added">تمت الإضافة</string>
+    <string name="a_error_name">يرجى ملء الحقل</string>
+    <string name="a_reset">إعادة ضبط</string>
+    <string name="a_done">تم</string>
+    <string name="a_faq">الأسئلة الشائعة</string>
+    <string name="a_yes">نعم</string>
+    <string name="a_no">لا</string>
+    <string name="a_permission_title">طلب إذن</string>
+    <string name="a_permission_text">هذا التطبيق يحتاج إلى الوصول إلى الملفات في تخزين جهازك.</string>
+    <string name="a_permission_grant">منح الإذن</string>
+    <string name="a_open_project">فتح مشروع</string>
+    <string name="a_select_language">اختر اللغة</string>
+    <string name="a_language_default">الإعداد الافتراضي للنظام</string>
+
+    <string name="main_open_another_project">افتح مشروعًا آخر</string>
+    <string name="main_project_info">معلومات المشروع</string>
+    <string name="main_open_project_error">لم يتم التعرف على المشروع.</string>
+    <string name="main_edit_app">تعديل التطبيق</string>
+    <string name="main_preview_app">معاينة التطبيق</string>
+    <string name="main_build_app">إنشاء التطبيق</string>
+    <string name="main_close_project">إغلاق المشروع</string>
+    <string name="main_close_project_alert">هل أنت متأكد من أنك تريد إغلاق المشروع؟ إذا قمت بإغلاق المشروع، فسيتم حذف جميع بيانات المشروع. يُنصح بحفظ المشروع قبل الإغلاق.</string>
+    <string name="main_save_project">حفظ المشروع</string>
+    <string name="main_save_project_alert">هل تريد حفظ المشروع؟ سيتم حفظ المشروع كملف .as.</string>
+    <string name="main_create_app">إنشاء مشروع جديد</string>
+    <string name="main_open_project">فتح مشروع قديم</string>
+    <string name="main_app_name">اسم التطبيق</string>
+    <string name="main_package_name">اسم الحزمة</string>
+    <string name="main_new_app_name">تطبيقي</string>
+    <string name="main_new_package">af.appsaz.myapplication</string>
+    <string name="main_app_built">تم الإنشاء بنجاح</string>
+    <string name="main_collecting_data">جمع البيانات...</string>
+    <string name="main_encoding">تشفير البيانات...</string>
+    <string name="main_compressing_data">ضغط البيانات...</string>
+    <string name="main_signing">توقيع ملف APK...</string>
+    <string name="main_finishing">إنهاء العمل...</string>
+    <string name="main_saving_project">حفظ المشروع...</string>
+    <string name="main_save_successful">تم الحفظ بنجاح</string>
+    <string name="main_app_project">مشروع التطبيق</string>
+    <string name="main_error_app_name">أدخل اسم التطبيق.</string>
+    <string name="main_error_package_name">أدخل اسم الحزمة.</string>
+    <string name="main_error_incorrect_package_name">أدخل اسم حزمة صالحًا.</string>
+    <string name="main_error_reserved_package_name">اسم الحزمة هذا محجوز. يرجى اختيار اسم آخر.</string>
+    <string name="nave_desc">قم بإنشاء تطبيقات مذهلة باستخدام Appsaz.</string>
+    <string name="nave_home">الرئيسية</string>
+    <string name="nave_settings">الإعدادات</string>
+    <string name="nave_rate_us">قيّمنا</string>
+    <string name="nave_about_us">من نحن</string>
+    <string name="nave_faq">الأسئلة الشائعة</string>
+    <string name="settings">الإعدادات</string>
+    <string name="settings_general">عام</string>
+    <string name="settings_signing">التوقيع</string>
+    <string name="settings_theme">الوضع الداكن</string>
+    <string name="settings_theme_desc">اختر موضوعًا داكنًا أو فاتحًا لواجهة المستخدم.</string>
+    <string name="settings_language">اللغة</string>
+    <string name="settings_language_desc">اختر لغة لـ Appsaz.</string>
+    <string name="settings_custom_key">مفتاح توقيع مخصص</string>
+    <string name="settings_custom_key_desc">استخدم ملف توقيع مخصص لتوقيع تطبيقاتك.</string>
+    <string name="settings_key_file">ملف التوقيع</string>
+    <string name="settings_key_file_desc">أدخل مسار ملف التوقيع.</string>
+    <string name="settings_about">حول Appsaz</string>
+    <string name="settings_about_desc">تعرف أكثر على Appsaz.</string>
+    <string name="settings_faq">الأسئلة الشائعة عن Appsaz</string>
+    <string name="settings_faq_desc">الأسئلة الشائعة حول Appsaz.</string>
+    <string name="settings_pp">سياسة الخصوصية لـ Appsaz</string>
+    <string name="settings_pp_desc">سياسة الخصوصية لتطبيق Appsaz</string>
+    <string name="settings_title">الإعدادات</string>
+    <string name="key_pick">اختر ملف توقيع (.JKS)</string>
+    <string name="key_specs">اختر ملف توقيع وحدد مواصفاته.</string>
+    <string name="key_type">نوع المفتاح</string>
+    <string name="key_path">مسار المفتاح</string>
+    <string name="key_cert_path">مسار الشهادة</string>
+    <string name="key_alias">الاسم المستعار</string>
+    <string name="key_store_pass">كلمة مرور ملف التوقيع</string>
+    <string name="key_pass">كلمة مرور المفتاح الخاص</string>
+    <string name="key_create_and_use">إنشاء واستخدام</string>
+    <string name="key_validity">مدة الصلاحية (بالسنوات)</string>
+    <string name="key_common_name">الاسم الشائع</string>
+    <string name="key_organization_unit">وحدة المؤسسة</string>
+    <string name="key_organization_name">اسم المؤسسة</string>
+    <string name="key_locality_name">المدينة</string>
+    <string name="key_state_name">الولاية</string>
+    <string name="key_country">رمز الدولة</string>
+    <string name="key_size">حجم المفتاح</string>
+    <string name="key_hint">انقر على إعادة تعيين لاستخدام ملف التوقيع الافتراضي.</string>
+    <string name="key_file">ملف التوقيع</string>
+    <string name="key_file_desc">حدد ملف توقيع مخصص (JKS).</string>
+    <string name="key_gen">إنشاء ملف توقيع</string>
+    <string name="key_gen_desc">إنشاء ملف توقيع (JKS).</string>
+    <string name="key_not_found">لم يتم العثور على ملف التوقيع.</string>
+
+    <string name="app_editor_app_manifest">ملف تعريف التطبيق</string>
+    <string name="app_editor_app_icon">أيقونة التطبيق</string>
+    <string name="app_editor_app_name">اسم التطبيق</string>
+    <string name="app_editor_package_name">اسم الحزمة</string>
+    <string name="app_editor_version_code">رمز الإصدار</string>
+    <string name="app_editor_version_name">اسم الإصدار</string>
+    <string name="app_editor_app_layouts">تخطيطات التطبيق</string>
+    <string name="app_editor_splash_page">صفحة البداية</string>
+    <string name="app_editor_pages">الصفحات</string>
+    <string name="app_editor_lists">القوائم</string>
+    <string name="app_editor_app_files">ملفات التطبيق</string>
+    <string name="app_editor_pictures">الصور</string>
+    <string name="app_editor_icons">الأيقونات</string>
+    <string name="app_editor_videos">مقاطع الفيديو</string>
+    <string name="app_editor_audios">ملفات الصوت</string>
+    <string name="app_editor_fonts">الخطوط</string>
+    <string name="app_editor_advanced">متقدم</string>
+    <string name="app_editor_ads">الإعلانات</string>
+    <string name="icon_editor">توليد أيقونة التطبيق</string>
+    <string name="icon_editor_info_title">معلومات</string>
+    <string name="icon_editor_info">هناك اختلافات كبيرة بين الأيقونات العادية والأيقونات التكيفية. عادةً ما تكون الأيقونات العادية صورة ثابتة بصيغة PNG وتحتاج إلى ملفات متعددة بأبعاد مختلفة لتعرض بشكل صحيح في الأحجام المختلفة، مما يوفر مرونة أقل. أما الأيقونات التكيفية فتستخدم طبقتين (الخلفية والمقدمة) بصيغة PNG وXML، مما يسمح للأيقونة بالتكيف تلقائيًا مع الأحجام والأشكال المختلفة، مما يوفر تحسينًا أفضل للأجهزة ومنصات التشغيل. تم تقديم الأيقونات التكيفية كمعيار بدءًا من Android 8.0 (مستوى API 26) وتوفر أداءً أفضل.</string>
+    <string name="icon_editor_regular">أيقونة عادية</string>
+    <string name="icon_editor_adaptive">أيقونة تكيفية</string>
+    <string name="icon_editor_pick_bg_color">اختر لون الخلفية</string>
+    <string name="app_editor_error_app_name">أدخل اسم التطبيق.</string>
+    <string name="app_editor_error_package_name">أدخل اسم الحزمة.</string>
+    <string name="app_editor_error_version_code">أدخل رمز الإصدار.</string>
+    <string name="app_editor_error_version_name">أدخل اسم الإصدار.</string>
+    <string name="app_editor_error_incorrect_package_name">أدخل اسم حزمة صالحًا.</string>
+    <string name="app_editor_title">تعديل التطبيق</string>
+    <string name="splash_settings">إعدادات صفحة البداية</string>
+    <string name="splash_time">مدة صفحة البداية</string>
+    <string name="splash_after_splash">ما بعد صفحة البداية</string>
+    <string name="splash_background">خلفية صفحة البداية</string>
+    <string name="splash_items">عناصر صفحة البداية</string>
+    <string name="splash_screen">شاشة البداية</string>
+    <string name="splash_edit_page">تعديل صفحة البداية</string>
+    <string name="splash_title">صفحة البداية</string>
+    <string name="page_page">صفحة</string>
+    <string name="page_background">خلفية الصفحة</string>
+    <string name="page_items">عناصر الصفحة</string>
+    <string name="page_edit">تعديل الصفحة</string>
+    <string name="page_toolbar">شريط الأدوات</string>
+    <string name="page_title_toolbar">عنوان الصفحة في شريط الأدوات</string>
+    <string name="page_toolbar_color">لون شريط الأدوات</string>
+    <string name="page_menu">القائمة</string>
+    <string name="page_menu_background">خلفية القائمة</string>
+    <string name="page_title">الصفحات</string>
+    <string name="list_list">قائمة</string>
+    <string name="list_background">خلفية القائمة</string>
+    <string name="list_items">عناصر القائمة</string>
+    <string name="list_edit">تعديل القائمة</string>
+    <string name="list_toolbar">شريط الأدوات</string>
+    <string name="list_title_toolbar">عنوان القائمة في شريط الأدوات</string>
+    <string name="list_toolbar_color">لون شريط الأدوات</string>
+    <string name="list_menu">القائمة</string>
+    <string name="list_menu_background">خلفية القائمة</string>
+    <string name="list_title">القوائم</string>
+    <string name="files_empty_pages">لا توجد صفحات هنا، انقر على + للإضافة.</string>
+    <string name="files_empty_lists">لا توجد قوائم هنا، انقر على + للإضافة.</string>
+    <string name="files_empty_icons">لا توجد أيقونات هنا، انقر على + للإضافة.</string>
+    <string name="files_empty_pics">لا توجد صور هنا، انقر على + للإضافة.</string>
+    <string name="files_empty_videos">لا توجد مقاطع فيديو هنا، انقر على + للإضافة.</string>
+    <string name="files_empty_audios">لا توجد ملفات صوت هنا، انقر على + للإضافة.</string>
+    <string name="files_empty_fonts">لا توجد خطوط هنا، انقر على + للإضافة.</string>
+    <string name="files_empty_pages1">لا توجد صفحات هنا.</string>
+    <string name="files_empty_lists1">لا توجد قوائم هنا.</string>
+    <string name="files_empty_icons1">لا توجد أيقونات هنا.</string>
+    <string name="files_empty_pics1">لا توجد صور هنا.</string>
+    <string name="files_empty_videos1">لا توجد مقاطع فيديو هنا.</string>
+    <string name="files_empty_audios1">لا توجد ملفات صوت هنا.</string>
+    <string name="files_empty_fonts1">لا توجد خطوط هنا.</string>
+    <string name="files_file_name">اسم الملف</string>
+    <string name="files_page_name">اسم الصفحة</string>
+    <string name="files_list_name">اسم القائمة</string>
+    <string name="files_saveable">قابل للحفظ</string>
+    <string name="files_shareable">قابل للمشاركة</string>
+    <string name="files_add_pic">إضافة صورة</string>
+    <string name="files_add_icon">إضافة أيقونة</string>
+    <string name="files_add_video">إضافة مقطع فيديو</string>
+    <string name="files_add_audio">إضافة ملف صوت</string>
+    <string name="files_add_font">إضافة خط</string>
+    <string name="files_audio_pic">صورة</string>
+    <string name="files_add_page">إضافة صفحة</string>
+    <string name="files_add_list">إضافة قائمة</string>
+    <string name="editor_action">الإجراء</string>
+    <string name="editor_no_action">لا إجراء</string>
+    <string name="editor_action_open_list">فتح قائمة</string>
+    <string name="editor_action_open_page">فتح صفحة</string>
+    <string name="editor_action_play_video">تشغيل فيديو</string>
+    <string name="editor_action_play_audio">تشغيل صوت</string>
+    <string name="editor_action_show_pic">عرض صورة</string>
+    <string name="editor_action_show_alert">عرض تنبيه</string>
+    <string name="editor_action_show_toast">عرض رسالة قصيرة</string>
+    <string name="editor_action_send_mail">إرسال بريد إلكتروني</string>
+    <string name="editor_action_send_sms">إرسال رسالة نصية</string>
+    <string name="editor_action_open_link">فتح رابط</string>
+    <string name="editor_action_exit">إغلاق الصفحة</string>
+    <string name="editor_action_toast_text">نص الرسالة القصيرة</string>
+    <string name="editor_action_error_toast">أدخل نص الرسالة القصيرة.</string>
+    <string name="editor_action_alert_title">عنوان التنبيه</string>
+    <string name="editor_action_alert_text">نص التنبيه</string>
+    <string name="editor_action_error_alert_title">أدخل عنوان التنبيه.</string>
+    <string name="editor_action_error_alert_text">أدخل نص التنبيه.</string>
+    <string name="editor_action_email_address">عنوان البريد الإلكتروني</string>
+    <string name="editor_action_error_email">أدخل عنوان البريد الإلكتروني.</string>
+    <string name="editor_action_error_incorrect_email">أدخل عنوان بريد إلكتروني صحيح.</string>
+    <string name="editor_action_phone_number">رقم الهاتف</string>
+    <string name="editor_action_error_phone_number">أدخل رقم الهاتف.</string>
+    <string name="editor_action_link">الرابط</string>
+    <string name="editor_action_error_link">أدخل رابط ويب.</string>
+    <string name="editor_no_icon">بدون أيقونة</string>
+    <string name="editor_animation">الحركة</string>
+    <string name="editor_text">النص</string>
+    <string name="editor_text_size">حجم النص</string>
+    <string name="editor_text_color">لون النص</string>
+    <string name="editor_text_gravity">محاذاة النص</string>
+    <string name="editor_desc">الوصف</string>
+    <string name="editor_font">الخط</string>
+    <string name="editor_radius">الحواف</string>
+    <string name="editor_height">الارتفاع</string>
+    <string name="editor_auto_height">ارتفاع تلقائي</string>
+    <string name="editor_text_is_shareable">إتاحة المشاركة</string>
+    <string name="editor_text_is_selectable">إتاحة التحديد</string>
+    <string name="editor_other">أخرى</string>
+    <string name="editor_add_above">إضافة فوق</string>
+    <string name="editor_add_below">إضافة تحت</string>
+    <string name="editor_copy">تكرار</string>
+    <string name="editor_delete">حذف</string>
+    <string name="editor_center">وسط</string>
+    <string name="editor_right">يمين</string>
+    <string name="editor_left">يسار</string>
+    <string name="editor_left_icon">أيقونة اليسار</string>
+    <string name="editor_right_icon">أيقونة اليمين</string>
+    <string name="editor_empty_pic">صورة فارغة</string>
+    <string name="editor_background">الخلفية</string>
+    <string name="editor_stable_animations">حركات مستقرة</string>
+    <string name="editor_unstable_animations">حركات غير مستقرة</string>
+    <string name="editor_no_animation">بدون حركة</string>
+    <string name="editor_anim_right_in">من اليمين</string>
+    <string name="editor_anim_left_in">من اليسار</string>
+    <string name="editor_anim_fade_in">تلاشي</string>
+    <string name="editor_anim_slide_down">انزلاق للأسفل</string>
+    <string name="editor_anim_bounce">ارتداد</string>
+    <string name="editor_anim_blinking">وميض</string>
+    <string name="editor_anim_rotation">دوران</string>
+    <string name="editor_anim_shake">اهتزاز</string>
+    <string name="editor_margins">الهوامش</string>
+    <string name="editor_top_margin">هامش علوي</string>
+    <string name="editor_bottom_margin">هامش سفلي</string>
+    <string name="editor_right_margin">هامش يميني</string>
+    <string name="editor_left_margin">هامش يساري</string>
+    <string name="editor_simple_text">نص بسيط</string>
+    <string name="editor_advanced_text">نص متقدم</string>
+    <string name="editor_pic">صورة</string>
+    <string name="editor_button">زر</string>
+
+    <string name="a_sec">&#160;ثانية</string>
+    <string name="a_split">&#160;>&#160;</string>
+    <string name="a_saved_to">تم الحفظ إلى:&#160;</string>
+    <string name="main_building_app">جارٍ إنشاء التطبيق&#160;</string>
+    <string name="icon_editor_corner_radius">نصف قطر زوايا الأيقونة العادية:&#160;</string>
+    <string name="icon_editor_regular_padding">تكبير الأيقونة العادية:&#160;</string>
+    <string name="icon_editor_adaptive_padding">تكبير الأيقونة التكيفية:&#160;</string>
+
+</resources>

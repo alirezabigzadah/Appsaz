@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="faq_questions">
+        <item>Что такое Appsaz?</item>
+        <item>Нужны ли знания программирования для использования Appsaz?</item>
+        <item>Какие типы приложений я могу создать с помощью Appsaz?</item>
+        <item>Могу ли я продавать приложения, которые я создам?</item>
+        <item>Могу ли я зарабатывать деньги с помощью Appsaz?</item>
+        <item>Appsaz бесплатен?</item>
+        <item>Могу ли я создавать приложения с индивидуальным дизайном?</item>
+        <item>Как я могу связаться с командой поддержки?</item>
+    </string-array>
+
+    <string-array name="faq_answers">
+        <item>Appsaz — это инновационный инструмент для создания Android-приложений без необходимости программирования. Он предоставляет широкие возможности для проектирования и разработки функциональных приложений.</item>
+        <item>Нет, Appsaz предназначен для того, чтобы любой человек мог легко создать свои приложения без предварительных знаний в программировании.</item>
+        <item>Вы можете создавать различные типы приложений, такие как личные, рассказывающие истории, образовательные, галереи, музыкальные, видеоприложения и другие.</item>
+        <item>Да, вы можете продавать приложения, которые вы создаете. Appsaz позволяет публиковать ваши приложения на различных платформах.</item>
+        <item>Да, Appsaz поддерживает AdMob, что позволяет зарабатывать деньги через рекламу. Также вы можете продавать образовательные приложения, созданные с помощью Appsaz.</item>
+        <item>Базовая версия Appsaz бесплатна. Однако вы можете обновить до профессиональной версии для получения дополнительных функций.</item>
+        <item>Да, Appsaz позволяет полностью настроить дизайн и функциональность ваших приложений по вашему желанию.</item>
+        <item>Вы можете связаться с командой поддержки через раздел "О программе" в приложении или по предоставленному адресу электронной почты для поддержки.</item>
+    </string-array>
+
+    <string name="ads_title">Реклама</string>
+    <string name="ads_admob_application_id">ID приложения</string>
+    <string name="ads_admob">AdMob</string>
+    <string name="ads_banner_ad_id">ID баннерной рекламы</string>
+    <string name="ads_banner_ad">Баннерная реклама</string>
+    <string name="ads_interstitial_ad_id">ID промежуточной рекламы</string>
+    <string name="ads_interstitial_ad">Промежуточная реклама</string>
+    <string name="ads_video_ad_id">ID видеорекламы</string>
+    <string name="ads_video_ad">Видеореклама</string>
+    <string name="app_name">Appsaz</string>
+    <string name="hello_world">Привет, мир!</string>
+    <string name="app_saz">
+Appsaz\n
+v3.5.0-trial\n
+© 2025 Appsaz by Alireza Bigzadah. Все права защищены.\n
+Appsaz — это инновационный инструмент, который позволяет создавать профессиональные и эффективные Android-приложения без знаний программирования и сложного кода. Это приложение предназначено для начинающих разработчиков, предпринимателей, студентов и всех, кто хочет быстро и легко создавать кастомизированные приложения.\n\n
+
+Основные функции:\n
+• Удобный интерфейс: Современный и интуитивно понятный дизайн, который позволяет работать как новичкам, так и опытным пользователям.\n
+• Без программирования: Все процессы выполняются с помощью визуальных инструментов, что исключает необходимость в знаниях программирования.\n
+• Создание нескольких страниц: Разрабатывайте приложения с различными страницами и макетами.\n
+• Поисковые списки: Стройте списки в приложениях, позволяющие пользователям легко искать информацию.\n
+• Поддержка мультимедийных файлов: Интегрируйте изображения, видео и аудио в свои приложения.\n
+• Добавление шрифтов: Настраивайте приложение, добавляя уникальные шрифты для улучшения внешнего вида.\n
+• Добавление анимаций: Включайте привлекательные анимации для улучшения взаимодействия и визуальной привлекательности.\n
+• Кастомизация фонов: Применяйте персонализированные фоны на любую страницу в приложении.\n
+• Навигационное меню: Создавайте профессиональные меню для удобного доступа к различным разделам.\n
+• Высокая гибкость: Полная настройка как дизайна, так и функциональности.\n
+• Управление проектами: Сохраняйте и открывайте проекты в любое время.\n
+• Легкость в сохранении и обмене: Экспортируйте свое приложение и делитесь им без усилий.\n
+• Динамичность: Получайте обновления, улучшения и новые функции на основе отзывов и запросов пользователей.\n\n
+
+Почему стоит использовать Appsaz?\n
+• Экономия времени и денег: Избегайте высоких затрат на программиста. Создание приложений с Appsaz быстрее, чем традиционные методы.\n
+• Подходит для всех: Appsaz позволяет создавать приложения даже без опыта в программировании.\n
+• Расширенные инструменты: Доступ к функциям, таким как настройка фонов, анимации и профессиональные настройки, в одном приложении.\n
+• Инновации и креативность: Проявите свою креативность и создавайте уникальные приложения с помощью Appsaz.\n\n
+
+Свяжитесь с нами:\n
+Для вопросов или предложений свяжитесь с нами по следующему адресу:\n
+- Email: appsaz.help@gmail.com\n
+- Официальный канал в Telegram: https://t.me/appsazaf\n
+- Обсуждения в Telegram: https://t.me/appsazdiscussions
+</string>
+    <string name="navigation_drawer_close">Закрыть навигационную панель</string>
+    <string name="navigation_drawer_open">Открыть навигационную панель</string>
+    <string name="a_end_free_trial_title">Бесплатная пробная версия</string>
+    <string name="a_end_free_trial">
+Бесплатная пробная версия Appsaz достигла максимального лимита на добавление файлов. Текущая версия Appsaz — это бесплатная пробная версия с определенными ограничениями. В этой версии пользователи могут добавить до 20 страниц, 10 списков и 10 шрифтов в свои проекты. Однако нет ограничений на добавление мультимедийных файлов, таких как изображения, видео и аудио. Также в этой версии поддерживаются только баннерные объявления Google AdMob, и водяной знак Appsaz автоматически добавляется в выходные приложения. Чтобы разблокировать все функции и убрать ограничения, пользователи могут обновить свою версию до премиум-пользователя. Эта версия находится в разработке, и для получения дополнительной информации или обновления, пожалуйста, свяжитесь с нашей службой поддержки через раздел "О нас".
+Спасибо за использование Appsaz!
+</string>
+    <string name="a_first_title">Добро пожаловать в Appsaz!</string>
+    <string name="a_first_text">
+Вы используете бесплатную пробную версию Appsaz, которая имеет определенные ограничения. В этой версии пользователи могут добавить до 20 страниц, 10 списков и 10 шрифтов в свои проекты. Однако нет ограничений на добавление мультимедийных файлов, таких как изображения, видео и аудио. Также в этой версии поддерживаются только баннерные объявления Google AdMob, и водяной знак Appsaz автоматически добавляется в выходные приложения. Чтобы разблокировать все функции и убрать ограничения, пользователи могут обновить свою версию до премиум-пользователя. Эта версия находится в разработке, и для получения дополнительной информации или обновления, пожалуйста, свяжитесь с нашей службой поддержки через раздел "О нас".
+Спасибо за использование Appsaz!
+</string>
+    <string name="a_version">v3.5.0-trial</string>
+    <string name="a_ok">ОК</string>
+    <string name="a_save">Сохранить</string>
+    <string name="a_cancel">Отмена</string>
+    <string name="a_delete">Удалить</string>
+    <string name="a_close">Закрыть</string>
+    <string name="a_color">Цвет</string>
+    <string name="a_default">По умолчанию</string>
+    <string name="a_picture">Изображение</string>
+    <string name="a_text">Текст</string>
+    <string name="a_none">Нет</string>
+    <string name="a_create">Создать</string>
+    <string name="a_color_picker">Выбрать цвет</string>
+    <string name="a_exit">Выход</string>
+    <string name="a_open_page">Открыть страницу</string>
+    <string name="a_open_list">Открыть список</string>
+    <string name="a_wait">Пожалуйста, подождите...</string>
+    <string name="a_path">Путь</string>
+    <string name="a_app">Приложение</string>
+    <string name="a_share">Поделиться</string>
+    <string name="a_install">Установить</string>
+    <string name="a_error">Ошибка</string>
+    <string name="a_back_notice">Нажмите "Назад" еще раз</string>
+    <string name="a_an_error">Произошла ошибка!</string>
+    <string name="a_add_new_item">Добавить новый элемент</string>
+    <string name="a_dont_show_again">Больше не показывать</string>
+    <string name="a_on">Включено</string>
+    <string name="a_off">Выключено</string>
+    <string name="a_auto">Авто</string>
+    <string name="a_size">Размер</string>
+    <string name="a_title">Заголовок</string>
+    <string name="a_item">Элемент</string>
+    <string name="a_loading">Загрузка...</string>
+    <string name="a_added">Добавлено</string>
+    <string name="a_error_name">Заполните поле</string>
+    <string name="a_reset">Сброс</string>
+    <string name="a_done">Готово</string>
+    <string name="a_faq">Часто задаваемые вопросы</string>
+    <string name="a_yes">Да</string>
+    <string name="a_no">Нет</string>
+    <string name="a_permission_title">Запрос разрешений</string>
+    <string name="a_permission_text">Это приложение требует доступа к файлам на вашем устройстве.</string>
+    <string name="a_permission_grant">Предоставить разрешение</string>
+    <string name="a_open_project">Открыть проект</string>
+    <string name="a_select_language">Выбрать язык</string>
+    <string name="a_language_default">Системный по умолчанию</string>
+
+    <string name="main_open_another_project">Открыть другой проект</string>
+    <string name="main_project_info">Информация о проекте</string>
+    <string name="main_open_project_error">Проект не был найден.</string>
+    <string name="main_edit_app">Редактировать приложение</string>
+    <string name="main_preview_app">Предварительный просмотр приложения</string>
+    <string name="main_build_app">Собрать приложение</string>
+    <string name="main_close_project">Закрыть проект</string>
+    <string name="main_close_project_alert">Вы уверены, что хотите закрыть проект? При закрытии проекта все данные проекта будут удалены. Рекомендуется сохранить проект перед закрытием.</string>
+    <string name="main_save_project">Сохранить проект</string>
+    <string name="main_save_project_alert">Хотите сохранить проект? Проект будет сохранен как файл .as.</string>
+    <string name="main_create_app">Создать новый проект</string>
+    <string name="main_open_project">Открыть старый проект</string>
+    <string name="main_app_name">Имя приложения</string>
+    <string name="main_package_name">Имя пакета</string>
+    <string name="main_new_app_name">Моё приложение</string>
+    <string name="main_new_package">af.appsaz.myapplication</string>
+    <string name="main_app_built">Сборка успешна</string>
+    <string name="main_collecting_data">Сбор данных...</string>
+    <string name="main_encoding">Кодирование данных...</string>
+    <string name="main_compressing_data">Сжатие данных...</string>
+    <string name="main_signing">Подпись APK...</string>
+    <string name="main_finishing">Завершение...</string>
+    <string name="main_saving_project">Сохранение проекта...</string>
+    <string name="main_save_successful">Проект успешно сохранен</string>
+    <string name="main_app_project">Проект приложения</string>
+    <string name="main_error_app_name">Введите имя приложения.</string>
+    <string name="main_error_package_name">Введите имя пакета.</string>
+    <string name="main_error_incorrect_package_name">Введите правильное имя пакета.</string>
+    <string name="main_error_reserved_package_name">Это имя пакета зарезервировано. Пожалуйста, выберите другое.</string>
+    <string name="nave_desc">Создавайте потрясающие приложения с помощью Appsaz.</string>
+    <string name="nave_home">Главная</string>
+    <string name="nave_settings">Настройки</string>
+    <string name="nave_rate_us">Оцените нас</string>
+    <string name="nave_about_us">О нас</string>
+    <string name="nave_faq">Часто задаваемые вопросы</string>
+    <string name="settings">Настройки</string>
+    <string name="settings_general">Общие</string>
+    <string name="settings_signing">Подпись</string>
+    <string name="settings_theme">Темная тема</string>
+    <string name="settings_theme_desc">Выберите темную или светлую тему для пользовательского интерфейса.</string>
+    <string name="settings_language">Язык</string>
+    <string name="settings_language_desc">Выберите язык для Appsaz.</string>
+    <string name="settings_custom_key">Пользовательский Keystore</string>
+    <string name="settings_custom_key_desc">Используйте пользовательский файл keystore для подписи ваших приложений.</string>
+    <string name="settings_key_file">Файл keystore</string>
+    <string name="settings_key_file_desc">Укажите путь к вашему файлу keystore.</string>
+    <string name="settings_about">О Appsaz</string>
+    <string name="settings_about_desc">Узнайте больше о Appsaz.</string>
+    <string name="settings_faq">Часто задаваемые вопросы Appsaz</string>
+    <string name="settings_faq_desc">Часто задаваемые вопросы о Appsaz.</string>
+    <string name="settings_pp">Политика конфиденциальности Appsaz</string>
+    <string name="settings_pp_desc">Политика конфиденциальности для Appsaz</string>
+    <string name="settings_title">Настройки</string>
+    <string name="key_pick">Выберите файл Keystore (.JKS)</string>
+    <string name="key_specs">Выберите файл keystore и укажите его характеристики.</string>
+    <string name="key_type">Тип ключа</string>
+    <string name="key_path">Путь к ключу</string>
+    <string name="key_cert_path">Путь к сертификату</string>
+    <string name="key_alias">Псевдоним</string>
+    <string name="key_store_pass">Пароль keystore</string>
+    <string name="key_pass">Пароль частного ключа</string>
+    <string name="key_create_and_use">Создать и использовать</string>
+    <string name="key_validity">Срок действия (годы)</string>
+    <string name="key_common_name">Общее имя</string>
+    <string name="key_organization_unit">Подразделение организации</string>
+    <string name="key_organization_name">Название организации</string>
+    <string name="key_locality_name">Название населённого пункта</string>
+    <string name="key_state_name">Название штата</string>
+    <string name="key_country">Код страны</string>
+    <string name="key_size">Размер ключа</string>
+    <string name="key_hint">Нажмите сброс, чтобы использовать файл подписи по умолчанию.</string>
+    <string name="key_file">Файл keystore</string>
+    <string name="key_file_desc">Установите пользовательский файл keystore (JKS).</string>
+    <string name="key_gen">Создать файл Keystore</string>
+    <string name="key_gen_desc">Создайте файл keystore (JKS).</string>
+    <string name="key_not_found">Файл keystore не найден.</string>
+
+    <string name="app_editor_app_manifest">Манифест приложения</string>
+    <string name="app_editor_app_icon">Иконка приложения</string>
+    <string name="app_editor_app_name">Имя приложения</string>
+    <string name="app_editor_package_name">Имя пакета</string>
+    <string name="app_editor_version_code">Код версии</string>
+    <string name="app_editor_version_name">Имя версии</string>
+    <string name="app_editor_app_layouts">Макеты приложения</string>
+    <string name="app_editor_splash_page">Стартовая страница</string>
+    <string name="app_editor_pages">Страницы</string>
+    <string name="app_editor_lists">Списки</string>
+    <string name="app_editor_app_files">Файлы приложения</string>
+    <string name="app_editor_pictures">Картинки</string>
+    <string name="app_editor_icons">Иконки</string>
+    <string name="app_editor_videos">Видео</string>
+    <string name="app_editor_audios">Аудио</string>
+    <string name="app_editor_fonts">Шрифты</string>
+    <string name="app_editor_advanced">Дополнительные</string>
+    <string name="app_editor_ads">Реклама</string>
+    <string name="icon_editor">Создать иконку приложения</string>
+    <string name="icon_editor_info_title">Информация</string>
+    <string name="icon_editor_info">Адаптивные и обычные иконки имеют значительные различия. Обычные иконки обычно создаются как фиксированное изображение в формате PNG и требуют нескольких файлов с разными размерами для правильного отображения в различных размерах, предлагая меньшую гибкость. В отличие от них, адаптивные иконки используют два слоя (фон и передний план) в форматах PNG и XML, что позволяет иконке автоматически подстраиваться под различные размеры и формы, обеспечивая лучшую оптимизацию для устройств и лаунчеров. Адаптивные иконки были введены как стандарт с Android 8.0 (API Level 26) и обеспечивают лучшую производительность.</string>
+    <string name="icon_editor_regular">Обычная иконка</string>
+    <string name="icon_editor_adaptive">Адаптивная иконка</string>
+    <string name="icon_editor_pick_bg_color">Выберите цвет фона</string>
+    <string name="app_editor_error_app_name">Введите имя приложения.</string>
+    <string name="app_editor_error_package_name">Введите имя пакета.</string>
+    <string name="app_editor_error_version_code">Введите код версии.</string>
+    <string name="app_editor_error_version_name">Введите имя версии.</string>
+    <string name="app_editor_error_incorrect_package_name">Введите правильное имя пакета.</string>
+    <string name="app_editor_title">Редактировать приложение</string>
+    <string name="splash_settings">Настройки стартовой страницы</string>
+    <string name="splash_time">Время стартовой страницы</string>
+    <string name="splash_after_splash">После стартовой страницы</string>
+    <string name="splash_background">Фон стартовой страницы</string>
+    <string name="splash_items">Элементы стартовой страницы</string>
+    <string name="splash_screen">Экран стартовой страницы</string>
+    <string name="splash_edit_page">Редактировать стартовую страницу</string>
+    <string name="splash_title">Стартовая страница</string>
+    <string name="page_page">Страница</string>
+    <string name="page_background">Фон страницы</string>
+    <string name="page_items">Элементы страницы</string>
+    <string name="page_edit">Редактировать страницу</string>
+    <string name="page_toolbar">Панель инструментов</string>
+    <string name="page_title_toolbar">Название страницы в панели инструментов</string>
+    <string name="page_toolbar_color">Цвет панели инструментов</string>
+    <string name="page_menu">Меню</string>
+    <string name="page_menu_background">Фон меню</string>
+    <string name="page_title">Страницы</string>
+    <string name="list_list">Список</string>
+    <string name="list_background">Фон списка</string>
+    <string name="list_items">Элементы списка</string>
+    <string name="list_edit">Редактировать список</string>
+    <string name="list_toolbar">Панель инструментов</string>
+    <string name="list_title_toolbar">Название списка в панели инструментов</string>
+    <string name="list_toolbar_color">Цвет панели инструментов</string>
+    <string name="list_menu">Меню</string>
+    <string name="list_menu_background">Фон меню</string>
+    <string name="list_title">Списки</string>
+    <string name="files_empty_pages">Здесь нет страниц, нажмите + для добавления.</string>
+    <string name="files_empty_lists">Здесь нет списков, нажмите + для добавления.</string>
+    <string name="files_empty_icons">Здесь нет иконок, нажмите + для добавления.</string>
+    <string name="files_empty_pics">Здесь нет картинок, нажмите + для добавления.</string>
+    <string name="files_empty_videos">Здесь нет видео, нажмите + для добавления.</string>
+    <string name="files_empty_audios">Здесь нет аудио, нажмите + для добавления.</string>
+    <string name="files_empty_fonts">Здесь нет шрифтов, нажмите + для добавления.</string>
+    <string name="files_empty_pages1">Здесь нет страниц.</string>
+    <string name="files_empty_lists1">Здесь нет списков.</string>
+    <string name="files_empty_icons1">Здесь нет иконок.</string>
+    <string name="files_empty_pics1">Здесь нет картинок.</string>
+    <string name="files_empty_videos1">Здесь нет видео.</string>
+    <string name="files_empty_audios1">Здесь нет аудио.</string>
+    <string name="files_empty_fonts1">Здесь нет шрифтов.</string>
+    <string name="files_file_name">Имя файла</string>
+    <string name="files_page_name">Имя страницы</string>
+    <string name="files_list_name">Имя списка</string>
+    <string name="files_saveable">Можно сохранить</string>
+    <string name="files_shareable">Можно поделиться</string>
+    <string name="files_add_pic">Добавить картинку</string>
+    <string name="files_add_icon">Добавить иконку</string>
+    <string name="files_add_video">Добавить видео</string>
+    <string name="files_add_audio">Добавить аудио</string>
+    <string name="files_add_font">Добавить шрифт</string>
+    <string name="files_audio_pic">Картинка</string>
+    <string name="files_add_page">Добавить страницу</string>
+    <string name="files_add_list">Добавить список</string>
+
+    <string name="editor_action">Действие</string>
+    <string name="editor_no_action">Без действия</string>
+    <string name="editor_action_open_list">Открыть список</string>
+    <string name="editor_action_open_page">Открыть страницу</string>
+    <string name="editor_action_play_video">Воспроизвести видео</string>
+    <string name="editor_action_play_audio">Воспроизвести аудио</string>
+    <string name="editor_action_show_pic">Показать картинку</string>
+    <string name="editor_action_show_alert">Показать уведомление</string>
+    <string name="editor_action_show_toast">Показать тост</string>
+    <string name="editor_action_send_mail">Отправить письмо</string>
+    <string name="editor_action_send_sms">Отправить СМС</string>
+    <string name="editor_action_open_link">Открыть ссылку</string>
+    <string name="editor_action_exit">Закрыть страницу</string>
+    <string name="editor_action_toast_text">Текст тоста</string>
+    <string name="editor_action_error_toast">Введите текст тоста.</string>
+    <string name="editor_action_alert_title">Заголовок уведомления</string>
+    <string name="editor_action_alert_text">Текст уведомления</string>
+    <string name="editor_action_error_alert_title">Введите заголовок уведомления.</string>
+    <string name="editor_action_error_alert_text">Введите текст уведомления.</string>
+    <string name="editor_action_email_address">Адрес электронной почты</string>
+    <string name="editor_action_error_email">Введите адрес электронной почты.</string>
+    <string name="editor_action_error_incorrect_email">Введите правильный адрес электронной почты.</string>
+    <string name="editor_action_phone_number">Номер телефона</string>
+    <string name="editor_action_error_phone_number">Введите номер телефона.</string>
+    <string name="editor_action_link">Ссылка</string>
+    <string name="editor_action_error_link">Введите веб-ссылку.</string>
+    <string name="editor_no_icon">Без иконки</string>
+    <string name="editor_animation">Анимация</string>
+    <string name="editor_text">Текст</string>
+    <string name="editor_text_size">Размер текста</string>
+    <string name="editor_text_color">Цвет текста</string>
+    <string name="editor_text_gravity">Выравнивание текста</string>
+    <string name="editor_desc">Описание</string>
+    <string name="editor_font">Шрифт</string>
+    <string name="editor_radius">Радиус</string>
+    <string name="editor_height">Высота</string>
+    <string name="editor_auto_height">Автоматическая высота</string>
+    <string name="editor_text_is_shareable">Сделать доступным для совместного использования</string>
+    <string name="editor_text_is_selectable">Сделать доступным для выбора</string>
+    <string name="editor_other">Прочее</string>
+    <string name="editor_add_above">Добавить выше</string>
+    <string name="editor_add_below">Добавить ниже</string>
+    <string name="editor_copy">Дублировать</string>
+    <string name="editor_delete">Удалить</string>
+    <string name="editor_center">Центр</string>
+    <string name="editor_right">Справа</string>
+    <string name="editor_left">Слева</string>
+    <string name="editor_left_icon">Левая иконка</string>
+    <string name="editor_right_icon">Правая иконка</string>
+    <string name="editor_empty_pic">Пустая картинка</string>
+    <string name="editor_background">Фон</string>
+    <string name="editor_stable_animations">Стабильные анимации</string>
+    <string name="editor_unstable_animations">Нестабильные анимации</string>
+    <string name="editor_no_animation">Без анимации</string>
+    <string name="editor_anim_right_in">Появление справа</string>
+    <string name="editor_anim_left_in">Появление слева</string>
+    <string name="editor_anim_fade_in">Появление с затуханием</string>
+    <string name="editor_anim_slide_down">Скользя вниз</string>
+    <string name="editor_anim_bounce">Отскок</string>
+    <string name="editor_anim_blinking">Мигание</string>
+    <string name="editor_anim_rotation">Вращение</string>
+    <string name="editor_anim_shake">Тряска</string>
+    <string name="editor_margins">Поля</string>
+    <string name="editor_top_margin">Верхнее поле</string>
+    <string name="editor_bottom_margin">Нижнее поле</string>
+    <string name="editor_right_margin">Правое поле</string>
+    <string name="editor_left_margin">Левое поле</string>
+    <string name="editor_simple_text">Простой текст</string>
+    <string name="editor_advanced_text">Расширенный текст</string>
+    <string name="editor_pic">Картинка</string>
+    <string name="editor_button">Кнопка</string>
+
+    <string name="a_sec">&#160;сек</string>
+    <string name="a_split">&#160;>&#160;</string>
+    <string name="a_saved_to">Сохранено в:&#160;</string>
+    <string name="main_building_app">Создание приложения&#160;</string>
+    <string name="icon_editor_corner_radius">Радиус углов обычной иконки:&#160;</string>
+    <string name="icon_editor_regular_padding">Масштабирование обычной иконки:&#160;</string>
+    <string name="icon_editor_adaptive_padding">Масштабирование адаптивной иконки:&#160;</string>
+
+</resources>

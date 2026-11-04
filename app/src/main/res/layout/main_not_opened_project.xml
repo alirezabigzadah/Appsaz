@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent">
+
+    <ScrollView
+         android:layout_height="match_parent"
+         android:layout_width="match_parent"
+         android:paddingBottom="65dp">
+
+        <LinearLayout
+             android:layout_height="fill_parent"
+             android:layout_width="fill_parent"
+             android:gravity="center_horizontal"
+             android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:layout_margin="50dp"
+                 app:cardElevation="1dp"
+                 app:cardBackgroundColor="@color/colorCard"
+                 app:cardCornerRadius="30dp">
+
+                <LinearLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:orientation="vertical">
+
+                    <FrameLayout
+                         android:layout_height="wrap_content"
+                         android:layout_width="match_parent">
+
+                        <LinearLayout
+                             android:layout_height="wrap_content"
+                             android:layout_width="match_parent"
+                             android:gravity="center"
+                             android:padding="30dp"
+                             android:orientation="vertical">
+
+                            <ImageView
+                                 android:layout_height="100dp"
+                                 android:layout_width="100dp"
+                                 android:src="@drawable/appsaz_logo"
+                                 android:layout_margin="15dp"
+                                 android:tint="@color/colorTint" />
+
+                            <TextView
+                                 android:layout_height="wrap_content"
+                                 android:layout_width="wrap_content"
+                                 android:textSize="20sp"
+                                 android:id="@+id/appAppName"
+                                 android:textStyle="bold"
+                                 android:text="@string/app_name" />
+
+                            <TextView
+                                 android:layout_height="wrap_content"
+                                 android:layout_width="wrap_content"
+                                 android:layout_margin="5dp"
+                                 android:textSize="13sp"
+                                 android:text="@string/nave_desc" />
+
+                            <TextView
+                                 android:layout_height="wrap_content"
+                                 android:layout_width="wrap_content"
+                                 android:textSize="12sp"
+                                 android:text="@string/a_version" />
+
+                        </LinearLayout>
+
+                    </FrameLayout>
+
+                    <LinearLayout
+                         android:layout_height="wrap_content"
+                         android:layout_width="wrap_content"
+                         android:layout_marginBottom="50dp"
+                         android:orientation="vertical"
+                         android:layout_marginLeft="40dp"
+                         android:layout_marginRight="40dp">
+
+                        <FrameLayout
+                             android:layout_height="wrap_content"
+                             android:layout_width="match_parent"
+                             android:layout_marginBottom="5dp"
+                             android:background="@drawable/row_bg"
+                             android:minHeight="40dp"
+                             android:padding="5dp"
+                             android:id="@+id/createProject">
+
+                            <RelativeLayout
+                                 android:layout_height="match_parent"
+                                 android:layout_width="match_parent"
+                                 android:orientation="horizontal"
+                                 android:paddingLeft="10dp">
+
+                                <ImageView
+                                     android:layout_height="20dp"
+                                     android:layout_width="20dp"
+                                     android:layout_centerInParent="true"
+                                     android:src="@drawable/ic_new_project"
+                                     android:layout_alignParentLeft="true"
+                                     android:tint="@color/colorTint"
+                                     android:layout_gravity="right|center" />
+
+                                <LinearLayout
+                                     android:layout_height="wrap_content"
+                                     android:layout_width="match_parent"
+                                     android:layout_centerInParent="true"
+                                     android:orientation="vertical"
+                                     android:layout_marginRight="10dp"
+                                     android:layout_marginLeft="30dp"
+                                     android:layout_alignParentRight="true">
+
+                                    <TextView
+                                         android:layout_height="wrap_content"
+                                         android:layout_width="match_parent"
+                                         android:textAppearance="?android:attr/textAppearanceSmall"
+                                         android:text="@string/main_create_app" />
+
+                                </LinearLayout>
+
+                            </RelativeLayout>
+
+                        </FrameLayout>
+
+                        <FrameLayout
+                             android:layout_height="wrap_content"
+                             android:layout_width="match_parent"
+                             android:layout_marginBottom="5dp"
+                             android:background="@drawable/row_bg"
+                             android:minHeight="40dp"
+                             android:padding="5dp"
+                             android:id="@+id/openProject">
+
+                            <RelativeLayout
+                                 android:layout_height="match_parent"
+                                 android:layout_width="match_parent"
+                                 android:orientation="horizontal"
+                                 android:paddingLeft="10dp">
+
+                                <ImageView
+                                     android:layout_height="20dp"
+                                     android:layout_width="20dp"
+                                     android:layout_centerInParent="true"
+                                     android:src="@drawable/ic_open_project"
+                                     android:layout_alignParentLeft="true"
+                                     android:tint="@color/colorTint"
+                                     android:layout_gravity="right|center" />
+
+                                <LinearLayout
+                                     android:layout_height="wrap_content"
+                                     android:layout_width="match_parent"
+                                     android:layout_centerInParent="true"
+                                     android:orientation="vertical"
+                                     android:layout_marginRight="10dp"
+                                     android:layout_marginLeft="30dp"
+                                     android:layout_alignParentRight="true">
+
+                                    <TextView
+                                         android:layout_height="wrap_content"
+                                         android:layout_width="match_parent"
+                                         android:textAppearance="?android:attr/textAppearanceSmall"
+                                         android:text="@string/main_open_project" />
+
+                                </LinearLayout>
+
+                            </RelativeLayout>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

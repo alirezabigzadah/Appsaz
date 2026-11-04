@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="fill_parent"
+     android:layout_width="fill_parent"
+     android:orientation="vertical">
+
+    <ProgressBar
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:layout_centerInParent="true"
+         style="?android:attr/progressBarStyleLarge"
+         android:id="@+id/loadProgress" />
+
+    <af.alireza.views.PinchImageView
+         android:layout_height="match_parent"
+         android:layout_width="match_parent"
+         android:id="@+id/touchimgview" />
+
+    <RelativeLayout
+         android:layout_height="80dp"
+         android:layout_width="match_parent"
+         android:orientation="horizontal"
+         android:id="@+id/toolBar">
+
+        <LinearLayout
+             android:layout_height="60dp"
+             android:layout_width="match_parent"
+             android:orientation="horizontal"
+             android:layout_alignParentBottom="true">
+
+            <ImageView
+                 android:layout_height="match_parent"
+                 android:layout_width="60dp"
+                 android:src="@drawable/ic_back"
+                 android:scaleType="centerInside"
+                 android:rotation="180"
+                 android:clickable="true"
+                 android:padding="17dp"
+                 android:focusable="true"
+                 android:foreground="@drawable/round_selector"
+                 android:id="@+id/back" />
+
+            <TextView
+                 android:layout_height="match_parent"
+                 android:layout_width="wrap_content"
+                 android:gravity="center"
+                 android:textAppearance="?android:attr/textAppearanceLarge"
+                 android:padding="10dp"
+                 android:textSize="20sp"
+                 android:id="@+id/title"
+                 android:textStyle="bold" />
+
+            <LinearLayout
+                 android:layout_height="match_parent"
+                 android:layout_width="match_parent"
+                 android:gravity="right|center"
+                 android:orientation="horizontal"
+                 android:layout_alignParentBottom="true">
+
+                <ImageView
+                     android:layout_height="match_parent"
+                     android:layout_width="60dp"
+                     android:visibility="gone"
+                     android:src="@drawable/ic_save"
+                     android:scaleType="centerInside"
+                     android:clickable="true"
+                     android:padding="15dp"
+                     android:focusable="true"
+                     android:foreground="@drawable/round_selector"
+                     android:id="@+id/save" />
+
+                <ImageView
+                     android:layout_height="match_parent"
+                     android:layout_width="60dp"
+                     android:visibility="gone"
+                     android:src="@drawable/ic_share"
+                     android:scaleType="centerInside"
+                     android:clickable="true"
+                     android:padding="15dp"
+                     android:focusable="true"
+                     android:foreground="@drawable/round_selector"
+                     android:id="@+id/share" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

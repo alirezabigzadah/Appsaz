@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:biggroup="http://schemas.android.com/apk/res-auto"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	style="@android:style/Theme.Holo"
+	android:id="@+id/bgLayout">
+
+	<ScrollView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent">
+
+		<RelativeLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent">
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:id="@+id/splashContent">
+
+			</LinearLayout>
+
+		</RelativeLayout>
+
+	</ScrollView>
+
+	<af.alireza.views.MagicalTextView_Master
+		android:layout_height="wrap_content"
+		android:text="+"
+		android:layout_width="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true"
+		android:textSize="35sp"
+		android:layout_margin="10dp"
+		android:id="@+id/add"
+		style="?android:attr/buttonBarButtonStyle"
+		android:textColor="#FFFFFF"
+		android:textStyle="bold"
+		android:gravity="center"
+		biggroup:innerShadowColor="#ffcccccc"
+		biggroup:innerShadowRadius="1.0"
+		biggroup:innerShadowDy="2.0"
+		biggroup:outerShadowColor="#000000"
+		biggroup:outerShadowRadius="10.0"
+		biggroup:outerShadowDy="3.0"
+		biggroup:stroke_Width="5"
+		biggroup:strokeColor="#000000"
+		biggroup:strokeJoinStyle="miter"/>
+</RelativeLayout>
+

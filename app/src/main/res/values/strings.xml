@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Questions array -->
+    <string-array name="faq_questions">
+        <item>What is Appsaz?</item>
+        <item>Do I need programming knowledge to use Appsaz?</item>
+        <item>What types of applications can I create with Appsaz?</item>
+        <item>Can the applications I create be sold?</item>
+        <item>Can I earn money using Appsaz?</item>
+        <item>Is Appsaz free?</item>
+        <item>Can I create custom-designed applications?</item>
+        <item>How can I contact the support team?</item>
+    </string-array>
+
+    <!-- Answers array -->
+    <string-array name="faq_answers">
+        <item>Appsaz is an innovative tool for creating Android applications without the need for coding. It provides extensive features for designing and developing functional apps.</item>
+        <item>No, Appsaz is designed for anyone to easily create their own apps without any prior programming knowledge.</item>
+        <item>You can create various types of applications, such as personal, storytelling, educational, gallery, music, video, and more.</item>
+        <item>Yes, you can sell the applications you create. Appsaz allows you to publish your apps on various platforms.</item>
+        <item>Yes, Appsaz supports AdMob, enabling you to earn money through ads. Additionally, you can sell educational apps created with Appsaz.</item>
+        <item>The basic version of Appsaz is free. However, you can upgrade to the professional version for advanced features.</item>
+        <item>Yes, Appsaz allows you to fully customize the design and functionality of your applications as desired.</item>
+        <item>You can contact the support team via the "About Us" section in the app or through the provided support email.</item>
+    </string-array>
+
+    <string name="ads_title">Ads</string>
+    <string name="ads_admob_application_id">Application ID</string>
+    <string name="ads_admob">AdMob</string>
+    <string name="ads_banner_ad_id">Banner Ads ID</string>
+    <string name="ads_banner_ad">Banner Ads</string>
+    <string name="ads_interstitial_ad_id">Interstitial Ads ID</string>
+    <string name="ads_interstitial_ad">Interstitial Ads</string>
+    <string name="ads_video_ad_id">Video Ads ID</string>
+    <string name="ads_video_ad">Video Ads</string>
+    <string name="app_name">Appsaz</string>
+    <string name="hello_world">Hello, World!</string>
+    <string name="app_saz">
+Appsaz\n
+v3.5.0-trial\n
+© 2025 Appsaz by Alireza Bigzadah. All rights reserved.\n
+Appsaz is an innovative tool that allows you to create professional and efficient Android applications without programming knowledge or complex coding. This application is designed for beginner developers, entrepreneurs, students, and anyone looking to quickly and easily create custom applications.\n\n
+
+Key Features:\n
+• User-Friendly Interface: A modern and intuitive design that enables both novice and experienced users to work effortlessly.\n
+• No Coding Required: All processes are handled through visual tools, eliminating the need for programming expertise.\n
+• Create Multiple Pages: Design applications with diverse pages and layouts.\n
+• Searchable Lists: Build lists within applications that let users search for information easily.\n
+• Support for Multimedia Files: Integrate images, videos, and audio into your applications seamlessly.\n
+• Add Fonts: Customize your applications by adding unique fonts for enhanced aesthetics.\n
+• Add Animations: Incorporate attractive animations to improve interactivity and visual appeal.\n
+• Custom Backgrounds: Apply personalized backgrounds to any page in the application.\n
+• Navigation Menu: Design professional navigation menus for easy access to various sections.\n
+• High Flexibility: Fully customize both designs and functionalities.\n
+• Project Management: Save and open projects at any time.\n
+• Easy Saving and Sharing: Export your application and share it effortlessly.\n
+• Dynamism: Receive updates, upgrades, and new features based on user feedback and requests.\n\n
+
+Why Use Appsaz?\n
+• Time and Cost-Saving: Avoid high costs of hiring a programmer. Designing apps with Appsaz is faster compared to traditional methods.\n
+• Suitable for Everyone: Appsaz makes it easy for anyone, even without programming experience, to create applications.\n
+• Advanced Tools: Access features like background customization, animations, and professional settings all in one app.\n
+• Innovation and Creativity: Showcase your creativity and design unique applications with Appsaz.\n\n
+
+Contact Us:\n
+For inquiries or suggestions, reach out to us at:\n
+- Email: appsaz.help@gmail.com\n
+- Official Telegram Channel: https://t.me/appsazaf\n
+- Discussions on Telegram: https://t.me/appsazdiscussions
+</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="a_end_free_trial_title">Free Trial</string>
+    <string name="a_end_free_trial">
+The free trial of Appsaz has reached its maximum limit for adding files. The current version of Appsaz is a free trial with certain limitations. In this version, users can add up to 20 pages, 10 lists, and 10 fonts to their projects. However, there are no restrictions on adding multimedia files such as images, videos, and audios. Additionally, only Google AdMob banner ads are supported in this version, and the Appsaz watermark is automatically included in the output apps. To unlock all features and remove limitations, users can upgrade to a premium user. This version is currently under development, and for more information or to upgrade, please reach out to our support team through the About Us section.
+Thank you for using Appsaz!
+</string>
+    <string name="a_first_title">Welcome to Appsaz!</string>
+    <string name="a_first_text">
+You are currently using the free trial version of Appsaz, which comes with certain limitations. In this version, users can add up to 20 pages, 10 lists, and 10 fonts to their projects. However, there are no restrictions on adding multimedia files such as images, videos, and audios. Additionally, only Google AdMob banner ads are supported in this version, and the Appsaz watermark is automatically included in the output apps. To unlock all features and remove limitations, users can upgrade to a premium user. This version is currently under development, and for more information or to upgrade, please reach out to our support team through the About Us section.
+Thank you for using Appsaz!
+</string>
+    <string name="a_version">v3.5.0-trial</string>
+    <string name="a_ok">OK</string>
+    <string name="a_save">Save</string>
+    <string name="a_cancel">Cancel</string>
+    <string name="a_delete">Delete</string>
+    <string name="a_close">Close</string>
+    <string name="a_color">Color</string>
+    <string name="a_default">Default</string>
+    <string name="a_picture">Picture</string>
+    <string name="a_text">Text</string>
+    <string name="a_none">None</string>
+    <string name="a_create">Create</string>
+    <string name="a_color_picker">Pick a Color</string>
+    <string name="a_exit">Exit</string>
+    <string name="a_open_page">Open Page</string>
+    <string name="a_open_list">Open List</string>
+    <string name="a_wait">Please Wait...</string>
+    <string name="a_path">Path</string>
+    <string name="a_app">App</string>
+    <string name="a_share">Share</string>
+    <string name="a_install">Install</string>
+    <string name="a_error">Error</string>
+    <string name="a_back_notice">Press Back Once More</string>
+    <string name="a_an_error">An Error Occurred!</string>
+    <string name="a_add_new_item">Add New Item</string>
+    <string name="a_dont_show_again">Don’t Show Again</string>
+    <string name="a_on">On</string>
+    <string name="a_off">Off</string>
+    <string name="a_auto">Auto</string>
+    <string name="a_size">Size</string>
+    <string name="a_title">Title</string>
+    <string name="a_item">Item</string>
+    <string name="a_loading">Loading...</string>
+    <string name="a_added">Added</string>
+    <string name="a_error_name">Fill the Field</string>
+    <string name="a_reset">Reset</string>
+    <string name="a_done">Done</string>
+    <string name="a_faq">FAQ</string>
+    <string name="a_yes">Yes</string>
+    <string name="a_no">No</string>
+    <string name="a_permission_title">Permission Request</string>
+    <string name="a_permission_text">This app needs to access files in your device’s storage.</string>
+    <string name="a_permission_grant">Grant Permission</string>
+    <string name="a_open_project">Open Project</string>
+    <string name="a_select_language">Select Language</string>
+    <string name="a_language_default">System Default</string>
+
+    <string name="main_open_another_project">Open Another Project</string>
+    <string name="main_project_info">Project Information</string>
+    <string name="main_open_project_error">The project was not identified.</string>
+    <string name="main_edit_app">Edit App</string>
+    <string name="main_preview_app">Preview App</string>
+    <string name="main_build_app">Build App</string>
+    <string name="main_close_project">Close Project</string>
+    <string name="main_close_project_alert">Are you sure you want to close the project? If you close the project, all project data will be deleted. It is recommended to save the project before closing.</string>
+    <string name="main_save_project">Save Project</string>
+    <string name="main_save_project_alert">Do you want to save the project? The project will be saved as a .as file.</string>
+    <string name="main_create_app">Create New Project</string>
+    <string name="main_open_project">Open Old Project</string>
+    <string name="main_app_name">App Name</string>
+    <string name="main_package_name">Package Name</string>
+    <string name="main_new_app_name">My Application</string>
+    <string name="main_new_package">af.appsaz.myapplication</string>
+    <string name="main_app_built">Build Successful</string>
+    <string name="main_collecting_data">Collecting Data...</string>
+    <string name="main_encoding">Encoding Data...</string>
+    <string name="main_compressing_data">Compressing Data...</string>
+    <string name="main_signing">Signing APK...</string>
+    <string name="main_finishing">Finishing Up...</string>
+    <string name="main_saving_project">Saving Project...</string>
+    <string name="main_save_successful">Save Successful</string>
+    <string name="main_app_project">App Project</string>
+    <string name="main_error_app_name">Insert app name.</string>
+    <string name="main_error_package_name">Insert package name.</string>
+    <string name="main_error_incorrect_package_name">Insert a valid package name.</string>
+    <string name="main_error_reserved_package_name">This package name is reserved. Please choose another one.</string>
+    <string name="nave_desc">Create amazing apps through Appsaz.</string>
+    <string name="nave_home">Home</string>
+    <string name="nave_settings">Settings</string>
+    <string name="nave_rate_us">Rate Us</string>
+    <string name="nave_about_us">About Us</string>
+    <string name="nave_faq">FAQ</string>
+    <string name="settings">Settings</string>
+    <string name="settings_general">General</string>
+    <string name="settings_signing">Signing</string>
+    <string name="settings_theme">Dark Mode</string>
+    <string name="settings_theme_desc">Choose a dark theme or a light theme for the user interface.</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_language_desc">Select a language for Appsaz.</string>
+    <string name="settings_custom_key">Custom Keystore</string>
+    <string name="settings_custom_key_desc">Use a custom keystore file for signing your apps.</string>
+    <string name="settings_key_file">Keystore File</string>
+    <string name="settings_key_file_desc">Insert your keystore file path.</string>
+    <string name="settings_about">About Appsaz</string>
+    <string name="settings_about_desc">Learn more about Appsaz.</string>
+    <string name="settings_faq">Appsaz FAQ</string>
+    <string name="settings_faq_desc">Frequently asked questions about Appsaz.</string>
+    <string name="settings_pp">Appsaz Privacy Policy</string>
+    <string name="settings_pp_desc">Privacy Policy for Appsaz</string>
+    <string name="settings_title">Settings</string>
+    <string name="key_pick">Pick a Keystore File (.JKS)</string>
+    <string name="key_specs">Pick a keystore file and type its specifications.</string>
+    <string name="key_type">Key Type</string>
+    <string name="key_path">Key Path</string>
+    <string name="key_cert_path">Certificate Path</string>
+    <string name="key_alias">Alias</string>
+    <string name="key_store_pass">Keystore Password</string>
+    <string name="key_pass">Private Key Password</string>
+    <string name="key_create_and_use">Create and Use</string>
+    <string name="key_validity">Validity Date (Years)</string>
+    <string name="key_common_name">Common Name</string>
+    <string name="key_organization_unit">Organization Unit</string>
+    <string name="key_organization_name">Organization Name</string>
+    <string name="key_locality_name">Locality Name</string>
+    <string name="key_state_name">State Name</string>
+    <string name="key_country">Country Code</string>
+    <string name="key_size">Key Size</string>
+    <string name="key_hint">Click reset to use the default signature file.</string>
+    <string name="key_file">Keystore File</string>
+    <string name="key_file_desc">Set a custom keystore file (JKS).</string>
+    <string name="key_gen">Create Keystore File</string>
+    <string name="key_gen_desc">Generate a keystore file (JKS).</string>
+    <string name="key_not_found">Keystore file not found.</string>
+
+    <string name="app_editor_app_manifest">App Manifest</string>
+    <string name="app_editor_app_icon">App Icon</string>
+    <string name="app_editor_app_name">App Name</string>
+    <string name="app_editor_package_name">Package Name</string>
+    <string name="app_editor_version_code">Version Code</string>
+    <string name="app_editor_version_name">Version Name</string>
+    <string name="app_editor_app_layouts">App Layouts</string>
+    <string name="app_editor_splash_page">Start Page</string>
+    <string name="app_editor_pages">Pages</string>
+    <string name="app_editor_lists">Lists</string>
+    <string name="app_editor_app_files">App Files</string>
+    <string name="app_editor_pictures">Pictures</string>
+    <string name="app_editor_icons">Icons</string>
+    <string name="app_editor_videos">Videos</string>
+    <string name="app_editor_audios">Audios</string>
+    <string name="app_editor_fonts">Fonts</string>
+    <string name="app_editor_advanced">Advanced</string>
+    <string name="app_editor_ads">Ads</string>
+    <string name="icon_editor">Generate App Icon</string>
+    <string name="icon_editor_info_title">Info</string>
+    <string name="icon_editor_info">Adaptive and regular icons have significant differences. Regular icons are usually designed as a fixed image in PNG format and require multiple files with different dimensions to display properly in various sizes, offering less flexibility. In contrast, adaptive icons use two layers (background and foreground) in PNG and XML formats, allowing the icon to automatically adjust to different sizes and shapes, providing better optimization for devices and launchers. Adaptive icons were introduced as the standard starting from Android 8.0 (API Level 26) and offer better performance.</string>
+    <string name="icon_editor_regular">Regular Icon</string>
+    <string name="icon_editor_adaptive">Adaptive Icon</string>
+    <string name="icon_editor_pick_bg_color">Pick Background Color</string>
+    <string name="app_editor_error_app_name">Insert app name.</string>
+    <string name="app_editor_error_package_name">Insert package name.</string>
+    <string name="app_editor_error_version_code">Insert version code.</string>
+    <string name="app_editor_error_version_name">Insert version name.</string>
+    <string name="app_editor_error_incorrect_package_name">Insert a valid package name.</string>
+    <string name="app_editor_title">Edit App</string>
+    <string name="splash_settings">Start Page Settings</string>
+    <string name="splash_time">Start Page Time</string>
+    <string name="splash_after_splash">After Start Page</string>
+    <string name="splash_background">Start Page Background</string>
+    <string name="splash_items">Start Page Items</string>
+    <string name="splash_screen">Start Page Screen</string>
+    <string name="splash_edit_page">Edit Start Page</string>
+    <string name="splash_title">Start Page</string>
+    <string name="page_page">Page</string>
+    <string name="page_background">Page Background</string>
+    <string name="page_items">Page Items</string>
+    <string name="page_edit">Edit Page</string>
+    <string name="page_toolbar">Toolbar</string>
+    <string name="page_title_toolbar">Page Title in Toolbar</string>
+    <string name="page_toolbar_color">Toolbar Color</string>
+    <string name="page_menu">Menu</string>
+    <string name="page_menu_background">Menu Background</string>
+    <string name="page_title">Pages</string>
+    <string name="list_list">List</string>
+    <string name="list_background">List Background</string>
+    <string name="list_items">List Items</string>
+    <string name="list_edit">Edit List</string>
+    <string name="list_toolbar">Toolbar</string>
+    <string name="list_title_toolbar">List Title in Toolbar</string>
+    <string name="list_toolbar_color">Toolbar Color</string>
+    <string name="list_menu">Menu</string>
+    <string name="list_menu_background">Menu Background</string>
+    <string name="list_title">Lists</string>
+    <string name="files_empty_pages">There are no pages here, click + to add.</string>
+    <string name="files_empty_lists">There are no lists here, click + to add.</string>
+    <string name="files_empty_icons">There are no icons here, click + to add.</string>
+    <string name="files_empty_pics">There are no pictures here, click + to add.</string>
+    <string name="files_empty_videos">There are no videos here, click + to add.</string>
+    <string name="files_empty_audios">There are no audios here, click + to add.</string>
+    <string name="files_empty_fonts">There are no fonts here, click + to add.</string>
+    <string name="files_empty_pages1">There are no pages here.</string>
+    <string name="files_empty_lists1">There are no lists here.</string>
+    <string name="files_empty_icons1">There are no icons here.</string>
+    <string name="files_empty_pics1">There are no pictures here.</string>
+    <string name="files_empty_videos1">There are no videos here.</string>
+    <string name="files_empty_audios1">There are no audios here.</string>
+    <string name="files_empty_fonts1">There are no fonts here.</string>
+    <string name="files_file_name">File Name</string>
+    <string name="files_page_name">Page Name</string>
+    <string name="files_list_name">List Name</string>
+    <string name="files_saveable">Saveable</string>
+    <string name="files_shareable">Shareable</string>
+    <string name="files_add_pic">Add a Picture</string>
+    <string name="files_add_icon">Add an Icon</string>
+    <string name="files_add_video">Add a Video</string>
+    <string name="files_add_audio">Add an Audio</string>
+    <string name="files_add_font">Add a Font</string>
+    <string name="files_audio_pic">Picture</string>
+    <string name="files_add_page">Add a Page</string>
+    <string name="files_add_list">Add a List</string>
+
+    <string name="editor_action">Action</string>
+    <string name="editor_no_action">No Action</string>
+    <string name="editor_action_open_list">Open List</string>
+    <string name="editor_action_open_page">Open Page</string>
+    <string name="editor_action_play_video">Play Video</string>
+    <string name="editor_action_play_audio">Play Audio</string>
+    <string name="editor_action_show_pic">Show Picture</string>
+    <string name="editor_action_show_alert">Show Alert</string>
+    <string name="editor_action_show_toast">Show Toast</string>
+    <string name="editor_action_send_mail">Send Mail</string>
+    <string name="editor_action_send_sms">Send SMS</string>
+    <string name="editor_action_open_link">Open Link</string>
+    <string name="editor_action_exit">Close Page</string>
+    <string name="editor_action_toast_text">Toast Text</string>
+    <string name="editor_action_error_toast">Insert Toast Text.</string>
+    <string name="editor_action_alert_title">Alert Title</string>
+    <string name="editor_action_alert_text">Alert Text</string>
+    <string name="editor_action_error_alert_title">Insert Alert Title.</string>
+    <string name="editor_action_error_alert_text">Insert Alert Text.</string>
+    <string name="editor_action_email_address">Email Address</string>
+    <string name="editor_action_error_email">Insert Email Address.</string>
+    <string name="editor_action_error_incorrect_email">Insert a Correct Email Address.</string>
+    <string name="editor_action_phone_number">Phone Number</string>
+    <string name="editor_action_error_phone_number">Insert a Phone Number.</string>
+    <string name="editor_action_link">Link</string>
+    <string name="editor_action_error_link">Insert a Web Link.</string>
+    <string name="editor_no_icon">No Icon</string>
+    <string name="editor_animation">Animation</string>
+    <string name="editor_text">Text</string>
+    <string name="editor_text_size">Text Size</string>
+    <string name="editor_text_color">Text Color</string>
+    <string name="editor_text_gravity">Text Gravity</string>
+    <string name="editor_desc">Description</string>
+    <string name="editor_font">Font</string>
+    <string name="editor_radius">Radius</string>
+    <string name="editor_height">Height</string>
+    <string name="editor_auto_height">Auto Height</string>
+    <string name="editor_text_is_shareable">Make Shareable</string>
+    <string name="editor_text_is_selectable">Make Selectable</string>
+    <string name="editor_other">Other</string>
+    <string name="editor_add_above">Add Above</string>
+    <string name="editor_add_below">Add Below</string>
+    <string name="editor_copy">Duplicate</string>
+    <string name="editor_delete">Delete</string>
+    <string name="editor_center">Center</string>
+    <string name="editor_right">Right</string>
+    <string name="editor_left">Left</string>
+    <string name="editor_left_icon">Left Icon</string>
+    <string name="editor_right_icon">Right Icon</string>
+    <string name="editor_empty_pic">Empty Picture</string>
+    <string name="editor_background">Background</string>
+    <string name="editor_stable_animations">Stable Animations</string>
+    <string name="editor_unstable_animations">Unstable Animations</string>
+    <string name="editor_no_animation">No Animation</string>
+    <string name="editor_anim_right_in">Right In</string>
+    <string name="editor_anim_left_in">Left In</string>
+    <string name="editor_anim_fade_in">Fade In</string>
+    <string name="editor_anim_slide_down">Slide Down</string>
+    <string name="editor_anim_bounce">Bounce</string>
+    <string name="editor_anim_blinking">Blinking</string>
+    <string name="editor_anim_rotation">Rotation</string>
+    <string name="editor_anim_shake">Shake</string>
+    <string name="editor_margins">Margins</string>
+    <string name="editor_top_margin">Top Margin</string>
+    <string name="editor_bottom_margin">Bottom Margin</string>
+    <string name="editor_right_margin">Right Margin</string>
+    <string name="editor_left_margin">Left Margin</string>
+    <string name="editor_simple_text">Simple Text</string>
+    <string name="editor_advanced_text">Advanced Text</string>
+    <string name="editor_pic">Picture</string>
+    <string name="editor_button">Button</string>
+
+    <string name="a_sec">&#160;sec</string>
+    <string name="a_split">&#160;>&#160;</string>
+    <string name="a_saved_to">Saved to:&#160;</string>
+    <string name="main_building_app">Building App&#160;</string>
+    <string name="icon_editor_corner_radius">Regular Icon Corner Radius:&#160;</string>
+    <string name="icon_editor_regular_padding">Regular Icon Zooming:&#160;</string>
+    <string name="icon_editor_adaptive_padding">Adaptive Icon Zooming:&#160;</string>
+
+    <string name="a_language_ru">Русский</string>
+    <string name="a_language_zh">中文</string>
+    <string name="a_language_hi">हिन्दी</string>
+    <string name="a_language_en">English</string>
+    <string name="a_language_ar">العربية</string>
+    <string name="a_language_fa">فارسی</string>
+    <string name="a_language_dv">دری</string>
+    <string name="a_language_ps">پشتو</string>
+
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="wrap_content"
+     android:layout_width="match_parent"
+     android:background="@drawable/row_bg"
+     android:layout_margin="2dp"
+     android:id="@+id/bigBtnBg">
+
+    <RelativeLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:gravity="center"
+         android:minHeight="25dp">
+
+        <com.tistory.zladnrms.roundablelayout.RoundableLayout
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:layout_centerInParent="true"
+             app:cornerRightBottom="10dp"
+             app:cornerLeftSide="10dp"
+             android:layout_margin="5dp"
+             app:cornerLeftTop="10dp"
+             android:layout_alignParentEnd="true"
+             app:backgroundColor="#00ffffff"
+             app:cornerRightSide="10dp"
+             app:cornerLeftBottom="10dp"
+             app:cornerRightTop="10dp">
+
+            <ImageView
+                 android:layout_height="45dp"
+                 android:layout_width="45dp"
+                 android:visibility="gone"
+                 android:scaleType="centerCrop"
+                 android:id="@+id/bigBtnRightIcon" />
+
+        </com.tistory.zladnrms.roundablelayout.RoundableLayout>
+
+        <com.tistory.zladnrms.roundablelayout.RoundableLayout
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:layout_centerInParent="true"
+             app:cornerRightBottom="10dp"
+             app:cornerLeftSide="10dp"
+             android:layout_margin="5dp"
+             app:cornerLeftTop="10dp"
+             android:layout_alignParentLeft="true"
+             app:backgroundColor="#00ffffff"
+             app:cornerRightSide="10dp"
+             app:cornerLeftBottom="10dp"
+             app:cornerRightTop="10dp">
+
+            <ImageView
+                 android:layout_height="45dp"
+                 android:layout_width="45dp"
+                 android:visibility="gone"
+                 android:scaleType="centerCrop"
+                 android:id="@+id/bigBtnLeftIcon" />
+
+        </com.tistory.zladnrms.roundablelayout.RoundableLayout>
+
+        <LinearLayout
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:layout_centerInParent="true"
+             android:orientation="vertical"
+             android:layout_marginLeft="65dp"
+             android:layout_marginRight="65dp">
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:gravity="center"
+                 android:paddingRight="10dp"
+                 android:textSize="16sp"
+                 android:paddingLeft="10dp"
+                 android:id="@+id/bigBtnText" />
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:visibility="gone"
+                 android:gravity="center"
+                 android:paddingRight="10dp"
+                 android:textSize="10sp"
+                 android:paddingLeft="10dp"
+                 android:id="@+id/bigBtnDesc" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

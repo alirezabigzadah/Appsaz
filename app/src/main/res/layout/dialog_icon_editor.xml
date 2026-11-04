@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="wrap_content"
+     android:layout_width="match_parent"
+     android:orientation="vertical">
+
+    <RelativeLayout
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content">
+
+        <LinearLayout
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             app:layout_constraintTop_toTopOf="parent"
+             android:padding="16dp"
+             app:layout_constraintStart_toStartOf="parent"
+             android:orientation="vertical"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintBottom_toBottomOf="parent">
+
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:gravity="center"
+                 android:orientation="horizontal">
+
+                <LinearLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:orientation="vertical"
+                     android:layout_weight="1.0">
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="match_parent"
+                         android:padding="10dp"
+                         android:text="@string/icon_editor_regular" />
+
+                    <ImageView
+                         android:layout_height="150dp"
+                         android:layout_width="150dp"
+                         android:scaleType="fitCenter"
+                         android:padding="10dp"
+                         android:id="@+id/iconNormalPreview"
+                         android:layout_gravity="center" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:orientation="vertical"
+                     android:layout_weight="1.0">
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="match_parent"
+                         android:padding="10dp"
+                         android:text="@string/icon_editor_adaptive" />
+
+                    <ImageView
+                         android:layout_height="150dp"
+                         android:layout_width="150dp"
+                         android:scaleType="fitCenter"
+                         android:padding="10dp"
+                         android:id="@+id/iconAdaptivePreview"
+                         android:layout_gravity="center" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <ImageView
+                 android:layout_height="30dp"
+                 android:layout_width="30dp"
+                 android:src="@drawable/ic_about"
+                 android:background="@drawable/round_selector"
+                 android:padding="5dp"
+                 android:tint="#ff0092ff"
+                 android:id="@+id/icon_editor_info" />
+
+            <Button
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:id="@+id/btn_pick_color"
+                 android:text="@string/icon_editor_pick_bg_color" />
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:padding="12dp"
+                 android:layout_marginTop="5dp"
+                 android:id="@+id/tv_corner_radius_label"
+                 android:text="Corner Radius: 0%" />
+
+            <SeekBar
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:max="100"
+                 android:id="@+id/seekbar_corner_radius" />
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:padding="12dp"
+                 android:layout_marginTop="5dp"
+                 android:id="@+id/tv_regular_zoom"
+                 android:text="Corner Radius: 0%" />
+
+            <SeekBar
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:max="100"
+                 android:id="@+id/seekbar_regular_zoom" />
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:padding="12dp"
+                 android:layout_marginTop="5dp"
+                 android:id="@+id/tv_adapt_zoom"
+                 android:text="Corner Radius: 0%" />
+
+            <SeekBar
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:max="100"
+                 android:id="@+id/seekbar_adapt_zoom" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:card-view="http://schemas.android.com/apk/res-auto"
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content"
+     android:minWidth="320dp"
+     android:layout_margin="10dp"
+     card-view:cardElevation="5dp"
+     card-view:cardBackgroundColor="@color/colorCard"
+     card-view:cardCornerRadius="30dp">
+
+    <ScrollView
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content">
+
+        <RelativeLayout
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content">
+
+            <LinearLayout
+                 xmlns:app="http://schemas.android.com/apk/res-auto"
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:orientation="vertical">
+
+                <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:textAppearance="?android:attr/textAppearanceMedium"
+                     android:ellipsize="end"
+                     android:padding="20dp"
+                     android:textColor="@color/colorAccent"
+                     android:singleLine="true"
+                     android:textStyle="bold"
+                     android:id="@+id/dialogTitle" />
+
+                <com.rarepebble.colorpicker.ColorPickerView
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     app:colorpicker_showHex="true"
+                     android:layout_marginLeft="10dp"
+                     android:layout_marginRight="10dp"
+                     android:id="@+id/colorPickerView"
+                     app:colorpicker_showAlpha="true" />
+
+                <LinearLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:gravity="right|center"
+                     android:padding="10dp"
+                     android:orientation="horizontal">
+
+                    <Button
+                         android:layout_height="wrap_content"
+                         android:layout_width="wrap_content"
+                          android:minWidth="70dp"
+                         style="?android:attr/buttonBarButtonStyle"
+                         android:textSize="13sp"
+                         android:textColor="@color/colorAccent"
+                         android:text="@string/a_cancel"
+                         android:id="@+id/colorPickerCancelBtn" />
+
+                    <Button
+                         android:layout_height="wrap_content"
+                         android:layout_width="wrap_content"
+                         style="?android:attr/buttonBarButtonStyle"
+                         android:textSize="13sp"
+                         android:textColor="@color/colorAccent"
+                         android:minWidth="70dp"
+                         android:text="@string/a_save"
+                         android:id="@+id/colorPickerPickBtn" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</androidx.cardview.widget.CardView>

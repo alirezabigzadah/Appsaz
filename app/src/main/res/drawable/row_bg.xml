@@ -1,0 +1,32 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape>
+            <padding
+                    android:bottom="1.0dip"
+                    android:left="1.0dip"
+                    android:right="1.0dip"
+                    android:top="1.0dip" />
+
+            <solid android:color="#45818181" />
+
+            <corners android:radius="12dp" />
+        </shape>
+    </item>
+    <item>
+        <ripple
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:color="@color/pressed_color">
+            <corners android:radius="12dp" />
+
+            <item android:id="@android:id/background">
+                <shape>
+                    <corners android:radius="12dp" />
+
+                    <solid android:color="@color/not_pressed_color" />
+                </shape>
+            </item>
+        </ripple>
+    </item>
+
+</layer-list>

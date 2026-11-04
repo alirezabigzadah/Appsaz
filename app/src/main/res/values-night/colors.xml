@@ -1,0 +1,27 @@
+<resources>
+
+    <color name="colorNotpressed">@color/md_theme_dark_background</color>
+    <color name="colorTint">@color/md_theme_light_background</color>
+
+    <color name="colorCard">#192628</color>
+    <color name="colorAccent">#ff00a692</color>
+
+
+    <color name="primary">#008777</color> <!-- رنگ اصلی -->
+    <color name="primary_variant">#00BFA5</color> <!-- نسخه روشن‌تر رنگ اصلی -->
+    <color name="on_primary">#FFFFFF</color> <!-- متن روی رنگ اصلی -->
+
+    <color name="secondary">#4DCEC0</color> <!-- رنگ مکمل برای هماهنگی با رنگ اصلی -->
+    <color name="secondary_variant">#003F36</color> <!-- نسخه تیره‌تر رنگ مکمل -->
+    <color name="on_secondary">#000000</color> <!-- متن روی رنگ مکمل -->
+
+    <color name="background">#121212</color> <!-- پس‌زمینه تیره -->
+    <color name="on_background">#E1E1E1</color> <!-- متن روی پس‌زمینه -->
+
+    <color name="surface">#1E1E1E</color> <!-- رنگ سطح (کمی روشن‌تر از پس‌زمینه) -->
+    <color name="on_surface">#E1E1E1</color> <!-- متن روی سطح -->
+
+    <color name="error">#CF6679</color> <!-- رنگ برای خطا -->
+    <color name="on_error">#1E1E1E</color> <!-- متن روی رنگ خطا -->
+
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+	
+	<PreferenceCategory android:title ="@string/settings_general" >
+
+        <Preference
+            android:icon="@drawable/ic_language"
+			android:id="@+id/prefs_language"
+			app:key="prefs_language"
+			app:summary="@string/settings_language_desc"
+			app:title="@string/settings_language" />
+        
+		<SwitchPreferenceCompat
+            android:icon="@drawable/ic_night_theme"
+			android:id="@+id/prefs_night_mode"
+			android:defaultValue="false"
+			app:key="prefs_night_mode"
+			app:summary="@string/settings_theme_desc"
+			app:title="@string/settings_theme" />
+        
+    </PreferenceCategory>
+        	
+    <PreferenceCategory android:title ="@string/settings_signing" >
+
+        <Preference
+            android:icon="@drawable/ic_keystore"
+			android:id="@+id/keystore"
+			app:key="keystore"
+			app:summary="@string/key_file_desc"
+			app:title="@string/key_file" />
+        
+       <Preference
+            android:icon="@drawable/ic_keystore_file"
+			android:id="@+id/gen_key"
+			app:key="gen_key"
+			app:summary="@string/key_gen_desc"
+			app:title="@string/key_gen" />
+        
+	</PreferenceCategory>
+    
+      <PreferenceCategory android:title ="@string/settings_about" >
+
+        <Preference
+            android:icon="@drawable/ic_about_pref"
+			android:id="@+id/about"
+			app:key="about"
+			app:summary="@string/settings_about_desc"
+			app:title="@string/settings_about" />
+        
+       <Preference
+            android:icon="@drawable/ic_faq_pref"
+			android:id="@+id/faq"
+			app:key="faq"
+			app:summary="@string/settings_faq_desc"
+			app:title="@string/settings_faq" />
+    
+        <Preference
+            android:icon="@drawable/ic_privacy_policy"
+			android:id="@+id/pp"
+			app:key="pp"
+			app:summary="@string/settings_pp_desc"
+			app:title="@string/settings_pp" />
+        
+	</PreferenceCategory>
+	<!--
+	<PreferenceCategory android:title ="@string/settings_signing" >
+		
+		<SwitchPreferenceCompat
+            android:icon="@drawable/ic_keystore"
+			android:id="@+id/prefs_custom_key"
+			android:defaultValue="false"
+			app:key="prefs_custom_key"
+			app:summary="@string/settings_custom_key_desc"
+			app:title="@string/settings_custom_key" />
+		
+		<EditTextPreference
+            android:icon="@drawable/ic_keystore_file"
+			android:id="@+id/prefs_path_key"
+			android:key="prefs_path_key"
+			android:summary="@string/settings_key_file_desc"
+			android:title="@string/settings_key_file" />
+		
+	</PreferenceCategory>
+	-->
+</androidx.preference.PreferenceScreen>
+

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:orientation="vertical">
+
+    <RelativeLayout
+         android:layout_height="60dp"
+         android:layout_width="match_parent"
+         android:orientation="horizontal"
+         android:id="@+id/toolBar">
+
+        <LinearLayout
+             android:layout_height="60dp"
+             android:layout_width="match_parent"
+             android:orientation="horizontal"
+             android:layout_alignParentBottom="true">
+
+            <ImageView
+                 android:layout_height="match_parent"
+                 android:layout_width="60dp"
+                 android:src="@drawable/ic_back"
+                 android:rotation="180"
+                 android:scaleType="centerInside"
+                     android:clickable="true"
+                         android:padding="17dp"
+                         android:focusable="true"
+                         android:foreground="@drawable/round_selector" 
+                 android:id="@+id/back" />
+
+            <TextView
+                 android:layout_height="match_parent"
+                 android:layout_width="wrap_content"
+                 android:gravity="center"
+                 android:textAppearance="?android:attr/textAppearanceLarge"
+                 android:padding="10dp"
+                 android:textSize="20sp"
+                 android:id="@+id/title"
+                 android:textStyle="bold" />
+
+            <LinearLayout
+                 android:layout_height="match_parent"
+                 android:layout_width="match_parent"
+                 android:gravity="right|center"
+                 android:orientation="horizontal"
+                 android:layout_alignParentBottom="true">
+
+                <ImageView
+                     android:layout_height="match_parent"
+                     android:layout_width="60dp"
+                     android:visibility="gone"
+                     android:src="@drawable/ic_save"
+                     android:scaleType="centerInside"
+                     android:clickable="true"
+                         android:padding="15dp"
+                         android:focusable="true"
+                         android:foreground="@drawable/round_selector" 
+                     android:id="@+id/save" />
+
+                <ImageView
+                     android:layout_height="match_parent"
+                     android:layout_width="60dp"
+                     android:visibility="gone"
+                     android:src="@drawable/ic_share"
+                     android:scaleType="centerInside"
+                     android:clickable="true"
+                         android:padding="15dp"
+                         android:focusable="true"
+                         android:foreground="@drawable/round_selector" 
+                     android:id="@+id/share" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+         xmlns:android="http://schemas.android.com/apk/res/android"
+         xmlns:app="http://schemas.android.com/apk/res-auto"
+         android:layout_height="match_parent"
+         android:layout_width="match_parent"
+         android:gravity="center"
+         android:orientation="vertical">
+
+        <FrameLayout
+             android:layout_height="200dp"
+             android:layout_width="fill_parent"
+             android:background="@android:color/black"
+             android:id="@+id/video_layout">
+
+            <com.universalvideoview.UniversalVideoView
+                 android:layout_height="fill_parent"
+                 android:layout_width="fill_parent"
+                 app:uvv_fitXY="false"
+                 app:uvv_autoRotation="true"
+                 android:id="@+id/videoView"
+                 android:layout_gravity="center" />
+
+            <com.universalvideoview.UniversalMediaController
+                 android:layout_height="fill_parent"
+                 android:layout_width="fill_parent"
+                 app:uvv_scalable="true"
+                 android:id="@+id/media_controller" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

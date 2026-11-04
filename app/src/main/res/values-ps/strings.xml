@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- د پوښتنو لړۍ -->
+    <string-array name="faq_questions">
+        <item>Appsaz څه شی دی؟</item>
+        <item>آیا زه اړتیا لرم چې د Appsaz کارولو لپاره د پروګرامینګ پوهه ولرم؟</item>
+        <item>زه کولی شم کوم ډول غوښتنلیکونه د Appsaz سره جوړ کړم؟</item>
+        <item>آیا زه کولی شم هغه غوښتنلیکونه چې زه یې جوړوم وپلورم؟</item>
+        <item>آیا زه کولی شم د Appsaz څخه پیسې وګټم؟</item>
+        <item>آیا Appsaz وړیا دی؟</item>
+        <item>آیا زه کولی شم دودیز ډیزاین شوي غوښتنلیکونه جوړ کړم؟</item>
+        <item>څنګه کولی شم د ملاتړ ټیم سره اړیکه ونیسم؟</item>
+    </string-array>
+
+    <!-- د ځوابونو لړۍ -->
+    <string-array name="faq_answers">
+        <item>Appsaz یو نوښتګر وسیله ده چې تاسو ته اجازه درکوي د پروګرامینګ پرته د Android غوښتنلیکونه جوړ کړئ. دا وسیله پراخه ځانګړتیاوې وړاندې کوي چې تاسو ته د عملیاتي غوښتنلیکونو ډیزاین او پراختیا کې مرسته کوي.</item>
+        <item>نه، Appsaz داسې ډیزاین شوی چې هر څوک پرته له دې چې کومه پروګرامینګ پوهه ولري، خپله غوښتنلیکونه په اسانۍ سره جوړ کړي.</item>
+        <item>تاسو کولی شئ مختلف ډول غوښتنلیکونه جوړ کړئ، لکه شخصي، کیسه ګويي، تعلیمي، ګالري، موسیقي، ویډیو، او نور.</item>
+        <item>هو، تاسو کولی شئ هغه غوښتنلیکونه چې تاسو یې جوړوئ وپلورئ. Appsaz تاسو ته اجازه درکوي چې خپل غوښتنلیکونه په مختلفو پلاتفورمونو کې خپاره کړئ.</item>
+        <item>هو، Appsaz د AdMob ملاتړ کوي، چې تاسو ته اجازه درکوي د اعلانونو له لارې پیسې وګټئ. برسېره پر دې، تاسو کولی شئ د Appsaz سره جوړ شوي تعلیمي غوښتنلیکونه وپلورئ.</item>
+        <item>د Appsaz بنسټیزه نسخه وړیا ده. خو تاسو کولی شئ د مسلکي نسخه ته لوړ کړئ ترڅو پرمختللي ځانګړتیاوې ترلاسه کړئ.</item>
+        <item>هو، Appsaz تاسو ته اجازه درکوي چې د خپل غوښتنلیک ډیزاین او فعالیت په بشپړه توګه دودیز کړئ.</item>
+        <item>تاسو کولی شئ د ملاتړ ټیم سره د "په اړه" برخه کې یا د ورکړل شوي ایمیل له لارې اړیکه ونیسئ.</item>
+    </string-array>
+
+    <string name="ads_title">اعلانونه</string>
+    <string name="ads_admob_application_id">د غوښتنلیک ID</string>
+    <string name="ads_admob">AdMob</string>
+    <string name="ads_banner_ad_id">د بنر اعلان ID</string>
+    <string name="ads_banner_ad">د بنر اعلانونه</string>
+    <string name="ads_interstitial_ad_id">د داخلي اعلان ID</string>
+    <string name="ads_interstitial_ad">د داخلي اعلانونه</string>
+    <string name="ads_video_ad_id">د ویډیو اعلان ID</string>
+    <string name="ads_video_ad">د ویډیو اعلانونه</string>
+    <string name="app_name">Appsaz</string>
+    <string name="hello_world">سلام، نړۍ!</string>
+    <string name="app_saz">
+Appsaz\n
+v3.5.0-trial\n
+© 2025 Appsaz by Alireza Bigzadah. ټول حقونه خوندي دي.\n
+Appsaz یوه نوښتګر وسیله ده چې تاسو ته اجازه درکوي چې مسلکي او اغیزمن Android غوښتنلیکونه پرته له برنامې کولو پوهې یا پیچلي کودینګ څخه رامینځته کړئ. دغه غوښتنلیک د پیل کونکي پراختیا کونکو، سوداګرو، محصلینو او هر هغه چا لپاره ډیزاین شوی چې غواړي په چټکۍ او آسانۍ سره دودیز غوښتنلیکونه رامینځته کړي.\n\n
+
+کلیدي ځانګړتیاوې:\n
+• د کاروونکي دوستانه انٹرفیس: یو عصري او واضح ډیزاین چې دواړه نوې او تجربه لرونکي کاروونکو ته اجازه ورکوي چې بې هڅې سره کار وکړي.\n
+• برنامه کولو ته اړتیا نشته: ټولې پروسې د بصري وسیلو له لارې ترسره کیږي، چې د برنامې کولو پوهې ته اړتیا نه لري.\n
+• څو پاڼې جوړول: غوښتنلیکونه ډیزاین کړئ چې مختلفې پاڼې او ترتیبات ولري.\n
+• د لټون وړ لیستونه: په غوښتنلیکونو کې لیستونه جوړ کړئ چې کاروونکو ته د معلوماتو په اسانۍ سره لټون کولو اجازه ورکوي.\n
+• د ملټي میډیا فایلونو ملاتړ: ستاسو په غوښتنلیکونو کې انځورونه، ویډیوګانې، او غږونه په اسانۍ سره یوځای کړئ.\n
+• د فونټونو اضافه کول: ستاسو غوښتنلیکونه دودیز کړئ د ځانګړو فونټونو اضافه کولو سره چې د ښکلا لپاره لوړوالی راولي.\n
+• انیمیشنونه اضافه کړئ: په زړه پورې انیمیشنونه شامل کړئ ترڅو تعامل او بصري جاذبه ښه کړي.\n
+• دودیز بیک گرونډونه: د غوښتنلیک هرې پاڼې لپاره خپل شخصي بیک گرونډونه پلي کړئ.\n
+• د ناوبری منو: مسلکي ناوبری منوګانې ډیزاین کړئ ترڅو مختلفو برخو ته په اسانۍ سره لاسرسی ولرئ.\n
+• لوړه انعطاف پذیري: ډیزاینونه او فعالیتونه بشپړ دودیز کړئ.\n
+• د پروژې مدیریت: پروژې هر وخت خوندي او پرانیستلی شئ.\n
+• اسانه خوندي کول او شریکول: خپل غوښتنلیک وده کړئ او پرته له کومې ستونزې یې شریک کړئ.\n
+• پویاییت: د کاروونکو نظرونو او غوښتنو پراساس تازه معلومات، پرمختګونه، او نوي ځانګړتیاوې ترلاسه کړئ.\n\n
+
+ولې Appsaz وکاروئ؟\n
+• وخت او لګښت سپما: د یو برنامې جوړونکي استخدام کولو لوړ لګښتونه له منځه یوسي. د Appsaz سره غوښتنلیکونه جوړول د دودیزو طریقو په پرتله ډیر چټک دي.\n
+• د هر چا لپاره مناسب: Appsaz د هر چا لپاره اسان دی، حتی که چیرې د برنامې کولو تجربه نلري، ترڅو غوښتنلیکونه جوړ کړي.\n
+• پرمختللې وسیلې: د بیک گرونډ دودیز کولو، انیمیشنونو، او مسلکي ترتیباتو په څیر ځانګړتیاوې ټول په یوه غوښتنلیک کې ترلاسه کړئ.\n
+• نوښت او خلاقیت: خپل خلاقیت څرګند کړئ او د Appsaz سره ځانګړي غوښتنلیکونه ډیزاین کړئ.\n\n
+
+موږ سره اړیکه ونیسئ:\n
+د پوښتنو یا وړاندیزونو لپاره، مهرباني وکړئ زموږ سره اړیکه ونیسئ:\n
+- بریښنالیک: appsaz.help@gmail.com\n
+- رسمي ټیلیګرام چینل: https://t.me/appsazaf\n
+- ټیلیګرام بحثونه: https://t.me/appsazdiscussions
+</string>
+    <string name="navigation_drawer_close">د ناوبری ډراور وتړئ</string>
+    <string name="navigation_drawer_open">د ناوبری ډراور پرانیزئ</string>
+    <string name="a_end_free_trial_title">مفت ټرایل</string>
+    <string name="a_end_free_trial">
+د Appsaz مفت ټرایل د فایلونو د اضافه کولو حد ته رسیدلی دی. د Appsaz اوسنی نسخه مفت ټرایل ده چې ځینې محدودیتونه لري. په دې نسخه کې کاروونکي کولی شي تر ۲۰ پاڼې، ۱۰ لیستونه او ۱۰ فونټونه خپل پروژې ته اضافه کړي. خو د ملټي میډیا فایلونو لکه انځورونه، ویډیوګانې او غږونه اضافه کولو ته هیڅ محدودیت نشته. همداراز، یوازې د Google AdMob بنر اعلانونه په دې نسخه کې ملاتړ کیږي، او د Appsaz واټر مارک په اوتومات ډول د محصولاتو غوښتنلیکونو کې اضافه کیږي. د ټولو ځانګړتیاوو د فعالولو او محدودیتونو د لرې کولو لپاره، کاروونکي کولی شي د پرمیم کارونکي ته تازه شي. دا نسخه اوس د پرمختګ په حالت کې ده، او د نورو معلوماتو لپاره یا د تازه کولو لپاره، مهرباني وکړئ زموږ د ملاتړ ډلې سره د "د اړه" برخې له لارې اړیکه ونیسئ.
+مننه چې Appsaz کاروئ!
+</string>
+    <string name="a_first_title">Appsaz ته خوش آمدید!</string>
+    <string name="a_first_text">
+تاسو اوس د Appsaz مفت ټرایل نسخه کاروئ، چې ځینې محدودیتونه لري. په دې نسخه کې کاروونکي کولی شي تر ۲۰ پاڼې، ۱۰ لیستونه او ۱۰ فونټونه خپل پروژې ته اضافه کړي. خو د ملټي میډیا فایلونو لکه انځورونه، ویډیوګانې او غږونه اضافه کولو ته هیڅ محدودیت نشته. همداراز، یوازې د Google AdMob بنر اعلانونه په دې نسخه کې ملاتړ کیږي، او د Appsaz واټر مارک په اوتومات ډول د محصولاتو غوښتنلیکونو کې اضافه کیږي. د ټولو ځانګړتیاوو د فعالولو او محدودیتونو د لرې کولو لپاره، کاروونکي کولی شي د پرمیم کارونکي ته تازه شي. دا نسخه اوس د پرمختګ په حالت کې ده، او د نورو معلوماتو لپاره یا د تازه کولو لپاره، مهرباني وکړئ زموږ د ملاتړ ډلې سره د "د اړه" برخې له لارې اړیکه ونیسئ.
+مننه چې Appsaz کاروئ!
+</string>
+    <string name="a_version">v3.5.0-trial</string>
+    <string name="a_ok">سمه ده</string>
+    <string name="a_save">خوندي کړئ</string>
+    <string name="a_cancel">منع کړئ</string>
+    <string name="a_delete">حذف کړئ</string>
+    <string name="a_close">بند کړئ</string>
+    <string name="a_color">رنګ</string>
+    <string name="a_default">پایلې</string>
+    <string name="a_picture">انځور</string>
+    <string name="a_text">متن</string>
+    <string name="a_none">هیڅ</string>
+    <string name="a_create">جوړ کړئ</string>
+    <string name="a_color_picker">رنګ غوره کړئ</string>
+    <string name="a_exit">وتړئ</string>
+    <string name="a_open_page">پاڼه پرانیزئ</string>
+    <string name="a_open_list">لیست پرانیزئ</string>
+    <string name="a_wait">مهرباني وکړئ صبر وکړئ...</string>
+    <string name="a_path">لار</string>
+    <string name="a_app">غوښتنلیک</string>
+    <string name="a_share">شریک کړئ</string>
+    <string name="a_install">نصب کړئ</string>
+    <string name="a_error">خطا</string>
+    <string name="a_back_notice">یو ځل بیا د بیک تڼۍ فشار ورکړئ</string>
+    <string name="a_an_error">یو خطا رامینځته شوه!</string>
+    <string name="a_add_new_item">نوې توکه اضافه کړئ</string>
+    <string name="a_dont_show_again">بیا مه ښودل کیږي</string>
+    <string name="a_on">آن</string>
+    <string name="a_off">آف</string>
+    <string name="a_auto">خودکار</string>
+    <string name="a_size">اندازه</string>
+    <string name="a_title">سرلیک</string>
+    <string name="a_item">توکه</string>
+    <string name="a_loading">چلول...</string>
+    <string name="a_added">اضافه شو</string>
+    <string name="a_error_name">د ساحې ډک کړئ</string>
+    <string name="a_reset">بیا تنظیم کړئ</string>
+    <string name="a_done">پای ته رسیدل</string>
+    <string name="a_faq">FAQ</string>
+    <string name="a_yes">هو</string>
+    <string name="a_permission_title">د اجازې غوښتنه</string>
+    <string name="a_permission_text">دې غوښتنلیک ته د ستاسو د وسیلې په ذخیره کې فایلونو ته لاسرسی ته اړتیا ده.</string>
+    <string name="a_permission_grant">اجازه ورکول</string>
+    <string name="a_open_project">پروژه پرانیزئ</string>
+    <string name="a_select_language">زبان غوره کړئ</string>
+    <string name="a_language_default">د سیستم ډیفالټ</string>
+
+    <string name="main_open_another_project">بل پروژه پرانیزئ</string>
+    <string name="main_project_info">د پروژې معلومات</string>
+    <string name="main_open_project_error">پروژه ونه پیژندل شوه.</string>
+    <string name="main_edit_app">اپلیکیشن ایډیټ کړئ</string>
+    <string name="main_preview_app">اپلیکیشن پیش نمایش کړئ</string>
+    <string name="main_build_app">اپلیکیشن جوړ کړئ</string>
+    <string name="main_close_project">پروژه وتړئ</string>
+    <string name="main_close_project_alert">ایا تاسو ډاډه یاست چې پروژه بندول غواړئ؟ که پروژه وتړئ، ټول د پروژې معلومات به پاک شي. سپارښتنه کیږي چې پروژه ذخیره کړئ مخکې له دې چې وتړئ.</string>
+    <string name="main_save_project">پروژه ذخیره کړئ</string>
+    <string name="main_save_project_alert">ایا تاسو غواړئ پروژه ذخیره کړئ؟ پروژه به د .as فایل په توګه ذخیره شي.</string>
+    <string name="main_create_app">نوې پروژه جوړه کړئ</string>
+    <string name="main_open_project">لوی پروژه پرانیزئ</string>
+    <string name="main_app_name">د اپلیکیشن نوم</string>
+    <string name="main_package_name">د پیکج نوم</string>
+    <string name="main_new_app_name">زما اپلیکیشن</string>
+    <string name="main_new_package">af.appsaz.myapplication</string>
+    <string name="main_app_built">جوړول بریالی شو</string>
+    <string name="main_collecting_data">د معلوماتو راټولول...</string>
+    <string name="main_encoding">د معلوماتو کوډ کول...</string>
+    <string name="main_compressing_data">د معلوماتو کمول...</string>
+    <string name="main_signing">د APK لاسلیک کول...</string>
+    <string name="main_finishing">د بشپړولو کار...</string>
+    <string name="main_saving_project">پروژه ذخیره کول...</string>
+    <string name="main_save_successful">د ذخیرې بریالیتوب</string>
+    <string name="main_app_project">د اپلیکیشن پروژه</string>
+    <string name="main_error_app_name">د اپلیکیشن نوم داخل کړئ.</string>
+    <string name="main_error_package_name">د پیکج نوم داخل کړئ.</string>
+    <string name="main_error_incorrect_package_name">سم پیکج نوم داخل کړئ.</string>
+    <string name="main_error_reserved_package_name">دا پیکج نوم محفوظ دی. لطفاً بل نوم انتخاب کړئ.</string>
+    <string name="nave_desc">د Appsaz له لارې حیرانونکې اپلیکیشنونه جوړ کړئ.</string>
+    <string name="nave_home">کور</string>
+    <string name="nave_settings">تنظیمات</string>
+    <string name="nave_rate_us">موږ ته درجه ورکړئ</string>
+    <string name="nave_about_us">زموږ په اړه</string>
+    <string name="nave_faq">د پوښتنو ځواب</string>
+    <string name="settings">تنظیمات</string>
+    <string name="settings_general">عمومي</string>
+    <string name="settings_signing">لاسلیک کول</string>
+    <string name="settings_theme">توره موضوع</string>
+    <string name="settings_theme_desc">د کارن انٹرفیس لپاره توره یا رڼا موضوع غوره کړئ.</string>
+    <string name="settings_language">زبان</string>
+    <string name="settings_language_desc">د Appsaz لپاره یوه ژبه غوره کړئ.</string>
+    <string name="settings_custom_key">ګمرکي کیسټور</string>
+    <string name="settings_custom_key_desc">د خپلو اپلیکیشنونو د لاسلیک کولو لپاره ګمرکي کیسټور فایل وکاروئ.</string>
+    <string name="settings_key_file">د کیسټور فایل</string>
+    <string name="settings_key_file_desc">د خپل کیسټور فایل لارښود داخل کړئ.</string>
+    <string name="settings_about">د Appsaz په اړه</string>
+    <string name="settings_about_desc">د Appsaz په اړه نور معلومات ترلاسه کړئ.</string>
+    <string name="settings_faq">د Appsaz د پوښتنو ځواب</string>
+    <string name="settings_faq_desc">د Appsaz په اړه اکثره پوښتل شوې پوښتنې.</string>
+    <string name="settings_pp">د Appsaz پټتیا تګلاره</string>
+    <string name="settings_pp_desc">د Appsaz پټتیا تګلاره</string>
+    <string name="settings_title">تنظیمات</string>
+    <string name="key_pick">د کیسټور فایل غوره کړئ (.JKS)</string>
+    <string name="key_specs">د کیسټور فایل غوره کړئ او د هغې مشخصات داخل کړئ.</string>
+    <string name="key_type">د کیلي ډول</string>
+    <string name="key_path">د کیلي لارښود</string>
+    <string name="key_cert_path">د تصدیق لارښود</string>
+    <string name="key_alias">نوم</string>
+    <string name="key_store_pass">د کیسټور رمز</string>
+    <string name="key_pass">د خصوصي کیلي رمز</string>
+    <string name="key_create_and_use">جوړول او وکارول</string>
+    <string name="key_validity">د اعتبار نیټه (کلونه)</string>
+    <string name="key_common_name">عام نوم</string>
+    <string name="key_organization_unit">د سازمان واحد</string>
+    <string name="key_organization_name">د سازمان نوم</string>
+    <string name="key_locality_name">د سیمه ایز نوم</string>
+    <string name="key_state_name">د ایالت نوم</string>
+    <string name="key_country">د هیواد کود</string>
+    <string name="key_size">د کیلي اندازه</string>
+    <string name="key_hint">د ډیفالټ لاسلیک فایل د کارولو لپاره بیا تنظیم کلیک کړئ.</string>
+    <string name="key_file">د کیسټور فایل</string>
+    <string name="key_file_desc">یو ګمرکي کیسټور فایل (JKS) ټاکل.</string>
+    <string name="key_gen">د کیسټور فایل جوړول</string>
+    <string name="key_gen_desc">یو کیسټور فایل (JKS) جوړ کړئ.</string>
+    <string name="key_not_found">د کیسټور فایل ونه موندل شو.</string>
+
+    <string name="app_editor_app_manifest">د اپلیکیشن منیفیسټ</string>
+    <string name="app_editor_app_icon">د اپلیکیشن آیکون</string>
+    <string name="app_editor_app_name">د اپلیکیشن نوم</string>
+    <string name="app_editor_package_name">د پیکج نوم</string>
+    <string name="app_editor_version_code">د نسخې کود</string>
+    <string name="app_editor_version_name">د نسخې نوم</string>
+    <string name="app_editor_app_layouts">د اپلیکیشن ډیزاینونه</string>
+    <string name="app_editor_splash_page">د پیل پاڼه</string>
+    <string name="app_editor_pages">پاڼې</string>
+    <string name="app_editor_lists">لستونه</string>
+    <string name="app_editor_app_files">د اپلیکیشن فایلونه</string>
+    <string name="app_editor_pictures">انځورونه</string>
+    <string name="app_editor_icons">آیکونونه</string>
+    <string name="app_editor_videos">ویډیوګانې</string>
+    <string name="app_editor_audios">آډیوګانې</string>
+    <string name="app_editor_fonts">فونټونه</string>
+    <string name="app_editor_advanced">پیشرفته</string>
+    <string name="app_editor_ads">اعلانونه</string>
+    <string name="icon_editor">د اپلیکیشن آیکون جوړول</string>
+    <string name="icon_editor_info_title">معلومات</string>
+    <string name="icon_editor_info">د عادي او تطبیقي آیکونونو ترمنځ لوی توپیرونه شتون لري. عادي آیکونونه عموماً د PNG بڼه کې فکس شوی تصویر دی او د مختلفو اندازو لپاره څو مختلف فایلونه ته اړتیا لري ترڅو په سمه توګه ښکاره شي، چې لږ انعطاف لري. په مقابل کې، تطبیقي آیکونونه دوه لیرې (شالید او مخکینی) لري چې په PNG او XML بڼه کې وي، چې آیکون ته اجازه ورکوي چې په اتوماتيک ډول مختلفو اندازو او شکلو ته ځان وفق کړي، چې د وسیلو او لانچرونو لپاره غوره کارکردګي برابروي. تطبیقي آیکونونه د Android 8.0 (API Level 26) څخه د معیار په توګه معرفي شوي او غوره فعالیت وړاندې کوي.</string>
+    <string name="icon_editor_regular">عادي آیکون</string>
+    <string name="icon_editor_adaptive">تطبیقي آیکون</string>
+    <string name="icon_editor_pick_bg_color">د شالید رنګ غوره کړئ</string>
+    <string name="app_editor_error_app_name">د اپلیکیشن نوم داخل کړئ.</string>
+    <string name="app_editor_error_package_name">د پیکج نوم داخل کړئ.</string>
+    <string name="app_editor_error_version_code">د نسخې کود داخل کړئ.</string>
+    <string name="app_editor_error_version_name">د نسخې نوم داخل کړئ.</string>
+    <string name="app_editor_error_incorrect_package_name">یو معتبر پیکج نوم داخل کړئ.</string>
+    <string name="app_editor_title">د اپلیکیشن ایډیټ کول</string>
+    <string name="splash_settings">د پیل پاڼې تنظیمات</string>
+    <string name="splash_time">د پیل پاڼې وخت</string>
+    <string name="splash_after_splash">د پیل پاڼې وروسته</string>
+    <string name="splash_background">د پیل پاڼې شالید</string>
+    <string name="splash_items">د پیل پاڼې توکي</string>
+    <string name="splash_screen">د پیل پاڼې سکرین</string>
+    <string name="splash_edit_page">د پیل پاڼه ایډیټ کړئ</string>
+    <string name="splash_title">د پیل پاڼه</string>
+    <string name="page_page">پاڼه</string>
+    <string name="page_background">د پاڼې شالید</string>
+    <string name="page_items">د پاڼې توکي</string>
+    <string name="page_edit">پاڼه ایډیټ کړئ</string>
+    <string name="page_toolbar">ټول بار</string>
+    <string name="page_title_toolbar">د پاڼې سرلیک په ټول بار کې</string>
+    <string name="page_toolbar_color">د ټول بار رنګ</string>
+    <string name="page_menu">منو</string>
+    <string name="page_menu_background">د منو شالید</string>
+    <string name="page_title">پاڼې</string>
+    <string name="list_list">لست</string>
+    <string name="list_background">د لست شالید</string>
+    <string name="list_items">د لست توکي</string>
+    <string name="list_edit">لست ایډیټ کړئ</string>
+    <string name="list_toolbar">ټول بار</string>
+    <string name="list_title_toolbar">د لست سرلیک په ټول بار کې</string>
+    <string name="list_toolbar_color">د ټول بار رنګ</string>
+    <string name="list_menu">منو</string>
+    <string name="list_menu_background">د منو شالید</string>
+    <string name="list_title">لستونه</string>
+    <string name="files_empty_pages">دلته هیڅ پاڼې نشته، د زیاتولو لپاره + کلیک کړئ.</string>
+    <string name="files_empty_lists">دلته هیڅ لستونه نشته، د زیاتولو لپاره + کلیک کړئ.</string>
+    <string name="files_empty_icons">دلته هیڅ آیکونونه نشته، د زیاتولو لپاره + کلیک کړئ.</string>
+    <string name="files_empty_pics">دلته هیڅ انځورونه نشته، د زیاتولو لپاره + کلیک کړئ.</string>
+    <string name="files_empty_videos">دلته هیڅ ویډیوګانې نشته، د زیاتولو لپاره + کلیک کړئ.</string>
+    <string name="files_empty_audios">دلته هیڅ آډیوګانې نشته، د زیاتولو لپاره + کلیک کړئ.</string>
+    <string name="files_empty_fonts">دلته هیڅ فونټونه نشته، د زیاتولو لپاره + کلیک کړئ.</string>
+    <string name="files_empty_pages1">دلته هیڅ پاڼې نشته.</string>
+    <string name="files_empty_lists1">دلته هیڅ لستونه نشته.</string>
+    <string name="files_empty_icons1">دلته هیڅ آیکونونه نشته.</string>
+    <string name="files_empty_pics1">دلته هیڅ انځورونه نشته.</string>
+    <string name="files_empty_videos1">دلته هیڅ ویډیوګانې نشته.</string>
+    <string name="files_empty_audios1">دلته هیڅ آډیوګانې نشته.</string>
+    <string name="files_empty_fonts1">دلته هیڅ فونټونه نشته.</string>
+    <string name="files_file_name">د فایل نوم</string>
+    <string name="files_page_name">د پاڼې نوم</string>
+    <string name="files_list_name">د لست نوم</string>
+    <string name="files_saveable">ذخیره کیدونکی</string>
+    <string name="files_shareable">شریک کیدونکی</string>
+    <string name="files_add_pic">یو انځور اضافه کړئ</string>
+    <string name="files_add_icon">یو آیکون اضافه کړئ</string>
+    <string name="files_add_video">یو ویډیو اضافه کړئ</string>
+    <string name="files_add_audio">یو آډیو اضافه کړئ</string>
+    <string name="files_add_font">یو فونټ اضافه کړئ</string>
+    <string name="files_audio_pic">انځور</string>
+    <string name="files_add_page">یو پاڼه اضافه کړئ</string>
+    <string name="files_add_list">یو لست اضافه کړئ</string>
+
+    <string name="editor_action">عمل</string>
+    <string name="editor_no_action">هیڅ عمل نشته</string>
+    <string name="editor_action_open_list">لست پرانیزئ</string>
+    <string name="editor_action_open_page">پاڼه پرانیزئ</string>
+    <string name="editor_action_play_video">ویډیو پلې کړئ</string>
+    <string name="editor_action_play_audio">آډیو پلې کړئ</string>
+    <string name="editor_action_show_pic">انځور وښایئ</string>
+    <string name="editor_action_show_alert">اخطار وښایئ</string>
+    <string name="editor_action_show_toast">ټوسټ وښایئ</string>
+    <string name="editor_action_send_mail">بریښنالیک واستوئ</string>
+    <string name="editor_action_send_sms">SMS واستوئ</string>
+    <string name="editor_action_open_link">لینک پرانیزئ</string>
+    <string name="editor_action_exit">پاڼه وتړئ</string>
+    <string name="editor_action_toast_text">د ټوسټ متن</string>
+    <string name="editor_action_error_toast">د ټوسټ متن داخل کړئ.</string>
+    <string name="editor_action_alert_title">د اخطار عنوان</string>
+    <string name="editor_action_alert_text">د اخطار متن</string>
+    <string name="editor_action_error_alert_title">د اخطار عنوان داخل کړئ.</string>
+    <string name="editor_action_error_alert_text">د اخطار متن داخل کړئ.</string>
+    <string name="editor_action_email_address">بریښنالیک پتې</string>
+    <string name="editor_action_error_email">د بریښنالیک پتې داخل کړئ.</string>
+    <string name="editor_action_error_incorrect_email">معتبر بریښنالیک پته داخل کړئ.</string>
+    <string name="editor_action_phone_number">د تلیفون شمیره</string>
+    <string name="editor_action_error_phone_number">د تلیفون شمیره داخل کړئ.</string>
+    <string name="editor_action_link">لینک</string>
+    <string name="editor_action_error_link">د ویب لینک داخل کړئ.</string>
+    <string name="editor_no_icon">هیڅ آیکون نشته</string>
+    <string name="editor_animation">انیمیشن</string>
+    <string name="editor_text">متن</string>
+    <string name="editor_text_size">د متن اندازه</string>
+    <string name="editor_text_color">د متن رنګ</string>
+    <string name="editor_text_gravity">د متن موقعیت</string>
+    <string name="editor_desc">تشریح</string>
+    <string name="editor_font">فونټ</string>
+    <string name="editor_radius">شعاع</string>
+    <string name="editor_height">ارتفاع</string>
+    <string name="editor_auto_height">اتوماتيک ارتفاع</string>
+    <string name="editor_text_is_shareable">د شریکولو وړ کړئ</string>
+    <string name="editor_text_is_selectable">د انتخاب وړ کړئ</string>
+    <string name="editor_other">نور</string>
+    <string name="editor_add_above">پورته اضافه کړئ</string>
+    <string name="editor_add_below">لاندې اضافه کړئ</string>
+    <string name="editor_copy">ډوپل کړئ</string>
+    <string name="editor_delete">حذف کړئ</string>
+    <string name="editor_center">مرکز</string>
+    <string name="editor_right">ښي لور</string>
+    <string name="editor_left">چپ لور</string>
+    <string name="editor_left_icon">چپ آیکون</string>
+    <string name="editor_right_icon">ښي آیکون</string>
+    <string name="editor_empty_pic">خالي انځور</string>
+    <string name="editor_background">شالید</string>
+    <string name="editor_stable_animations">مستحکم انیمیشنونه</string>
+    <string name="editor_unstable_animations">ناپایدار انیمیشنونه</string>
+    <string name="editor_no_animation">هیڅ انیمیشن نشته</string>
+    <string name="editor_anim_right_in">ښي لور ته دننه</string>
+    <string name="editor_anim_left_in">چپ لور ته دننه</string>
+    <string name="editor_anim_fade_in">خوندي داخلیدل</string>
+    <string name="editor_anim_slide_down">لاندې سلیډ کول</string>
+    <string name="editor_anim_bounce">پلورل</string>
+    <string name="editor_anim_blinking">چمکیدل</string>
+    <string name="editor_anim_rotation">چرخش</string>
+    <string name="editor_anim_shake">لرزه</string>
+    <string name="editor_margins">مارجینونه</string>
+    <string name="editor_top_margin">پورته مارجین</string>
+    <string name="editor_bottom_margin">لاندې مارجین</string>
+    <string name="editor_right_margin">ښي مارجین</string>
+    <string name="editor_left_margin">چپ مارجین</string>
+    <string name="editor_simple_text">ساده متن</string>
+    <string name="editor_advanced_text">پیشرفته متن</string>
+    <string name="editor_pic">انځور</string>
+    <string name="editor_button">بټن</string>
+
+    <string name="a_sec">&#160;ثانیه</string>
+    <string name="a_split">&#160;>&#160;</string>
+    <string name="a_saved_to">خوندي شوی:&#160;</string>
+    <string name="main_building_app">اپلیکیشن جوړول&#160;</string>
+    <string name="icon_editor_corner_radius">د عادي آیکون کټ شوي کونج شعاع:&#160;</string>
+    <string name="icon_editor_regular_padding">د عادي آیکون زوم کول:&#160;</string>
+    <string name="icon_editor_adaptive_padding">د تطبیق آیکون زوم کول:&#160;</string>
+
+</resources>

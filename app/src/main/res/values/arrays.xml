@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="format">
+        <item>JKS</item>
+      <!--  <item>string/pkcs12</item> 
+        <item>string/bks</item>
+        <item>string/pk8</item>  -->
+    </string-array>
+</resources>

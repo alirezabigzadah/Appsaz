@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:orientation="vertical">
+
+    <include
+         layout="@layout/toolbar" />
+
+    <RelativeLayout
+         xmlns:biggroup="http://schemas.android.com/apk/res-auto"
+         android:layout_height="match_parent"
+         android:layout_width="match_parent">
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:padding="10dp"
+             android:textSize="12sp"
+             android:id="@+id/files_count" />
+
+        <LinearLayout
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:gravity="center"
+             android:orientation="vertical"
+             android:id="@+id/emptyLayout">
+
+            <ImageView
+                 android:layout_height="180dp"
+                 android:layout_width="match_parent"
+                 android:layout_marginBottom="30dp"
+                 android:src="@drawable/ic_file"
+                 android:alpha="0.4"
+                 android:tint="@color/colorTint"
+                 android:id="@+id/emptyImg" />
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:gravity="center"
+                 android:alpha="0.8"
+                 android:textAppearance="?android:attr/textAppearanceMedium"
+                 android:textSize="16sp"
+                 android:id="@+id/emptyText" />
+
+        </LinearLayout>
+
+        <ScrollView
+             android:layout_height="match_parent"
+             android:layout_width="match_parent">
+
+            <RelativeLayout
+                 android:layout_height="match_parent"
+                 android:layout_width="match_parent"
+                 android:padding="20dp">
+
+                <LinearLayout
+                     android:layout_height="fill_parent"
+                     android:layout_width="fill_parent"
+                     android:orientation="vertical"
+                     android:id="@+id/filesContent">
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+        <af.alireza.views.MagicalTextView_Master
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:background="@drawable/round_selector"
+             biggroup:strokeJoinStyle="miter"
+             biggroup:strokeColor="#000000"
+             android:textSize="35sp"
+             biggroup:innerShadowColor="#ffcccccc"
+             android:textColor="#FFFFFF"
+             biggroup:outerShadowColor="#000000"
+             biggroup:outerShadowDy="3.0"
+             android:gravity="center"
+             android:layout_margin="10dp"
+             biggroup:innerShadowRadius="1.0"
+             biggroup:outerShadowRadius="10.0"
+             style="?android:attr/buttonBarButtonStyle"
+             android:layout_alignParentRight="true"
+             android:layout_alignParentBottom="true"
+             biggroup:innerShadowDy="2.0"
+             biggroup:stroke_Width="5"
+             android:text="+"
+             android:id="@+id/add"
+             android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</LinearLayout>

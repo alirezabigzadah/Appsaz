@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- प्रश्नों का एरे -->
+    <string-array name="faq_questions">
+        <item>Appsaz क्या है?</item>
+        <item>क्या मुझे Appsaz का उपयोग करने के लिए प्रोग्रामिंग ज्ञान की आवश्यकता है?</item>
+        <item>मैं Appsaz के साथ किस प्रकार के एप्लिकेशन बना सकता हूँ?</item>
+        <item>क्या मैं जो एप्लिकेशन बनाता हूँ, उसे बेच सकता हूँ?</item>
+        <item>क्या मैं Appsaz का उपयोग करके पैसे कमा सकता हूँ?</item>
+        <item>क्या Appsaz मुफ्त है?</item>
+        <item>क्या मैं कस्टम डिज़ाइन किए गए एप्लिकेशन बना सकता हूँ?</item>
+        <item>मैं समर्थन टीम से कैसे संपर्क कर सकता हूँ?</item>
+    </string-array>
+
+    <!-- उत्तरों का एरे -->
+    <string-array name="faq_answers">
+        <item>Appsaz एक अभिनव उपकरण है जो बिना कोडिंग के Android एप्लिकेशन बनाने के लिए है। यह कार्यात्मक एप्लिकेशन डिज़ाइन और विकास के लिए विस्तृत सुविधाएँ प्रदान करता है।</item>
+        <item>नहीं, Appsaz को किसी भी पूर्व प्रोग्रामिंग ज्ञान के बिना किसी को भी अपना एप्लिकेशन आसानी से बनाने के लिए डिज़ाइन किया गया है।</item>
+        <item>आप विभिन्न प्रकार के एप्लिकेशन बना सकते हैं, जैसे व्यक्तिगत, कहानी, शैक्षिक, गैलरी, संगीत, वीडियो, और बहुत कुछ।</item>
+        <item>हां, आप जो एप्लिकेशन बनाते हैं, उन्हें बेच सकते हैं। Appsaz आपको अपने एप्लिकेशन को विभिन्न प्लेटफार्मों पर प्रकाशित करने की अनुमति देता है।</item>
+        <item>हां, Appsaz AdMob का समर्थन करता है, जिससे आप विज्ञापनों के माध्यम से पैसे कमा सकते हैं। इसके अलावा, आप Appsaz के साथ बनाए गए शैक्षिक एप्लिकेशन भी बेच सकते हैं।</item>
+        <item>Appsaz का मूल संस्करण मुफ्त है। हालांकि, आप उन्नत सुविधाओं के लिए प्रोफेशनल संस्करण में अपग्रेड कर सकते हैं।</item>
+        <item>हां, Appsaz आपको अपने एप्लिकेशन के डिज़ाइन और कार्यक्षमता को पूरी तरह से कस्टमाइज़ करने की अनुमति देता है जैसा आप चाहें।</item>
+        <item>आप एप्लिकेशन के "About" सेक्शन के माध्यम से या प्रदान किए गए समर्थन ईमेल द्वारा समर्थन टीम से संपर्क कर सकते हैं।</item>
+    </string-array>
+
+    <string name="ads_title">विज्ञापन</string>
+    <string name="ads_admob_application_id">एप्लिकेशन आईडी</string>
+    <string name="ads_admob">AdMob</string>
+    <string name="ads_banner_ad_id">बैनर विज्ञापन आईडी</string>
+    <string name="ads_banner_ad">बैनर विज्ञापन</string>
+    <string name="ads_interstitial_ad_id">इंटरस्टीशियल विज्ञापन आईडी</string>
+    <string name="ads_interstitial_ad">इंटरस्टीशियल विज्ञापन</string>
+    <string name="ads_video_ad_id">वीडियो विज्ञापन आईडी</string>
+    <string name="ads_video_ad">वीडियो विज्ञापन</string>
+    <string name="app_name">Appsaz</string>
+    <string name="hello_world">नमस्ते, दुनिया!</string>
+    <string name="app_saz">
+Appsaz\n
+v3.5.0-trial\n
+© 2025 Appsaz by Alireza Bigzadah. सभी अधिकार सुरक्षित हैं.\n
+Appsaz एक अभिनव उपकरण है जो आपको बिना प्रोग्रामिंग ज्ञान या जटिल कोडिंग के पेशेवर और प्रभावी Android एप्लिकेशन बनाने की अनुमति देता है। यह एप्लिकेशन शुरुआती डेवलपर्स, उद्यमियों, छात्रों और किसी भी व्यक्ति के लिए डिज़ाइन किया गया है जो जल्दी और आसानी से कस्टम एप्लिकेशन बनाना चाहता है।\n\n
+
+मुख्य विशेषताएँ:\n
+• उपयोगकर्ता-मित्र इंटरफेस: एक आधुनिक और सहज डिज़ाइन जो नौसिखिए और अनुभवी उपयोगकर्ताओं दोनों को बिना किसी कठिनाई के काम करने में सक्षम बनाता है।\n
+• कोई कोडिंग की आवश्यकता नहीं: सभी प्रक्रियाएँ दृश्य उपकरणों के माध्यम से संभाली जाती हैं, जिससे प्रोग्रामिंग विशेषज्ञता की आवश्यकता नहीं होती।\n
+• कई पृष्ठ बनाएं: एप्लिकेशन डिज़ाइन करें जिनमें विभिन्न पृष्ठ और लेआउट हों।\n
+• खोज योग्य सूचियाँ: एप्लिकेशनों के भीतर सूचियाँ बनाएं जो उपयोगकर्ताओं को जानकारी को आसानी से खोजने में सक्षम बनाती हैं।\n
+• मल्टीमीडिया फ़ाइलों का समर्थन: अपने एप्लिकेशन में चित्रों, वीडियो और ऑडियो को सहजता से एकीकृत करें।\n
+• फॉन्ट जोड़ें: अपने एप्लिकेशन को कस्टम फॉन्ट्स जोड़कर अनुकूलित करें।\n
+• एनीमेशन जोड़ें: इंटरएक्टिविटी और दृश्य आकर्षण बढ़ाने के लिए आकर्षक एनीमेशन जोड़ें।\n
+• कस्टम पृष्ठभूमियाँ: एप्लिकेशन के किसी भी पृष्ठ पर व्यक्तिगत पृष्ठभूमियाँ लागू करें।\n
+• नेविगेशन मेनू: विभिन्न सेक्शनों तक आसान पहुंच के लिए पेशेवर नेविगेशन मेनू डिज़ाइन करें।\n
+• उच्च लचीलापन: डिज़ाइन और कार्यक्षमताओं को पूरी तरह से अनुकूलित करें।\n
+• परियोजना प्रबंधन: किसी भी समय अपनी परियोजनाओं को सहेजें और खोलें।\n
+• आसान सहेजना और साझा करना: अपने एप्लिकेशन को निर्यात करें और इसे आसानी से साझा करें।\n
+• गतिशीलता: उपयोगकर्ता प्रतिक्रिया और अनुरोधों के आधार पर अपडेट, अपग्रेड और नई विशेषताएँ प्राप्त करें।\n\n
+
+Appsaz क्यों उपयोग करें?\n
+• समय और लागत की बचत: प्रोग्रामर को हायर करने की उच्च लागत से बचें। Appsaz के साथ एप्लिकेशन डिज़ाइन करना पारंपरिक तरीकों की तुलना में तेज़ है।\n
+• हर किसी के लिए उपयुक्त: Appsaz इसे आसान बनाता है कि कोई भी, यहां तक कि बिना प्रोग्रामिंग अनुभव के भी, एप्लिकेशन बना सके।\n
+• उन्नत उपकरण: बैकग्राउंड कस्टमाइज़ेशन, एनीमेशन और पेशेवर सेटिंग्स जैसी सुविधाओं तक पहुँच प्राप्त करें, वह भी एक ही ऐप में।\n
+• नवाचार और रचनात्मकता: अपनी रचनात्मकता को प्रदर्शित करें और Appsaz के साथ अद्वितीय एप्लिकेशन डिज़ाइन करें।\n\n
+
+संपर्क करें:\n
+जिज्ञासा या सुझावों के लिए, हमसे संपर्क करें:\n
+- ईमेल: appsaz.help@gmail.com\n
+- आधिकारिक टेलीग्राम चैनल: https://t.me/appsazaf\n
+- टेलीग्राम पर चर्चा: https://t.me/appsazdiscussions
+</string>
+    <string name="navigation_drawer_close">नेविगेशन ड्रॉअर बंद करें</string>
+    <string name="navigation_drawer_open">नेविगेशन ड्रॉअर खोलें</string>
+    <string name="a_end_free_trial_title">मुफ्त ट्रायल</string>
+    <string name="a_end_free_trial">
+Appsaz का मुफ्त ट्रायल फ़ाइलों को जोड़ने की अधिकतम सीमा तक पहुँच चुका है। वर्तमान संस्करण में कुछ सीमाएँ हैं। इस संस्करण में उपयोगकर्ता अपने प्रोजेक्ट्स में 20 पृष्ठ, 10 सूचियाँ और 10 फॉन्ट तक जोड़ सकते हैं। हालांकि, मल्टीमीडिया फ़ाइलों जैसे चित्र, वीडियो और ऑडियो जोड़ने पर कोई प्रतिबंध नहीं है। इसके अतिरिक्त, इस संस्करण में केवल Google AdMob बैनर विज्ञापनों का समर्थन किया जाता है, और Appsaz वॉटरमार्क स्वतः ही आउटपुट एप्लिकेशन में जोड़ा जाता है। सभी सुविधाओं को अनलॉक करने और सीमाओं को हटाने के लिए उपयोगकर्ता प्रीमियम यूज़र में अपग्रेड कर सकते हैं। यह संस्करण वर्तमान में विकासाधीन है, और अधिक जानकारी या अपग्रेड के लिए कृपया हमारे समर्थन टीम से संपर्क करें।
+Appsaz का उपयोग करने के लिए धन्यवाद!
+</string>
+    <string name="a_first_title">Appsaz में आपका स्वागत है!</string>
+    <string name="a_first_text">
+आप वर्तमान में Appsaz के मुफ्त ट्रायल संस्करण का उपयोग कर रहे हैं, जिसमें कुछ सीमाएँ हैं। इस संस्करण में उपयोगकर्ता अपने प्रोजेक्ट्स में 20 पृष्ठ, 10 सूचियाँ और 10 फॉन्ट तक जोड़ सकते हैं। हालांकि, मल्टीमीडिया फ़ाइलों जैसे चित्र, वीडियो और ऑडियो जोड़ने पर कोई प्रतिबंध नहीं है। इसके अतिरिक्त, इस संस्करण में केवल Google AdMob बैनर विज्ञापनों का समर्थन किया जाता है, और Appsaz वॉटरमार्क स्वतः ही आउटपुट एप्लिकेशन में जोड़ा जाता है। सभी सुविधाओं को अनलॉक करने और सीमाओं को हटाने के लिए उपयोगकर्ता प्रीमियम यूज़र में अपग्रेड कर सकते हैं। यह संस्करण वर्तमान में विकासाधीन है, और अधिक जानकारी या अपग्रेड के लिए कृपया हमारे समर्थन टीम से संपर्क करें।
+Appsaz का उपयोग करने के लिए धन्यवाद!
+</string>
+    <string name="a_version">v3.5.0-trial</string>
+    <string name="a_ok">ठीक है</string>
+    <string name="a_save">सहेजें</string>
+    <string name="a_cancel">रद्द करें</string>
+    <string name="a_delete">हटाएं</string>
+    <string name="a_close">बंद करें</string>
+    <string name="a_color">रंग</string>
+    <string name="a_default">डिफ़ॉल्ट</string>
+    <string name="a_picture">चित्र</string>
+    <string name="a_text">पाठ</string>
+    <string name="a_none">कोई नहीं</string>
+    <string name="a_create">बनाएं</string>
+    <string name="a_color_picker">रंग चुनें</string>
+    <string name="a_exit">बाहर निकलें</string>
+    <string name="a_open_page">पृष्ठ खोलें</string>
+    <string name="a_open_list">सूची खोलें</string>
+    <string name="a_wait">कृपया प्रतीक्षा करें...</string>
+    <string name="a_path">पथ</string>
+    <string name="a_app">एप्लिकेशन</string>
+    <string name="a_share">साझा करें</string>
+    <string name="a_install">इंस्टॉल करें</string>
+    <string name="a_error">त्रुटि</string>
+    <string name="a_back_notice">फिर से बैक दबाएं</string>
+    <string name="a_an_error">एक त्रुटि हुई!</string>
+    <string name="a_add_new_item">नई वस्तु जोड़ें</string>
+    <string name="a_dont_show_again">फिर से न दिखाएं</string>
+    <string name="a_on">ऑन</string>
+    <string name="a_off">ऑफ</string>
+    <string name="a_auto">स्वचालित</string>
+    <string name="a_size">आकार</string>
+    <string name="a_title">शीर्षक</string>
+    <string name="a_item">वस्तु</string>
+    <string name="a_loading">लोड हो रहा है...</string>
+    <string name="a_added">जोड़ा गया</string>
+    <string name="a_error_name">क्षेत्र भरें</string>
+    <string name="a_reset">रीसेट करें</string>
+    <string name="a_done">हो गया</string>
+    <string name="a_faq">सामान्य प्रश्न</string>
+    <string name="a_yes">हां</string>
+    <string name="a_no">नहीं</string>
+    <string name="a_permission_title">अनुमति अनुरोध</string>
+    <string name="a_permission_text">इस ऐप को आपके डिवाइस की स्टोरेज में फ़ाइलों तक पहुंच की आवश्यकता है।</string>
+    <string name="a_permission_grant">अनुमति दें</string>
+    <string name="a_open_project">परियोजना खोलें</string>
+    <string name="a_select_language">भाषा चुनें</string>
+    <string name="a_language_default">सिस्टम डिफ़ॉल्ट</string>
+
+    <string name="main_open_another_project">एक और प्रोजेक्ट खोलें</string>
+    <string name="main_project_info">प्रोजेक्ट जानकारी</string>
+    <string name="main_open_project_error">प्रोजेक्ट पहचाना नहीं गया।</string>
+    <string name="main_edit_app">एप्लिकेशन संपादित करें</string>
+    <string name="main_preview_app">एप्लिकेशन का पूर्वावलोकन करें</string>
+    <string name="main_build_app">एप्लिकेशन बनाएं</string>
+    <string name="main_close_project">प्रोजेक्ट बंद करें</string>
+    <string name="main_close_project_alert">क्या आप सुनिश्चित हैं कि आप प्रोजेक्ट बंद करना चाहते हैं? यदि आप प्रोजेक्ट बंद करते हैं, तो सभी प्रोजेक्ट डेटा हटा दिए जाएंगे। प्रोजेक्ट बंद करने से पहले इसे सहेजने की सिफारिश की जाती है।</string>
+    <string name="main_save_project">प्रोजेक्ट सहेजें</string>
+    <string name="main_save_project_alert">क्या आप प्रोजेक्ट को सहेजना चाहते हैं? प्रोजेक्ट को .as फाइल के रूप में सहेजा जाएगा।</string>
+    <string name="main_create_app">नया प्रोजेक्ट बनाएं</string>
+    <string name="main_open_project">पुराना प्रोजेक्ट खोलें</string>
+    <string name="main_app_name">एप्लिकेशन का नाम</string>
+    <string name="main_package_name">पैकेज नाम</string>
+    <string name="main_new_app_name">मेरी एप्लिकेशन</string>
+    <string name="main_new_package">af.appsaz.myapplication</string>
+    <string name="main_app_built">बिल्ड सफल</string>
+    <string name="main_collecting_data">डेटा एकत्रित कर रहे हैं...</string>
+    <string name="main_encoding">डेटा एन्कोडिंग कर रहे हैं...</string>
+    <string name="main_compressing_data">डेटा संपीड़न कर रहे हैं...</string>
+    <string name="main_signing">APK साइन कर रहे हैं...</string>
+    <string name="main_finishing">समाप्त कर रहे हैं...</string>
+    <string name="main_saving_project">प्रोजेक्ट सहेज रहे हैं...</string>
+    <string name="main_save_successful">सहेजा गया सफलतापूर्वक</string>
+    <string name="main_app_project">एप्लिकेशन प्रोजेक्ट</string>
+    <string name="main_error_app_name">एप्लिकेशन का नाम डालें।</string>
+    <string name="main_error_package_name">पैकेज नाम डालें।</string>
+    <string name="main_error_incorrect_package_name">एक वैध पैकेज नाम डालें।</string>
+    <string name="main_error_reserved_package_name">यह पैकेज नाम आरक्षित है। कृपया एक और नाम चुनें।</string>
+    <string name="nave_desc">Appsaz के माध्यम से अद्भुत एप्लिकेशन बनाएं।</string>
+    <string name="nave_home">होम</string>
+    <string name="nave_settings">सेटिंग्स</string>
+    <string name="nave_rate_us">हमें रेट करें</string>
+    <string name="nave_about_us">हमारे बारे में</string>
+    <string name="nave_faq">FAQ</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="settings_general">सामान्य</string>
+    <string name="settings_signing">साइनिंग</string>
+    <string name="settings_theme">डार्क मोड</string>
+    <string name="settings_theme_desc">यूजर इंटरफेस के लिए डार्क थीम या लाइट थीम चुनें।</string>
+    <string name="settings_language">भाषा</string>
+    <string name="settings_language_desc">Appsaz के लिए एक भाषा चुनें।</string>
+    <string name="settings_custom_key">कस्टम कीस्टोर</string>
+    <string name="settings_custom_key_desc">अपने एप्लिकेशनों को साइन करने के लिए एक कस्टम कीस्टोर फ़ाइल का उपयोग करें।</string>
+    <string name="settings_key_file">कीस्टोर फ़ाइल</string>
+    <string name="settings_key_file_desc">अपनी कीस्टोर फ़ाइल का पथ डालें।</string>
+    <string name="settings_about">Appsaz के बारे में</string>
+    <string name="settings_about_desc">Appsaz के बारे में अधिक जानें।</string>
+    <string name="settings_faq">Appsaz FAQ</string>
+    <string name="settings_faq_desc">Appsaz के बारे में सामान्य प्रश्न।</string>
+    <string name="settings_pp">Appsaz गोपनीयता नीति</string>
+    <string name="settings_pp_desc">Appsaz के लिए गोपनीयता नीति</string>
+    <string name="settings_title">सेटिंग्स</string>
+    <string name="key_pick">कीस्टोर फ़ाइल (.JKS) चुनें</string>
+    <string name="key_specs">एक कीस्टोर फ़ाइल चुनें और इसकी विनिर्देश भरें।</string>
+    <string name="key_type">की प्रकार</string>
+    <string name="key_path">की पथ</string>
+    <string name="key_cert_path">सर्टिफिकेट पथ</string>
+    <string name="key_alias">उपनाम</string>
+    <string name="key_store_pass">कीस्टोर पासवर्ड</string>
+    <string name="key_pass">निजी कुंजी पासवर्ड</string>
+    <string name="key_create_and_use">बनाएं और उपयोग करें</string>
+    <string name="key_validity">वैधता दिनांक (साल)</string>
+    <string name="key_common_name">सामान्य नाम</string>
+    <string name="key_organization_unit">संगठन इकाई</string>
+    <string name="key_organization_name">संगठन नाम</string>
+    <string name="key_locality_name">स्थान नाम</string>
+    <string name="key_state_name">राज्य नाम</string>
+    <string name="key_country">देश कोड</string>
+    <string name="key_size">कुंजी आकार</string>
+    <string name="key_hint">डिफ़ॉल्ट हस्ताक्षर फ़ाइल का उपयोग करने के लिए रीसेट पर क्लिक करें।</string>
+    <string name="key_file">कीस्टोर फ़ाइल</string>
+    <string name="key_file_desc">एक कस्टम कीस्टोर फ़ाइल (JKS) सेट करें।</string>
+    <string name="key_gen">कीस्टोर फ़ाइल बनाएं</string>
+    <string name="key_gen_desc">एक कीस्टोर फ़ाइल (JKS) उत्पन्न करें।</string>
+    <string name="key_not_found">कीस्टोर फ़ाइल नहीं मिली।</string>
+
+    <string name="app_editor_app_manifest">एप्लिकेशन मैनिफेस्ट</string>
+    <string name="app_editor_app_icon">एप्लिकेशन आइकन</string>
+    <string name="app_editor_app_name">एप्लिकेशन का नाम</string>
+    <string name="app_editor_package_name">पैकेज नाम</string>
+    <string name="app_editor_version_code">संस्करण कोड</string>
+    <string name="app_editor_version_name">संस्करण नाम</string>
+    <string name="app_editor_app_layouts">एप्लिकेशन लेआउट्स</string>
+    <string name="app_editor_splash_page">स्टार्ट पेज</string>
+    <string name="app_editor_pages">पेजेस</string>
+    <string name="app_editor_lists">सूचियाँ</string>
+    <string name="app_editor_app_files">एप्लिकेशन फाइल्स</string>
+    <string name="app_editor_pictures">चित्र</string>
+    <string name="app_editor_icons">आइकन</string>
+    <string name="app_editor_videos">वीडियो</string>
+    <string name="app_editor_audios">ऑडियो</string>
+    <string name="app_editor_fonts">फॉन्ट्स</string>
+    <string name="app_editor_advanced">एडवांस्ड</string>
+    <string name="app_editor_ads">विज्ञापन</string>
+    <string name="icon_editor">एप्लिकेशन आइकन जनरेट करें</string>
+    <string name="icon_editor_info_title">जानकारी</string>
+    <string name="icon_editor_info">एडाप्टिव और नियमित आइकन्स में महत्वपूर्ण अंतर हैं। नियमित आइकन्स आमतौर पर PNG प्रारूप में एक स्थिर छवि के रूप में डिज़ाइन किए जाते हैं और विभिन्न आकारों में ठीक से प्रदर्शित करने के लिए कई फाइलों की आवश्यकता होती है, जो कम लचीलापन प्रदान करती हैं। इसके विपरीत, एडाप्टिव आइकन्स दो परतों (पृष्ठभूमि और अग्रभूमि) का उपयोग करते हैं, जो PNG और XML प्रारूपों में होते हैं, जिससे आइकन अपने आप विभिन्न आकारों और रूपों में अनुकूलित हो सकता है, जो उपकरणों और लॉन्चरों के लिए बेहतर ऑप्टिमाइजेशन प्रदान करता है। एडाप्टिव आइकन्स Android 8.0 (API Level 26) से मानक के रूप में पेश किए गए थे और बेहतर प्रदर्शन प्रदान करते हैं।</string>
+    <string name="icon_editor_regular">नियमित आइकन</string>
+    <string name="icon_editor_adaptive">एडाप्टिव आइकन</string>
+    <string name="icon_editor_pick_bg_color">पृष्ठभूमि रंग चुनें</string>
+    <string name="app_editor_error_app_name">एप्लिकेशन का नाम डालें।</string>
+    <string name="app_editor_error_package_name">पैकेज नाम डालें।</string>
+    <string name="app_editor_error_version_code">संस्करण कोड डालें।</string>
+    <string name="app_editor_error_version_name">संस्करण नाम डालें।</string>
+    <string name="app_editor_error_incorrect_package_name">एक वैध पैकेज नाम डालें।</string>
+    <string name="app_editor_title">एप्लिकेशन संपादित करें</string>
+    <string name="splash_settings">स्टार्ट पेज सेटिंग्स</string>
+    <string name="splash_time">स्टार्ट पेज समय</string>
+    <string name="splash_after_splash">स्टार्ट पेज के बाद</string>
+    <string name="splash_background">स्टार्ट पेज पृष्ठभूमि</string>
+    <string name="splash_items">स्टार्ट पेज आइटम्स</string>
+    <string name="splash_screen">स्टार्ट पेज स्क्रीन</string>
+    <string name="splash_edit_page">स्टार्ट पेज संपादित करें</string>
+    <string name="splash_title">स्टार्ट पेज</string>
+    <string name="page_page">पेज</string>
+    <string name="page_background">पेज पृष्ठभूमि</string>
+    <string name="page_items">पेज आइटम्स</string>
+    <string name="page_edit">पेज संपादित करें</string>
+    <string name="page_toolbar">टूलबार</string>
+    <string name="page_title_toolbar">टूलबार में पेज शीर्षक</string>
+    <string name="page_toolbar_color">टूलबार रंग</string>
+    <string name="page_menu">मेन्यू</string>
+    <string name="page_menu_background">मेन्यू पृष्ठभूमि</string>
+    <string name="page_title">पेजेस</string>
+    <string name="list_list">सूची</string>
+    <string name="list_background">सूची पृष्ठभूमि</string>
+    <string name="list_items">सूची आइटम्स</string>
+    <string name="list_edit">सूची संपादित करें</string>
+    <string name="list_toolbar">टूलबार</string>
+    <string name="list_title_toolbar">टूलबार में सूची शीर्षक</string>
+    <string name="list_toolbar_color">टूलबार रंग</string>
+    <string name="list_menu">मेन्यू</string>
+    <string name="list_menu_background">मेन्यू पृष्ठभूमि</string>
+    <string name="list_title">सूचियाँ</string>
+    <string name="files_empty_pages">यहाँ कोई पेज नहीं है, जोड़ने के लिए + पर क्लिक करें।</string>
+    <string name="files_empty_lists">यहाँ कोई सूची नहीं है, जोड़ने के लिए + पर क्लिक करें।</string>
+    <string name="files_empty_icons">यहाँ कोई आइकन नहीं है, जोड़ने के लिए + पर क्लिक करें।</string>
+    <string name="files_empty_pics">यहाँ कोई चित्र नहीं हैं, जोड़ने के लिए + पर क्लिक करें।</string>
+    <string name="files_empty_videos">यहाँ कोई वीडियो नहीं हैं, जोड़ने के लिए + पर क्लिक करें।</string>
+    <string name="files_empty_audios">यहाँ कोई ऑडियो नहीं हैं, जोड़ने के लिए + पर क्लिक करें।</string>
+    <string name="files_empty_fonts">यहाँ कोई फॉन्ट नहीं हैं, जोड़ने के लिए + पर क्लिक करें।</string>
+    <string name="files_empty_pages1">यहाँ कोई पेज नहीं हैं।</string>
+    <string name="files_empty_lists1">यहाँ कोई सूची नहीं हैं।</string>
+    <string name="files_empty_icons1">यहाँ कोई आइकन नहीं हैं।</string>
+    <string name="files_empty_pics1">यहाँ कोई चित्र नहीं हैं।</string>
+    <string name="files_empty_videos1">यहाँ कोई वीडियो नहीं हैं।</string>
+    <string name="files_empty_audios1">यहाँ कोई ऑडियो नहीं हैं।</string>
+    <string name="files_empty_fonts1">यहाँ कोई फॉन्ट नहीं हैं।</string>
+    <string name="files_file_name">फ़ाइल का नाम</string>
+    <string name="files_page_name">पेज का नाम</string>
+    <string name="files_list_name">सूची का नाम</string>
+    <string name="files_saveable">सहेजने योग्य</string>
+    <string name="files_shareable">साझा करने योग्य</string>
+    <string name="files_add_pic">चित्र जोड़ें</string>
+    <string name="files_add_icon">आइकन जोड़ें</string>
+    <string name="files_add_video">वीडियो जोड़ें</string>
+    <string name="files_add_audio">ऑडियो जोड़ें</string>
+    <string name="files_add_font">फॉन्ट जोड़ें</string>
+    <string name="files_audio_pic">चित्र</string>
+    <string name="files_add_page">पेज जोड़ें</string>
+    <string name="files_add_list">सूची जोड़ें</string>
+
+    <string name="editor_action">क्रिया</string>
+    <string name="editor_no_action">कोई क्रिया नहीं</string>
+    <string name="editor_action_open_list">सूची खोलें</string>
+    <string name="editor_action_open_page">पेज खोलें</string>
+    <string name="editor_action_play_video">वीडियो चलाएं</string>
+    <string name="editor_action_play_audio">ऑडियो चलाएं</string>
+    <string name="editor_action_show_pic">चित्र दिखाएं</string>
+    <string name="editor_action_show_alert">अलर्ट दिखाएं</string>
+    <string name="editor_action_show_toast">टॉस्ट दिखाएं</string>
+    <string name="editor_action_send_mail">मेल भेजें</string>
+    <string name="editor_action_send_sms">एसएमएस भेजें</string>
+    <string name="editor_action_open_link">लिंक खोलें</string>
+    <string name="editor_action_exit">पेज बंद करें</string>
+    <string name="editor_action_toast_text">टॉस्ट टेक्स्ट</string>
+    <string name="editor_action_error_toast">टॉस्ट टेक्स्ट डालें।</string>
+    <string name="editor_action_alert_title">अलर्ट शीर्षक</string>
+    <string name="editor_action_alert_text">अलर्ट टेक्स्ट</string>
+    <string name="editor_action_error_alert_title">अलर्ट शीर्षक डालें।</string>
+    <string name="editor_action_error_alert_text">अलर्ट टेक्स्ट डालें।</string>
+    <string name="editor_action_email_address">ईमेल पता</string>
+    <string name="editor_action_error_email">ईमेल पता डालें।</string>
+    <string name="editor_action_error_incorrect_email">सही ईमेल पता डालें।</string>
+    <string name="editor_action_phone_number">फोन नंबर</string>
+    <string name="editor_action_error_phone_number">फोन नंबर डालें।</string>
+    <string name="editor_action_link">लिंक</string>
+    <string name="editor_action_error_link">वेब लिंक डालें।</string>
+    <string name="editor_no_icon">कोई आइकन नहीं</string>
+    <string name="editor_animation">एनीमेशन</string>
+    <string name="editor_text">टेक्स्ट</string>
+    <string name="editor_text_size">टेक्स्ट आकार</string>
+    <string name="editor_text_color">टेक्स्ट रंग</string>
+    <string name="editor_text_gravity">टेक्स्ट ग्रेविटी</string>
+    <string name="editor_desc">विवरण</string>
+    <string name="editor_font">फॉन्ट</string>
+    <string name="editor_radius">त्रिज्या</string>
+    <string name="editor_height">ऊंचाई</string>
+    <string name="editor_auto_height">स्वचालित ऊंचाई</string>
+    <string name="editor_text_is_shareable">साझा करने योग्य बनाएं</string>
+    <string name="editor_text_is_selectable">चयन योग्य बनाएं</string>
+    <string name="editor_other">अन्य</string>
+    <string name="editor_add_above">ऊपर जोड़ें</string>
+    <string name="editor_add_below">नीचे जोड़ें</string>
+    <string name="editor_copy">नकल करें</string>
+    <string name="editor_delete">हटाएं</string>
+    <string name="editor_center">केंद्र</string>
+    <string name="editor_right">दाएं</string>
+    <string name="editor_left">बाएं</string>
+    <string name="editor_left_icon">बाएं आइकन</string>
+    <string name="editor_right_icon">दाएं आइकन</string>
+    <string name="editor_empty_pic">खाली चित्र</string>
+    <string name="editor_background">पृष्ठभूमि</string>
+    <string name="editor_stable_animations">स्थिर एनीमेशन</string>
+    <string name="editor_unstable_animations">अस्थिर एनीमेशन</string>
+    <string name="editor_no_animation">कोई एनीमेशन नहीं</string>
+    <string name="editor_anim_right_in">दाएं में आएं</string>
+    <string name="editor_anim_left_in">बाएं में आएं</string>
+    <string name="editor_anim_fade_in">धुंधला होना</string>
+    <string name="editor_anim_slide_down">नीचे स्लाइड करें</string>
+    <string name="editor_anim_bounce">बाउंस</string>
+    <string name="editor_anim_blinking">झपकना</string>
+    <string name="editor_anim_rotation">घूमना</string>
+    <string name="editor_anim_shake">झटकना</string>
+    <string name="editor_margins">मार्जिन</string>
+    <string name="editor_top_margin">ऊपर मार्जिन</string>
+    <string name="editor_bottom_margin">नीचे मार्जिन</string>
+    <string name="editor_right_margin">दाएं मार्जिन</string>
+    <string name="editor_left_margin">बाएं मार्जिन</string>
+    <string name="editor_simple_text">साधारण टेक्स्ट</string>
+    <string name="editor_advanced_text">उन्नत टेक्स्ट</string>
+    <string name="editor_pic">चित्र</string>
+    <string name="editor_button">बटन</string>
+
+    <string name="a_sec">&#160;सेकंड</string>
+    <string name="a_split">&#160;>&#160;</string>
+    <string name="a_saved_to">सहेजा गया:&#160;</string>
+    <string name="main_building_app">ऐप बना रहा है&#160;</string>
+    <string name="icon_editor_corner_radius">नियमित आइकन कोने की त्रिज्या:&#160;</string>
+    <string name="icon_editor_regular_padding">नियमित आइकन ज़ूमिंग:&#160;</string>
+    <string name="icon_editor_adaptive_padding">अनुकूल आइकन ज़ूमिंग:&#160;</string>
+
+</resources>
