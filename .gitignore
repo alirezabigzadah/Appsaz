@@ -13,6 +13,10 @@
 .externalNativeBuild
 .cxx
 local.properties
-gradle.properties
-android/keystore/Appsaz_Keystore_2025-01-09_23-01-30.jks
+
+# Gradle Properties
+/gradle.properties
+
+# Signing Keystore
+/app/android/keystore/Appsaz_Keystore_2025-02-08_18-17-08.jks
 *.jks
