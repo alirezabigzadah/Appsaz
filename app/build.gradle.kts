@@ -15,8 +15,8 @@ android {
         minSdk = 28
         targetSdk = 37
 
-        versionCode = 350
-        versionName = "3.5.0-trial"
+        versionCode = 351
+        versionName = "3.5.1"
 
         testInstrumentationRunner =
             "androidx.test.runner.AndroidJUnitRunner"
@@ -87,6 +87,10 @@ android {
     buildFeatures {
         viewBinding = false
     }
+
+    androidResources {
+        noCompress += listOf("jar", "apk", "jks")
+    }
 }
 
 dependencies {
@@ -110,29 +114,25 @@ dependencies {
     implementation(libs.material)
 
     // Preferences
-    implementation("androidx.preference:preference:1.2.1")
+    implementation(libs.preference)
 
     // Glide
-    implementation("com.github.bumptech.glide:glide:4.15.1")
+    implementation(libs.glide)
 
     // Color Picker
-    implementation(
-        "com.github.martin-stone:hsv-alpha-color-picker-android:3.0.1"
-    )
+    implementation(libs.hsv.color.picker)
 
     // Roundable Layout
-    implementation("com.github.zladnrms:RoundableLayout:1.1.4")
+    implementation(libs.roundable.layout)
 
     // Play / Pause Button
-    implementation(
-        "com.github.Romancha:android-material-play-pause-view-button:2.3"
-    )
+    implementation(libs.play.pause.button)
 
     // Glide Transformations
-    implementation("com.github.wasabeef:glide-transformations:4.3.0")
+    implementation(libs.glide.transformations)
 
     // ZIP4J
-    implementation("net.lingala.zip4j:zip4j:2.11.5")
+    implementation(libs.zip4j)
 
     // Optional dependencies
     // implementation("com.github.bumptech.glide:glide:5.0.0-rc01")

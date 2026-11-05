@@ -7,6 +7,13 @@ appcompat = "1.8.0"
 material = "1.14.0"
 activityKtx = "1.13.0"
 constraintlayout = "2.2.2"
+preference = "1.2.1"
+glide = "4.16.0"
+glideTransformations = "4.3.0"
+hsvColorPicker = "3.1.0"
+roundableLayout = "1.1.4"
+playPauseButton = "2.3"
+zip4j = "2.11.6"
 
 [libraries]
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -16,6 +23,13 @@ appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "a
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 activity-ktx = { group = "androidx.activity", name = "activity-ktx", version.ref = "activityKtx" }
 constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+preference = { group = "androidx.preference", name = "preference", version.ref = "preference" }
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
+glide-transformations = { group = "com.github.wasabeef", name = "glide-transformations", version.ref = "glideTransformations" }
+hsv-color-picker = { group = "com.github.martin-stone", name = "hsv-alpha-color-picker-android", version.ref = "hsvColorPicker" }
+roundable-layout = { group = "com.github.zladnrms", name = "RoundableLayout", version.ref = "roundableLayout" }
+play-pause-button = { group = "com.github.Romancha", name = "android-material-play-pause-view-button", version.ref = "playPauseButton" }
+zip4j = { group = "net.lingala.zip4j", name = "zip4j", version.ref = "zip4j" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
